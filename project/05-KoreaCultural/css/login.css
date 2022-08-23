@@ -1,0 +1,25 @@
+
+#all{width: 75%; margin: 30px auto; height: 600px; background: white; text-align: center;}
+#top img{width: 30%;}
+#top .ment p{font-size: 2em; font-weight: bold; color: #bd5c5b; margin-bottom: 10px;}
+
+#section{position: relative; width: 50%; float: left; /* height: 500px; background-color: #999; */}
+#section .main li:nth-child(1) input{border-bottom: 2px solid #bd5c5b; padding: 15px; padding-right: 150px; margin-bottom: 5px;}
+#section .main li:nth-child(2) input{border-bottom: 2px solid #bd5c5b; padding: 15px; padding-right: 150px; margin-bottom: 5px;}
+#section .main li:nth-child(3){position: relative; right: -46%; float: left; margin-left: -145px; font-size: 12px}
+#section .main li:nth-child(3) input{float: left; margin-top: 3px;}
+#section .main li:nth-child(3) p{margin-left: 20px; line-height: 20px;}
+#section .main li:nth-child(4) input{padding: 15px; background-color: #bd5c5b; width: 340px; margin: 0 auto; color: white; margin-top: 30px; cursor: pointer;}
+
+#section .menu li{position: relative; margin-top: 20px; font-size: 14px; cursor: pointer;}
+#section .menu li:nth-child(1){float: left; position: absolute; left: 50%; margin-left: -170px;}
+#section .menu li:nth-child(2){position: absolute; left: 50%; margin-left: 115px;}
+
+#section2{width: 50%; float: left; margin-bottom: 50px;}
+#section2 h2{font-size: 20px; font-weight: bold;}
+#section2 p{font-size: 14px; margin-top: 10px;}
+#section2 ul li{margin-top: 20px; border: 3px solid #bd5c5b; width: 300px; margin-left: 120px; height: 60px; border-radius: 50px; cursor: pointer;}
+#section2 ul li:hover{background-color: #bd5c5b;}
+#section2 ul li:hover p{color: #fff;}
+#section2 ul li img{margin-left: 30px; margin-top: 15px; float: left;}
+#section2 ul li p{margin-left: 10px; margin-top: 20px; float: left; font-size: 14px; color: #666; font-weight: bold;}

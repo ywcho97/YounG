@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LIVE</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- 스타일 -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+    <!-- 스크립트 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/more.js"></script>
+</head>
+
+<body>
+
+    <!-- main1 -->
+    <div data-role="page" id="main1" class="main">
+
+        <div data-role="header" data-position="fixed" id="header">
+            <div id="headrer_top">
+                <h1 data-role="none">
+                    <a href="#main1" data-role="none" class="logo">
+                        <img src="./img/logo.png" width="30px" alt="로고">
+                    </a>
+                </h1>
+                <div id="btn" class="ui-btn-right">
+                    <a href="#search" data-role="none" class="search">
+                        <img src="img/icon_search.png" width="20" alt="돋보기">
+                    </a>
+                    <a href="#none" data-role="none" class="bell">
+                        <img src="img/icon_bell.png" width="20" alt="알림">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    
+
+        <div data-role="content" id="content">
+
+            <!-- 급상승 -->
+            <div id="main_cont1">
+                <div class="list1">
+                    <h3>급상승</h3>
+                    <ol class="sub_text">
+                        <li style="top:0"><a href="#" class="data"> 1 라일락-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">2 롤린(Rollin)-브레이브걸스</a></li>
+                        <li><a href="#" class="data">3 Celebrity-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">4 Coin-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">5 Flu-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">6 On The Ground-로제(ROSE)</a></li>
+                        <li><a href="#" class="data">7 돌림노래(Feat. DEAN)-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">8 봄 안녕 봄-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">9 어푸(Ah puh)-아이유 (IU)</a></li>
+                        <li><a href="#" class="data">10 LOVE DAY(2021)(바른연애 길잡이 X 양요섭, 정은지)-양요섭&정은지</a></li>
+                    </ol>
+                    <div class="plus"><a href="#">더보기</a></div>
+                </div>
+            </div>
+            <!-- 급상승 -->
+
+            <!-- 슬라이드 배너 -->
+            <div id="main_slide">
+                <div id="slide_wrap">
+                    <ul class="cf">
+                        <li class="slide_img1"><a href="#"></a></li>
+                        <li class="slide_img2"><a href="#"></a></li>
+                        <li class="slide_img3"><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="slide_num">
+                    <ul>
+                        <li class="on"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </div>
+                <div id="btnImg">
+                    <img src="img/arrow_left.png" alt="이전버튼" width="30" class="prev">
+                    <img src="img/arrow_right.png" alt="다음버튼" width="30" class="next">
+                </div>
+            </div>
+            <!-- 슬라이드 배너 -->
+            
+
+            <!-- 아이콘 스와이퍼 -->
+            <div id="icon_swiper">
+    
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+        
+                        <div class="swiper-slide">
+                            <a href="#none"><div class="icon1"></div><div class="text">오늘 발매 노래</div></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none"><div class="icon4"></div><div class="text">할인혜택</div></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none"><div class="icon7"></div><div class="text">즐겨 듣는 노래</div></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none"><div class="icon3"></div><div class="text">인기차트</div></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none"><div class="icon6"></div><div class="text">월간인기차트</div></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none"><div class="icon9"></div><div class="text">알림설정</div></a>
+                        </div>
+
+                    </div>
+                </div><!-- <div class="swiper-container"> -->
+            </div>
+            <!-- 아이콘 스와이퍼 -->
+            
+
+            <!-- 신간리스트 -->
+            <div id="new_list">
+                <div class="swiper-container2">
+                    <div class="s_tit">최신앨범<span>전체보기></span></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album4.jpg" width="100%" alt="복자에게"></div>
+                                <div class="text"><p>I'm</p><p>김세정</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album1.jpg" width="100%" alt="파는사람들"></div>
+                                <div class="text"><p>IU 5th Album 'LILAC'</p><p>아이유 (IU)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album2.jpg" width="100%" alt="부의대이동"></div>
+                                <div class="text"><p>Bambi - The 3rd Mini Album</p><p>백현(BAEKHYUN)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album3.jpg" width="100%" alt="슈퍼펌프드"></div>
+                                <div class="text"><p>R</p><p>로제(ROSE)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album5.jpg" width="100%" alt="프리즘"></div>
+                                <div class="text"><p>Justice</p><p>Justin Bieber</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album6.jpg" width="100%" alt="조지오웰산문선"></div>
+                                <div class="text"><p>펜트하우스2 OST Part.1</p><p>임창정</p></div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div><!-- <div class="swiper-container"> -->
+            </div>
+            <!-- 신간리스트 -->
+
+
+            <div id="banner_main"><a href="#none"></a></div>
+
+
+            <!-- 리드몰 -->
+            <div id="ranking_wrap">
+                <div id="ranking" class="ranking">
+                    <div class="s_tit">실시간 랭킹<span>전체보기></span></div>
+                    <div class="tab_content">  
+                        <ul>
+                            <li class="box1">
+                                <div class="img"><img src="./img/album1.jpg" width="100%" alt="해리포터"></div>
+                                <div class="text">
+                                    <p>1</p><p>라일락<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                            <li class="box2">
+                                <div class="img"><div><img src="./img/album7.jpg" width="100%" alt="부의대이둉"></div></div>
+                                <div class="text">
+                                    <p>2</p><p>롤린(Rollin)<span>브레이브걸스</span></p>
+                                </div>
+                            </li>
+                            <li class="box3">
+                                <div class="img"><div><img src="./img/album1.jpg" width="100%" alt="달러구트"></div></div>
+                                <div class="text">
+                                    <p>3</p><p>Celebrity<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="ranking_loadmore" class="ranking hide">
+                    <div class="tab_content">
+                        <ul>
+                            <li class="box4">
+                                <div class="img"><div><img src="./img/album1.jpg" width="100%" alt="녹나무의파수꾼"></div></div>
+                                <div class="text">
+                                    <p>4</p><p>Coin<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                            <li class="box5">
+                                <div class="img"><div><img src="./img/album1.jpg" width="100%" alt="눈물을마시는새"></div></div>
+                                <div class="text">
+                                    <p>5</p><p>Flu<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                            <li class="box6">
+                                <div class="img"><div><img src="./img/album3.jpg" width="100%" alt="태백산맥"></div></div>
+                                <div class="text">
+                                    <p>6</p><p>On The Ground<span>로제 (ROSE)</span></p>
+                                </div>
+                            </li>
+                            <li class="box7">
+                                <div class="img"><div><img src="./img/album1.jpg" width="100%" alt="이별의수법"></div></div>
+                                <div class="text">
+                                    <p>7</p><p>돌림노래(Feat.DEAN)<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                            <li class="box8">
+                                <div class="img"><div><img src="./img/album1.jpg" width="105%" alt="존리"></div></div>
+                                <div class="text">
+                                    <p>8</p><p>봄 안녕 봄<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                            <li class="box9">
+                                <div class="img"><div><img src="./img/album1.jpg" width="100%" alt="타이탄의도구들"></div></div>
+                                <div class="text">
+                                    <p>9</p><p style="border: 0;">어푸(Ah puh)<span>아이유 (IU)</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="loadmore">더보기</button>
+                <button type="button" class="close">닫기</button>
+            </div>
+            <!-- 리드몰 -->
+
+
+            <!-- 노래리스트 -->
+            <div id="book_list1" class="book_list">
+                <div class="swiper-container2">
+                    <div class="s_tit">이번달 앨범 인기순위<span>전체보기></span></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album1.jpg" width="100%" alt="파는사람들"></div>
+                                <div class="text"><p>IU 5th Album 'LILAC'</p><p>아이유 (IU)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album8.jpg" width="100%" alt="부의대이동"></div>
+                                <div class="text"><p>Dynamite(DayTime Version)</p><p>방탄소년단</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album7.jpg" width="100%" alt="슈퍼펌프드"></div>
+                                <div class="text"><p>Rollin</p><p>브레이브걸스</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album9.jpg" width="100%" alt="복자에게"></div>
+                                <div class="text"><p>LOVE DAY(2021)(바른연애 길잡이 X 양요섭, 정은지)</p><p>양요섭 & 정은지</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album3.jpg" width="100%" alt="프리즘"></div>
+                                <div class="text"><p>R</p><p>로제(ROSE)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/album10.jpg" width="100%" alt="조지오웰산문선"></div>
+                                <div class="text"><p>최고의 사랑 OST - Part4</p><p>아이유 (IU)</p></div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div><!-- <div class="swiper-container"> -->
+            </div>
+            <!-- 노래리스트 -->
+
+            <!-- 노래리스트 -->
+            <div id="book_list2" class="book_list">
+                <div class="swiper-container2">
+                    <div class="s_tit">작년 4월에 내가 많이 들은 곡<span>전체보기></span></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album1.jpg" width="100%" alt="GOTT"></div>
+                                <div class="text"><p>GOTT(Feat.MOON,우원재 & Jvcki Wai)</p><p>사이먼 도미닉</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album2.jpg" width="100%" alt="아로하"></div>
+                                <div class="text"><p>아로하</p><p>조정석</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album3.jpg" width="100%" alt="돌핀"></div>
+                                <div class="text"><p>Dolphin</p><p>오마이걸(OH MY GIRL)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album3.jpg" width="100%" alt="살짝 설렜어"></div>
+                                <div class="text"><p>살짝 설렜어(Nonstop)</p><p>오마이걸(OH MY GIRL)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album4.jpg" width="100%" alt="잘 된 일이야"></div>
+                                <div class="text"><p>잘 된 일이야</p><p>나비</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album5.jpg" width="100%" alt="set me free"></div>
+                                <div class="text"><p>Set me Free(Feat. Loopy, Jvcki Wai)</p><p>코드쿤스트</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album6.jpg" width="100%" alt="박하사탕"></div>
+                                <div class="text"><p>박하사탕</p><p>YB(윤도현밴드)</p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album7.jpg" width="100%" alt="끼부리지마"></div>
+                                <div class="text"><p>끼부리지마</p>WINNER<p></p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album8.jpg" width="100%" alt="사랑사랑사랑"></div>
+                                <div class="text"><p>사랑사랑사랑</p>FT아일랜드<p></p></div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="book"><img src="./img/l_album9.jpg" width="100%" alt="DREAM"></div>
+                                <div class="text"><p>DREAM</p>수지(SUZY)&백현(BAEKHYUN)<p></p></div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div><!-- <div class="swiper-container"> -->
+            </div>
+            <!-- 노래리스트 -->
+            
+            <!-- 노래추천 -->
+            <div id="today_best">
+                <div class="swiper-container3">
+                    <div class="s_tit">오늘의 DJ플레이리스트<span>전체보기></span></div>
+
+                    <div class="swiper-wrapper">
+            
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="box1">
+                                    <div class="img"><img src="./img/DJ_song1.jpg" width="100%" alt="노래추천"></div>
+                                    <div class="text">
+                                        <p>산뜻한 봄과 어울리는 아홉가지 노래</p>
+                                        <p>봄이 좋냐, 벚꽃엔딩.<br>I, LOVE DAY, SKYLINE 등<br>9곡의 노래를 만나보세요.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="box1">
+                                    <div class="img"><img src="./img/DJ_song2.jpg" width="100%" alt="노래추천"></div>
+                                    <div class="text">
+                                        <p>여행갈때 기분UP 시키는 노래</p>
+                                        <p>여행을 떠나요, 제주도의 푸른 밤, 여행<br>ISLAND, 에잇, 목요일밤, 낙원 등<br>여행갈때 기분UP 시키는 노래들을 만나보세요.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#none">
+                                <div class="box1">
+                                    <div class="img"><img src="./img/DJ_song3.jpg" width="100%" alt="노래추천"></div>
+                                    <div class="text">
+                                        <p>기분전환이 필요한 오늘. 듣기 좋은 노래</p>
+                                        <p>HAPPY, 2002, Bang Bang, 순정<br>아로하, 딩가딩가, Dolphin 등<br>꿀꿀한 기분을 풀어줄 노래들을 만나보세요!</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    
+            
+                    </div>
+                </div><!-- <div class="swiper-container"> -->
+            </div>
+            <!-- 책추천 -->
+            
+
+            <div id="main_footer">
+                <ul class="cf">
+                    <li><a href="#"><img src="img/footer_sns1.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="img/footer_sns2.png" alt="인스타"></a></li>
+                    <li><a href="#"><img src="img/footer_sns3.png" alt="유투브"></a></li>
+                    <li><a href="#"><img src="img/footer_sns4.png" alt="트위터"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>
+                        경기도 안양시 동안구 동안로263<br>
+                        
+                        라이브 (주) 대표 조영우 사업자등록번호 123-12-12345 <br>
+                        Copyright © 2021 LIVE All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+
+
+        <div data-role="footer" data-position="fixed" id="footer">
+            <a href="#main1" data-role="none" class="home"><img src="img/icon_home_red.png" alt="home">홈</a>
+            <a href="#search" data-role="none" class="search"><img src="img/icon_search.png" alt="search"> 검색</a>
+            <a href="#mybook" data-role="none" class="mybook"><img src="img/icon_bookmark.svg" alt="mybook"> 보관함</a>
+            <a href="#setting" data-role="none" class="Setting"><img src="img/icon_setting.svg" alt="setting"> 관리</a>
+        </div>
+
+    </div>
+    <!-- main1 -->
+
+
+    <!-- search-->
+    <div data-role="page" id="search">
+
+        <div data-role="header" data-position="fixed" id="header">
+            <div>
+                <h1 data-role="none">
+                    <a href="#main1" data-role="none" class="logo">
+                        <img src="./img/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <div id="btn" class="ui-btn-right">
+                    <a href="#search" data-role="none" class="search">
+                        <img src="img/icon_search.png" width="20" alt="돋보기">
+                    </a>
+                    <a href="#none" data-role="none" class="bell">
+                        <img src="img/icon_bell.png" width="20" alt="알림">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div data-role="content" id="search_content">
+            <div class="cf">
+                <div id="search_box">
+                    <input type="text" name="user_search" placeholder="검색어를 입력하세요." class="user_search" data-role="none">
+                    <a href="#"><img src="img/icon_search.png" width="30" alt="검색아이콘"></a>
+                </div>
+            </div>
+
+            <div class="list list1">
+                <p>LIVE 추천 검색어</p>
+                <ul>
+                    <li><a href="#">#집 앞 산책 할 때 듣기 좋은 노래!</a></li>
+                    <li><a href="#">#사람들이 많이 찾는 가수</a></li>
+                    <li><a href="#">#오늘, DJ의 추천</a></li>
+                    <li><a href="#">#LIVE 차트</a></li>
+                    <li><a href="#">#작년 인기 있던 노래 모음</a></li>
+                    <li><a href="#">#OST 맛집</a></li>
+                </ul>
+            </div>
+
+            <div class="list2"><img src="img/banner_search.jpg" width="100%" alt=""></div>
+
+            <div class="list list3">
+                <p>분야별 추천 콘텐츠</p>
+                <ul class="cf">
+                    <li class="w50"><a href="#none"><p>오늘 발매 음악</p></a></li>
+                    <li class="w50"><a href="#none"><p>인기차트</p></a></li>
+                    <li class="w50"><a href="#none"><p>오늘의 추천</p></a></li>
+                    <li class="w50"><a href="#none"><p>떼창 모음</p></a></li>
+                    <li><a href="#none"><p>국내 발라드</p></a></li>
+                    <li><a href="#none"><p>해외 팝</p></a></li>
+                    <li><a href="#none"><p>국내 댄스/일렉</p></a></li>
+                    <li><a href="#none"><p>국내 알앤비</p></a></li>
+                    <li><a href="#none"><p>국내 힙합</p></a> </li>
+                    <li><a href="#none"><p>국내 트로트</p></a> </li>
+                    <li><a href="#none"><p>해외 알앤비</p></a> </li>
+                    <li><a href="#none"><p>해외 힙합</p></a> </li>
+                    <li><a href="#none"><p>OST/BGM</p></a> </li>
+                    <li><a href="#none"><p>키즈</p></a></li>
+                    <li><a href="#none"><p>국내 인디</p></a> </li>
+                    <li><a href="#none"><p>클래식</p></a> </li>
+                    <li><a href="#none"><p>뉴에이지</p></a> </li>
+                    <li><a href="#none"><p>재즈</p></a></li>
+                    <li><a href="#none"><p>국내<br> 팝/어쿠스틱</p></a></li>
+                    <li><a href="#none"><p>국내<br> 포크/블루스</p></a></li>
+                    <li><a href="#none"><p>국내 락/메탈</p></a></li>
+                    <li><a href="#none"><p>해외 <br>일렉트로닉</p></a></li>
+                    <li><a href="#none"><p>해외 락</p></a></li>
+                    <li><a href="#none"><p>해외 메탈</p></a></li>
+                    <li><a href="#none"><p>J-POP</p></a></li>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+        <div data-role="footer" data-position="fixed" id="footer">
+            <a href="#main1" data-role="none" class="home"><img src="img/icon_home.png" alt="home">홈</a>
+            <a href="#search" data-role="none" class="search"><img src="img/icon_search_red.png" alt="search"> 검색</a>
+            <a href="#mybook" data-role="none" class="mybook"><img src="img/icon_bookmark.svg" alt="mybook"> 보관함</a>
+            <a href="#setting" data-role="none" class="Setting"><img src="img/icon_setting.svg" alt="setting"> 관리</a>
+        </div>
+    </div>
+    <!-- search-->
+
+
+    <!--mybook-->
+    <div data-role="page" id="mybook">
+
+        <div data-role="header" data-position="fixed" id="header">
+            <div>
+                <h1 data-role="none">
+                    <a href="#main1" data-role="none" class="logo">
+                        <img src="./img/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <div id="btn" class="ui-btn-right">
+                    <a href="#search" data-role="none" class="search">
+                        <img src="img/icon_search.png" width="20" alt="돋보기">
+                    </a>
+                    <a href="#none" data-role="none" class="bell">
+                        <img src="img/icon_bell.png" width="20" alt="알림">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="content" id="mybook_content">
+
+            <div id="mybook_bg">
+                <div class="user_box1">
+                    <div>
+                        <div class="icon"><a href="#none"></a></div>
+                        <img src="./img/mybook.png" width="80" alt="유저사진">
+                        <p>어영우다 님의 보관함</p>
+                        <span>팔로워 0</span><span>팔로잉 0</span>
+                    </div>
+                </div>
+                <div class="user_box2">
+                    <ul>
+                        <li><a href="#none">최근 감상<p>50&nbsp;&nbsp;&nbsp;></p></a></li>
+                        <li><a href="#none">저장한 곡<p>10&nbsp;&nbsp;&nbsp;></p></a></li>
+                        <li><a href="#none">좋아요<p>6&nbsp;&nbsp;&nbsp;></p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="blank"></div>
+
+            <!--탭메뉴-->
+            <div id="mybook_contents">
+                <div data-role="tabs" id="tab">
+                    <div data-role="navbar" id="title">
+                        <ul class="cf">
+                            <li><a id="tab0" href="#one" class="ui-btn-active">리스트</a></li>
+                            <li><a id="tab1" href="#two">아티스트</a></li>
+                            <li><a id="tab2" href="#three">선호노래</a></li>
+                        </ul>
+                    </div>
+    
+                    <div id="one" class="tabs_contents" style="display: none">
+                        <ul class="cont cf">
+                            <div class="cont_tit">
+                                <p>0개의 리스트</p>
+                                <div class="icon_box"><a href="#none"></a></div>
+                            </div>
+                            <div class="cont_contents">
+                                <div class="icon"></div>
+                                <p>리스트에 등록된 노래가 없습니다</p>
+                            </div>
+                        </ul>
+                    </div>
+    
+                    <div id="two"  class="tabs_contents" style="display: none">
+                        <ul class="cont cf">
+                            <div class="cont_tit">
+                                <p>0명의 아티스트</p>
+                                <div class="icon_box"><a href="#none"></a></div>
+                            </div>
+                            <div class="cont_contents">
+                                <div class="icon"></div>
+                                <p>보관함에 등록된 아티스트가 없습니다</p>
+                            </div>
+                        </ul>
+                    </div>
+    
+                    <div id="three"  class="tabs_contents" style="display: none">
+                        <ul class="cont cf">
+                            <div class="cont_tit">
+                                <p>0개의 노래</p>
+                                <div class="icon_box"><a href="#none"></a></div>
+                            </div>
+                            <div class="cont_contents">
+                                <div class="icon"></div>
+                                <p>보관함에 등록된 노래가 없습니다</p>
+                            </div>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-role="footer" data-position="fixed" id="footer">
+            <a href="#main1" data-role="none" class="home"><img src="img/icon_home.png" alt="home">홈</a>
+            <a href="#search" data-role="none" class="search"><img src="img/icon_search.png" alt="search"> 검색</a>
+            <a href="#mybook" data-role="none" class="mybook"><img src="img/icon_bookmark_red.png" alt="mybook"> 보관함</a>
+            <a href="#setting" data-role="none" class="Setting"><img src="img/icon_setting.svg" alt="setting"> 관리</a>
+        </div>
+
+    </div>
+    <!--mybook-->
+
+
+    <!-- cart-->
+<!--     <div data-role="page" id="cart">
+
+        <div data-role="header" data-position="fixed" id="header">
+            <div>
+                <h1 data-role="none">
+                    <a href="main1" data-role="none" class="logo">
+                        <img src="./img/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <div id="btn" class="ui-btn-right">
+                    <a href="#search" data-role="none" class="search">
+                        <img src="img/icon_search.png" width="20" alt="돋보기">
+                    </a>
+                    <a href="#none" data-role="none" class="bell">
+                        <img src="img/icon_bell.png" width="20" alt="알림">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="content" id="cart_content">
+            <div class="cart_top">
+                <p>장바구니 보관 기간은 최대 90일이며,<br>90일 이후에는 장바구니에서 자동 삭제됩니다.</p>
+            </div>
+            <div class="cart_wrap">
+                <h4>장바구니</h4>
+                <div class="box1">
+                    <p>상품이 없습니다</p>
+                </div>
+                <div class="box2">
+                    <p>상품금액<span>0원</span> </p>
+                    <p>배송비<span>0원</span> </p>
+                    <div class="line"></div>
+                    <p style="font-weight: bold;">결제예상금액<span>0원</span></p>
+                    <p>*종이책 구매시 25,000원 이상은 무료배송입니다.</p>
+                </div>
+                <div class="btn_wrap">
+                    <button class="btn1">선택삭제</button>
+                    <button class="btn2">주문하기</button>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" id="footer">
+            <a href="#main1" data-role="none" class="home"><img src="img/icon_home.png" alt="home">홈</a>
+            <a href="#search" data-role="none" class="search"><img src="img/icon_search.png" alt="search"> 검색</a>
+            <a href="#mybook" data-role="none" class="mybook"><img src="img/icon_bookmark.svg" alt="mybook"> 보관함</a>
+            <a href="#setting" data-role="none" class="Setting"><img src="img/icon_setting.svg" alt="setting"> 관리</a>
+        </div>
+        
+    </div> -->
+    <!-- cart-->
+
+
+    <!-- Setting -->
+    <div data-role="page" id="setting">
+
+        <div data-role="header" data-position="fixed" id="header">
+            <div>
+                <h1 data-role="none">
+                    <a href="#main1" data-role="none" class="logo">
+                        <img src="./img/logo.png" alt="로고">
+                    </a>
+                </h1>
+                <div id="btn" class="ui-btn-right">
+                    <a href="#search" data-role="none" class="search">
+                        <img src="img/icon_search.png" width="20" alt="돋보기">
+                    </a>
+                    <a href="#none" data-role="none" class="bell">
+                        <img src="img/icon_bell.png" width="20" alt="알림">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="content" id="setting_content">
+
+            <div class="box1">
+                <div id="tit_box" class="cf">
+                    <div id="user-id">
+                        <p>ywyw_330</p>
+                        <p>ywcho9750@naver.com</p>
+                    </div>
+                    <div id="logout">
+                        <button class="logout_btn">로그아웃</button>
+                    </div>
+                </div>
+                <div class="content_box">
+                    <ul class="cf">
+                        <li><div class="icon1"></div><p>라이브캐시<span>0원</span></p></li>
+                        <li><div class="icon2"></div><p>라이브포인트<span>0원</span></p></li>
+                        <li><div class="icon3"></div><p>쿠폰<span>0원</span></p></li>
+                    </ul>
+                    <ul class="cf">
+                        <li><div class="icon4"></div><p>내 보관함<span>0개</span></p></li>
+                        <li><div class="icon5"></div><p>구매한 곡<span>0개</span></p></li>
+                        <li><div class="icon6"></div><p>재생목록<span>0개</span></p></li>
+                    </ul>
+                    <button class="ridi_cash">라이브캐시 충전</button>
+                </div>
+            </div>
+
+            <div class="setting_list">
+                <ul data-role="listview" class="list">
+                    <li data-role="list-divider" class="li1">노래</li>
+                    <li><a href="#"><h6>선호하는 곡</h6></a></li>
+                    <li><a href="#"><h6>최근 본 영상</h6></a></li>
+                    <li><a href="#"><h6>재생목록</h6></a></li>
+                    <li><a href="#"><h6>선호하는 아티스트</h6></a></li>
+                </ul>
+                <ul data-role="listview" class="list">
+                    <li data-role="list-divider" class="li1">구매/혜택</li>
+                    <li><a href="#"><h6>결제 내역</h6></a></li>
+                    <li><a href="#"><h6>입금 대기</h6></a></li>
+                </ul>
+                <ul data-role="listview" class="list">
+                    <li data-role="list-divider" class="li1">개인</li>
+                    <li><a href="#"><h6>1:1문의</h6></a></li>
+                    <li><a href="#"><h6>내 기기 관리</h6></a></li>
+                    <li><a href="#"><h6>내 리뷰 관리</h6></a></li>
+                    <li><a href="#"><h6>정보 변경</h6></a></li>
+                </ul>
+            </div>
+
+        </div>
+    
+        <div data-role="footer" data-position="fixed" id="footer">
+            <a href="#main1" data-role="none" class="home"><img src="img/icon_home.png" alt="home">홈</a>
+            <a href="#search" data-role="none" class="search"><img src="img/icon_search.png" alt="search"> 검색</a>
+            <a href="#mybook" data-role="none" class="mybook"><img src="img/icon_bookmark.svg" alt="mybook"> 보관함</a>
+            <a href="#setting" data-role="none" class="Setting"><img src="img/icon_setting_red.png" alt="setting"> 관리</a>
+        </div>
+
+    </div>
+    <!-- Setting -->
+
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* 브랜드 */
+#back{width: 62.5%; height: 1700px; margin: 0 auto; background: white; border-radius: 30px;}
+#back .introduce{margin-top: 80px;}
+#back .introduce h2{font-size: 2em;  text-align: left; margin-left: 30px; width: 92.5%; border-bottom: 2px solid #023586; padding-bottom: 15px; padding-top: 30px;}
+#back .introduce .one{height: 500px; width: 1200px; margin-top: 30px;}
+#back .introduce .one img{float: right; margin-right: 80px;}
+#back .introduce .two{height: 500px; width: 1200px;}
+#back .introduce .three{height: 500px; width: 1200px;}
+#back .ment{width: 45%; float: left; text-align: left; margin-left: 50px; margin-top: 50px;}
+#back .ment p{margin-top: 30px;}
+#back .ment p:first-child{font-weight: bold; margin-top: 0; font-size: 24px;}
+#back .ment p:last-child{line-height: 30px;}
+
+#back .introduce span{position: relative; left: 10px; top: 50px;}
+
+
+#back .introduce .two{margin-bottom: 30px;}
+#back .introduce .two img{float: left; float: left; margin-left: 50px;}
+#back .introduce .two .ment{float: left; margin-left: 130px;}
+
+/* 브랜드 */
+
+/* 연혁 */
+#year{width: 62.5%; height: 3000px; margin: 0 auto; background: white; border-radius: 30px;}
+#year .introduce{margin-top: 80px; padding-top: 30px; margin-left: 10px;}
+#year .introduce h2{font-size: 2em;  text-align: left; margin-left: 30px; width: 92.5%; border-bottom: 2px solid #023586; padding-bottom: 15px;}
+#year .introduce h3{font-size: 1.7em;  text-align: left; margin-left: 30px; margin-top: 50px; color: #023586;}
+#year .introduce .one{height: 500px;}
+#year .year_ment{width: 50%; float: left; text-align: left; margin-left: 30px; margin-top: 50px;}
+#year .year_ment p{margin-top: 10px;}
+#year .year_ment p:first-child{font-weight: bold; margin-top: 0; font-size: 18px;}
+#year .year_ment p:last-child{line-height: 20px; font-size: 12px;}
+
+#year .introduce span{position: relative; left: 10px; top: 20px;}
+
+
+#year .introduce .two{height: 800px;}
+#year .introduce .two span{position: relative; left: -50%;}
+#year .introduce .two .year_ment{position: relative; left: 50%;}
+#year .introduce .two h3{position: relative; left: 50%;}
+#year .introduce .three{height: 700px;}
+
+#year .introduce .four span{position: relative; left: -50%;}
+#year .introduce .four .year_ment{position: relative; left: 50%;}
+#year .introduce .four h3{position: relative; left: 50%;}
+
+
+/* 연혁 */
+
+/* bi소개*/
+
+#bi{width: 62.5%; height: 550px; margin: 0 auto; background: white; border-radius: 30px;}
+#bi .introduce{margin-top: 80px; padding-top: 30px;}
+#bi .introduce h2{font-size: 2em;  text-align: left; margin-left: 30px; width: 93%; border-bottom: 2px solid #023586; padding-bottom: 15px;}
+#bi .introduce img{position: relative; top: -300px; left: 30%;}
+#bi .introduce .bi_ment{position: relative; top: -850px; text-align: left; width: 60%; margin-left: 30px; line-height: 30px;}
+#bi .introduce .bi_ment p:nth-child(3){margin-top: 20px;}
+
+/* bi소개 */
+
+/* product */
+
+#product{width: 62.5%; margin: 0 auto; background: white; padding-top: 20px; border-radius: 30px; margin-top: 80px;}
+#product h2{font-size: 1.5em; margin-top: 30px; width: 90%; height: 30px; margin-left: 55px; text-align: left; border-bottom: 2px solid #023586; padding-bottom: 20px;}
+#product h2 span{float: right; cursor: pointer; font-size: 16px; border-bottom: 2px solid #000000; height: 25px; line-height: 30px;}
+
+#product ul{margin-top: 30px; width: 100%; height: 600px; margin-left: 40px;} 
+#product ul li{float: left; margin-left: 20px; margin-top: 20px; width: 250px; height: 250px; overflow: hidden;}
+#product ul li img{width: 30%; background: #000000;}
+#product ul li a{display: block; cursor: pointer;}
+#product ul li a img{width: 250px; height: 250px; transform: scale(1); transition: all 0.3s ease-in-out;}
+#product ul li a:hover img{width: 250px; height: 250px; transition: all 0.3s ease-in-out; transform: scale(1.1); overflow: hidden;}
+
+#product ul li span{display: block; font-size: 18px; position: relative; bottom: 230px; opacity: 0; transition: all 1s; color: black; font-weight: bold; float: left; margin-left: 20px; padding: 5px;}
+#product ul li a:hover span{opacity: 1; background: rgba(255, 255, 255, 0.2); transition: all 1s;}
+
+/* product */
+
+/* event */
+
+#event{width: 100%; height: 1850px; background: #f6f6f6; margin: 0 auto;}
+#event h2{font-size: 2em; position: relative; top: 50px; color: black;}
+#event .event{width: 1200px; height: 300px; background: white; margin: 100px auto; background: #ffffff;}
+#event .event img{clip-path: polygon(0 0%, 100% 0%, 100% 40%, 0 40%); width: 40%; position: relative; left: -25%; top: 30px;}
+#event .finish img{clip-path: polygon(0 0%, 100% 0%, 100% 40%, 0 40%); width: 40%; position: relative; left: -25%; top: 30px;}
+#event p{position: relative; top: -550px; left: 50%; text-align: left;}
+#event .ment p:nth-child(1){border: 3px solid #023586; width: 50px; text-align: center; padding: 5px; border-radius: 10px; margin-bottom: 10px; color: #023586; font-weight: bold;}
+#event .ment p:nth-child(2){cursor: pointer;}
+#event .date{margin-top: 20px; font-size: 14px; color: #666666;}
+#event .date p{margin-top: 5px;}
+#event .winner p{padding: 5px; border: 3px solid green; color: green; width: 80px; margin-top: 30px; text-align: center; border-radius: 10px; cursor: pointer;}
+
+#event .finish{width: 1200px; height: 300px; background: white; margin: 100px auto; background: #ffffff;}
+#event .finish .ment p:first-child{width: 80px; color: red; border: 3px solid red;}
+
+
+#event img{cursor: pointer;}
+
+/* event */
+
+/* 매장찾기 */
+
+#store{width: 62.5%; background-color: white; height: 800px; margin: 0 auto; border-radius: 30px;}
+#store #store_back{margin-top: 80px;}
+#store #store_back h2{padding-top: 30px; font-size: 2em;}
+#store #store_back .map{float: left; margin-left: 50px;}
+#store #store_back .map .name{position: absolute; top: 300px;}
+#store #store_back .map .name p{padding: 5px; cursor: pointer; font-weight: bold; font-size: 16px;}
+#store #store_back .map .name p:nth-child(1){position: relative; top: 95px; left: 120px;} /* 서울 */
+#store #store_back .map .name p:nth-child(2){position: relative; top: 75px; left: 80px;} /* 인천 */
+#store #store_back .map .name p:nth-child(3){position: relative; top: 305px; left: 320px;} /* 부산 */
+#store #store_back .map .name p:nth-child(4){position: relative; top: 215px; left: 260px;} /* 대구 */
+#store #store_back .map .name p:nth-child(5){position: relative; top: 120px; left: 150px;} /* 대전 */
+#store #store_back .map .name p:nth-child(6){position: relative; top: 230px; left: 105px;} /* 광주 */
+#store #store_back .map .name p:nth-child(7){position: relative; top: 155px; left: 330px;} /* 울산 */
+#store #store_back .map .name p:nth-child(8){position: relative; top: 335px; left: 80px;} /* 제주 */
+#store #store_back .map .name p:nth-child(9){position: relative; top: -100px; left: 130px;} /* 경기 */
+#store #store_back .map .name p:nth-child(10){position: relative; top: 80px; left: 220px;} /* 경남 */
+#store #store_back .map .name p:nth-child(11){position: relative; top: -50px; left: 270px;} /* 경북 */
+#store #store_back .map .name p:nth-child(12){position: relative; top: -110px; left: 100px;} /* 충남 */
+#store #store_back .map .name p:nth-child(13){position: relative; top: -160px; left: 180px;} /* 충북 */
+#store #store_back .map .name p:nth-child(14){position: relative; top: 10px; left: 140px;} /* 전남 */
+#store #store_back .map .name p:nth-child(15){position: relative; top: -100px; left: 120px;} /* 전북 */
+#store #store_back .map .name p:nth-child(16){position: relative; top: -370px; left: 240px;} /* 강원 */
+#store #store_back .map .name p:hover{background: #023586; color: #ffffff;}
+#store #store_back fieldset{padding-top: 250px; float: right; margin-right: 50px;}
+#store #store_back fieldset select{
+    border: 1px solid #e5e5e5; background: url(../img/arrow.png) no-repeat; background-position: right center; background-size: 14px; width: 90px; height: 50px; padding-left: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* select의 기본 스타일 삭제 */
+}
+#store #store_back fieldset .menu{padding: 5px;}
+#store #store_back fieldset button{padding: 10px; background: #023586; width: 80px; height: 50px; color: white; border-radius: 10px; cursor: pointer;}
+#store #store_back fieldset .searchBox{width: 400px; height: 45px; padding-left: 5px; border: 3px solid #023586;}
+
+/* 매장찾기 */

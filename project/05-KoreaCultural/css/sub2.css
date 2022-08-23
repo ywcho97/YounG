@@ -1,0 +1,337 @@
+
+#all{height: auto; background-color: white; border-radius: 30px;}
+
+#notice{width: 900px; margin: 0 auto;  padding-bottom: 20px;}
+
+#notice #big_title{padding-top: 20px; width: 1400px; position: relative; left: -25%; padding-top: 10px;}
+#notice #big_title>h2{font-size: 24px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;}
+
+/* 체크된 박스가 보여지도록 */
+input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#main_aside input{display: none;}
+input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+input:nth-of-type(4)~div:nth-of-type(4){display: none;}
+input:nth-of-type(5)~div:nth-of-type(5){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+input:nth-of-type(4):checked~div:nth-of-type(4){display: block;}
+input:nth-of-type(5):checked~div:nth-of-type(5){display: block;}
+/* 탭 모양 구성 */
+section.buttons{overflow: hidden; position: relative; left: 200px; text-align: center; }
+section.buttons>label{
+	float: left;
+	display: block; 
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+
+input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(4):checked~section.buttons>label:nth-of-type(4){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(5):checked~section.buttons>label:nth-of-type(5){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+section.buttons3{overflow: hidden; position: relative; left: 300px; text-align: center; }
+section.buttons3>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons3>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons3>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons3>label:nth-of-type(3){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(4):checked~section.buttons3>label:nth-of-type(4){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+section.buttons4{overflow: hidden; position: relative; left: 500px; text-align: center; }
+section.buttons4>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons4>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons4>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons4>label:nth-of-type(3){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+section.buttons8{overflow: hidden; position: relative; left: 500px; text-align: center; }
+section.buttons8>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons8>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons8>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+select::-ms-expand{
+    display: none;
+}
+
+section{width: 100%; position: relative; text-align: center; height: auto; margin: 0 auto;}
+
+.swiper-wrapper{clear:both; text-align: left; }
+.swiper-wrapper .swiper-slide{clear:both; height: 450px; overflow: visible;}
+.swiper-wrapper .swiper-slide li{display: inline-block;}
+.swiper-wrapper .swiper-slide img{clear:both;}
+/* .swiper-wrapper .swiper-slide p{text-align: left; width: 265px; line-height: 25px; letter-spacing: -1px; margin-top: 20px; font-weight: bold;} */
+
+
+#box1 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box1 .week li:first-child{margin-left: 0px;}
+#box1 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box1 .week li a{font-weight: bold;}
+#box1 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box1 .calendar{position: relative; top: -100px; left: -50px;}
+#box1 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box1 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box1 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box1 .calendar .content .title{width: 100%;}
+#box1 .calendar .content .title h3{float: left; margin-top: 100px;}
+#box1 .content .period{clear: both; margin-top: 150px;}
+#box1 .content .period img{float: left; margin-left: 350px;}
+#box1 .content .period li{text-align: left;}
+#box1 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box1 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box1 .content h4{font-size: 18px; clear: both; font-weight: bold; position: relative; top: 140px; text-align: left; margin-left: 350px;}
+
+#box2 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box2 .week li:first-child{margin-left: 0px;}
+#box2 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box2 .week li a{font-weight: bold;}
+#box2 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box2 .calendar{position: relative; top: -100px; left: -50px;}
+#box2 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box2 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box2 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box2 .content .period{clear: both; margin-top: 150px;}
+#box2 .content .period img{float: left; margin-left: 350px;}
+#box2 .content .period li{text-align: left;}
+#box2 .content .period p{line-height: 30px; position: relative; left: 50px; top: 30px; color: #666666; font-size: 12px;}
+#box2 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box3 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box3 .week li:first-child{margin-left: 0px;}
+#box3 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box3 .week li a{font-weight: bold;}
+#box3 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box3 .calendar{position: relative; top: -100px; left: -50px;}
+#box3 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box3 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box3 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box3 .content .period{clear: both; margin-top: 150px;}
+#box3 .content .period img{float: left; margin-left: 350px;}
+#box3 .content .period li{text-align: left;}
+#box3 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box3 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box4 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box4 .week li:first-child{margin-left: 0px;}
+#box4 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box4 .week li a{font-weight: bold;}
+#box4 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box4 .calendar{position: relative; top: -100px; left: -50px;}
+#box4 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box4 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box4 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box4 .content .period{clear: both; margin-top: 150px;}
+#box4 .content .period img{float: left; margin-left: 350px;}
+#box4 .content .period li{text-align: left;}
+#box4 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box4 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box5 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box5 .week li:first-child{margin-left: 0px;}
+#box5 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box5 .week li a{font-weight: bold;}
+#box5 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box5 .calendar{position: relative; top: -100px; left: -50px;}
+#box5 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box5 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box5 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box5 .content .period{clear: both; margin-top: 150px;}
+#box5 .content .period img{float: left; margin-left: 350px;}
+#box5 .content .period li{text-align: left;}
+#box5 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box5 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#number{position: absolute; bottom: -15%; left: 50%; margin-bottom: 50px; margin-left: -90px;}
+#number li{float: left; margin-left: 30px; cursor: pointer;}
+#number li:hover{color: #bd5c5b;}
+
+
+/* 체크된 박스가 보여지도록 */
+#notice input:nth-child(1):checked~#box1{
+	display: block;
+}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#notice input:nth-of-type(1){
+	display: none;
+}
+#notice input:nth-of-type(2)~#box1{
+	display: none;
+}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#notice input:nth-of-type(2):checked~#box2{
+	display: block;
+}
+
+#notice input:nth-of-type(3):checked~#box3{
+	display: block;
+}
+
+#notice input:nth-of-type(4):checked~#box4{
+	display: block;
+}
+
+#notice input:nth-of-type(5):checked~#box5{
+	display: block;
+}
+
+/* sub2-1 */
+.none{width: 100%; margin: 0 auto;}
+#all #notice #big_title #main_aside .none p{text-align: center; font-weight: bold; font-size: 24px;}
+
+/* sub2-2 */
+#box1 .calendar-2{position: relative; top: -150px; left: 0px;}
+#box1 h3{font-size: 24px; font-weight: bold; text-align: left; margin-top: 50px;}
+
+#box1 .calendar-2 .content .period{clear: both; margin-top: 150px; }
+#box1 .calendar-2 .content .period li:first-child img{margin-left: 0px;}
+#box1 .calendar-2 .content .period li img{float: left; margin-left: 50px; margin-top: 50px;}
+#box1 .calendar-2 .content .period li{text-align: left;}
+#box1 .calendar-2 .content .period p{line-height: 30px; position: relative; left: 0px; top: 30px; color: #666666; font-size: 14px;}
+#box1 .calendar-2 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+#box1 .cont{clear: both; margin-bottom: -100px;}
+
+#box2{width: 100%; position: relative;}
+#box2 h2{font-size: 30px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;}
+#box2 .calendar-2{width: 100%; margin: 0 auto;}
+#box2 .calendar-2 .content-2_2{width: 100%; margin: 0 auto; clear: both; position: relative; margin-top: 0px;}
+#box2 .calendar-2 .content-2_2:nth-child(3){margin-top: 200px;}
+#box2 .calendar-2 .content-2_2 h3{font-size: 24px; font-weight: bold; text-align: left; margin-top: 50px; margin-bottom: 30px;}
+#box2 .calendar-2 .content-2_2 .period .ment{width: 100%;}
+#box2 .calendar-2 .content-2_2 .period .ment li{line-height: 30px;}
+#box2 .calendar-2 .content-2_2 .period .ment li p{text-align: left;}
+
+#box2 .calendar-2 .content-2_2 .period .order{width: 100%;}
+#box2 .calendar-2 .content-2_2 .period .order li{float: left; margin-left: 10px; padding: 10px 5px; width: 120px; height: 120px; background-color: #bd5c5b; border-radius: 20px; line-height: 120px;}
+#box2 .calendar-2 .content-2_2 .period .order li:nth-child(5){line-height: 25px;}
+#box2 .calendar-2 .content-2_2 .period .order li:nth-child(5) p{margin-top: 30px;}
+#box2 .calendar-2 .content-2_2 .period .order li p{color: #ffffff;}
+
+#box2 .calendar-2 .content-2_2 .period .img{width: 100%;}
+#box2 .calendar-2 .content-2_2 .period .img li{line-height: 30px;}
+#box2 .calendar-2 .content-2_2 .period .img li img{margin-left: -400px;}
+#box2 .calendar-2 .content-2_2 .period .img li:nth-child(1) img{margin-left: -700px;}
+#box2 .calendar-2 .content-2_2 .period .img li p{text-align: left; color: #666;}
+
+
+
+#box1 .calendar-2_3 .content .period{clear: both; margin-top: 0px; }
+#box1 .calendar-2_3 .content .period li:first-child img{margin-left: 0px;}
+#box1 .calendar-2_3 .content .period li img{float: left; margin-left: 50px; margin-top: 30px;}
+#box1 .calendar-2_3 .content .period li{text-align: left;}
+#box1 .calendar-2_3 .content .period p{line-height: 30px; position: relative; left: 0px; top: 0px; color: #666666; font-size: 14px;}
+#box1 .calendar-2_3 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+#box1 .calendar-2_3 .content .period li.option p{font-size: 10px; color: #666;}
+#box1 .cont{clear: both; margin-bottom: 50px;}
+#box1 .ment{margin-top: 300px;}
+#box1 .calendar-2_3 h3{margin-top: 50px; margin-bottom: 0;}
+
+#box2{width: 100%; position: relative;}
+#box2 h2{font-size: 30px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;}
+#box2 .calendar-2_3{width: 100%; margin: 0 auto;}
+#box2 .calendar-2_3 h3{font-size: 20px; font-weight: bold; margin-bottom: 50px; text-align: left; margin-top: 50px;}
+#box2 .calendar-2_3 ul{margin-top: -20px;}
+#box2 .calendar-2_3 ul li{text-align: left; margin-top: 10px; font-size: 14px;}
+#box2 .calendar-2_3 ul li.color{color: red; font-weight: bold;}

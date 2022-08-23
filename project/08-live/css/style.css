@@ -1,0 +1,338 @@
+/*초기화*/
+*{margin: 0; padding: 0; border: 0; box-sizing: border-box;}
+*::before,*::after{box-sizing: border-box;}
+html{overflow-x: hidden;}
+body{font-family: 'Noto Sans KR', sans-serif; color: #333333;}
+ul, li{list-style: none;}
+a{text-decoration: none; color: #333333;}
+img{border: 0; outline: 0;}
+.cf:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+.fl{float: left;}
+
+
+
+
+
+/*헤더*/
+#header{width: 100%;margin: 0 auto;height: 50px; background-color: rgba(255, 255, 255); padding: 0;}
+#header .logo img{width: 50px; margin-left: 15px;}
+#header #btn{padding-top: 10px;}
+#header #btn a{margin-right: 15px;}
+
+
+
+
+.main #header{width: 100%; margin: 0 auto; height: 50px;}
+.main #header #header_top{width: 100%; height: 50px;}
+.main #header #main_tab{width: 100%; height: 55px;background-color: #ffffff; z-index: 10;  left: 0; border-bottom: thin solid #cccccc; padding-top: 10px; border-top: 1px solid #cccccc; margin-top: 7px;}
+
+.main #header #main_tab ul{margin: 0 auto; width: 346px; height: 35px;}
+.main #header #main_tab li{float: left;}
+.main #header #main_tab li:nth-child(1){width:89px;}
+.main #header #main_tab li:nth-child(2){width:74px;}
+.main #header #main_tab li:nth-child(3){width:74px;}
+.main #header #main_tab li:nth-child(4){width:59px;}
+.main #header #main_tab li:nth-child(5){width:50px;}
+.main #header #main_tab #tab1{width: 85px;}
+.main #header #main_tab #tab1{width: 85px;}
+.main #header #main_tab #tab2{width: 70px;}
+.main #header #main_tab #tab3{width: 70px;}
+.main #header #main_tab #tab4{width: 55px;}
+.main #header #main_tab #tab5{width: 50px;}
+.main #header #main_tab li a{font-size: 0.8em;letter-spacing: -1px; box-shadow: none; text-shadow: none; border-radius: 20px;}
+.main #header #main_tab .ui-btn-active{background-color:lightskyblue; border:lightskyblue;}
+
+/*푸터*/
+#footer{width: 100%; margin: 0 auto; background-color: whitesmoke; height:50px; box-shadow: 0 0 5px #999999; overflow-y: hidden;}
+
+#footer>a{display: block; float: left; width: 25%; height: 60px; text-align: center; font-size: .7em; padding-top: 4px; color: #666666;}
+#footer>a>img{width: 20px;  display: block; margin: 0 auto; padding: 3px 0 3px 0;}
+
+
+
+
+
+
+
+
+
+/*********************************************home************************************************************/
+
+/*컨텐츠영역*/
+.main #content{background: #ffffff;width: 100%; height: 100%; padding: 0px;}
+
+/*급상승*/
+.main #main_cont1{width: 95%; height: 55px; margin: 0 auto; margin-bottom: 10px; border-radius: 30px; background-color: whitesmoke; margin-top: 20px; }
+.main #main_cont1 .list1{width: 100%;}
+.main #main_cont1 .list1 h3{float: left; line-height: 55px; display: block; font-weight: 600; color: #000; font-size: 16px;  text-align: center; width: 20%;}
+.main #main_cont1 .list1 ol{position: relative; width: 60%;height: 55px; overflow: hidden; float: left;  }
+.main #main_cont1 .list1 ol li{position: absolute; width: 100%; height: 55px; top: 100%; text-overflow: ellipsis;white-space: nowrap;}
+.main #main_cont1 .list1 a.data{line-height: 55px; color: #828282; font-weight: 400; font-size: 15px; display: block;}
+
+.main #main_cont1 .list1 .plus{line-height: 55px; float: right; display: block; width: 20%; text-align: center;}
+.main #main_cont1 .list1 .plus a{display: block; width: 100%; height: 100%;background: url(../img/arrow_down.png) no-repeat center; background-size: 30%; text-indent: -9999px;}
+
+
+/*슬라이드*/
+.main #main_slide{width: 95%;height: 240px;margin: 0 auto; position: relative;  z-index: 1; border-radius: 20px; overflow: hidden; margin-top: 13px;}
+.main #main_slide #slide_wrap ul li{float: left; position: absolute; width: 100%; height: 100%;}
+.main #main_slide #slide_wrap ul li a{text-indent: -9999px; display: block;}
+.main #main_slide #slide_wrap .slide_img1{left: 0;}
+.main #main_slide #slide_wrap .slide_img1 a{width: 100%; height: 100%; background: url(../img/slide1.jpg); background-size: cover; left: 0;}
+.main #main_slide #slide_wrap .slide_img2{left: 100%;}
+.main #main_slide #slide_wrap .slide_img2 a{width: 100%; height: 100%; background: url(../img/slide2.jpg); background-size: cover; left: 0;}
+.main #main_slide #slide_wrap .slide_img3{left: 100%;}
+.main #main_slide #slide_wrap .slide_img3 a{width: 100%; height: 100%; background: url(../img/slide3.jpg); background-size: cover; left: 0;}
+
+.main #main_slide .slide_num{width: 40px;height: 20px;margin: 0 auto;position: absolute;bottom: 7px;left: 50%;margin-left: -20px; }
+.main #main_slide .slide_num ul li{width: 7px; height: 7px; background-color: #ffffff; border-right: 50%; margin-left: 5px;float: left;border: 1px solid #cccccc;}
+.main #main_slide .slide_num ul li.on{background-color: #1f8ce6; border: #1f8ce6;}
+.main #main_slide .slide_num ul li a{text-indent: -9999px;display: block;}
+.main #main_slide #btnImg{position: relative;top: 50%;margin-top: -20px;width: 100%;}
+.main #main_slide #btnImg .next{position: absolute; right: 15px;cursor: pointer;}
+.main #main_slide #btnImg .prev{position: absolute; left: 15px;cursor: pointer;}
+
+
+/*스와이퍼 영역 아이콘*/ 
+.main #icon_swiper{width: 100%; height: 110px; position: relative; overflow: hidden;  padding-top: 15px;}
+.main #icon_swiper .swiper-container{width: 100%; height: 100px; overflow: visible !important; cursor: pointer; padding-top: 5px;}
+.main #icon_swiper .swiper-slide a{display: block;  width: 100%; height: 100%;}
+.main #icon_swiper .swiper-slide a div:first-child{width: 50px; height: 50px; border-radius: 50%; margin: 0 auto;}
+.main #icon_swiper .swiper-slide a .text{text-align: center; font-size: 12px; color: #666666; padding-top: 3px; font-weight: 400;}
+
+.main #icon_swiper .swiper-slide a .icon1{background: url(../img/icon_new.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon2{background: url(../img/icon_event.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon3{background: url(../img/icon_best.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon4{background: url(../img/icon_lent.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon5{background: url(../img/icon_now.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon6{background: url(../img/icon_newC.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon7{background: url(../img/icon_mab.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon8{background: url(../img/icon_Wcoupon.png) no-repeat; background-size: cover;}
+.main #icon_swiper .swiper-slide a .icon9{background: url(../img/icon_ridipaper.png) no-repeat; background-size: cover;}
+
+
+
+/*신간 리스트*/
+.main #new_list{width: 100%; margin: 0 auto; height: 300px; background-color: whitesmoke; letter-spacing: -1px; padding-top: 15px;}
+.main #new_list .s_tit{ width:95%; margin: 0 auto; height: 50px; line-height: 50px; font-weight: 600; font-size: 17px; }
+.main #new_list .s_tit span{width: 80px; float: right; font-size: 14px; color: #aaaaaa; text-align: right; cursor: pointer;}
+.main #new_list .swiper-container2{ overflow: visible !important; cursor: pointer; padding-top: 5px;}
+.main #new_list .swiper-slide a{display: block;  width: 95%; height: 100%; margin: 0 auto;}
+.main #new_list .swiper-slide a .book{width: 154px; height: 154px;  margin: 0 auto;overflow: hidden; outline: 1px solid #cccccc;}
+.main #new_list .swiper-slide a .text{padding: 3px;width: 90%; margin: 0 auto; color: #333333;}
+.main #new_list .swiper-slide a .text p{text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 15px;padding-top: 5px;}
+.main #new_list .swiper-slide a .text p:last-child{font-size: 12px; font-weight: 400; padding-top: 3px;}
+
+
+
+/*배너 메인*/
+.main #banner_main{width: 100%; height: 100px; overflow: hidden; margin: 35px auto 15px auto; }
+.main #banner_main a{width: 100%; height: 100%; display: block; background: url(../img/banner.jpg) no-repeat; background-size: cover; }
+
+
+
+/*랭킹*/
+.main #ranking_wrap{letter-spacing: -1px; width: 95%; margin: 0 auto; margin-top: 25px;}
+.main .ranking{width: 100%; height: 350px; margin:0 auto;}
+.main .ranking .s_tit{ width:100%; height: 50px; line-height: 50px; font-weight: 600; font-size: 18px; }
+.main .ranking .s_tit span{width: 80px; float: right; font-size: 14px; color: #aaaaaa; text-align: right; cursor: pointer;}
+.main #ranking .tab_content{width: 100%; height: 310px; overflow: hidden;position: relative; border-radius: 20px 20px 0 0; background-color: whitesmoke; padding: 10px; z-index: 1;}
+.main #ranking_loadmore{width: 100%; height: 600px; }
+.main #ranking_loadmore .tab_content{width: 100%; height: 610px; overflow: hidden;position: relative;  background-color: whitesmoke; padding: 10px;}
+.main .ranking h2{width: 100%; height: 50px; }
+.main .ranking ul{width: 100%; height: 300px;}
+.main .ranking ul li{width: 100%; height: 100px; margin: 0;}
+.main .ranking ul li .img{width: 70px; height:70px; float: left; border: 1px solid #cccccc; margin-top: 3px; overflow: hidden; border-radius: 15px;}
+.main .ranking ul li .text{float: left; width: 80%; }
+.main .ranking ul li .text p:first-child{float: left; width: 15%; height: 100px;text-align: center; line-height: 100px; font-size: 18px; font-weight: 600;}
+.main .ranking ul li .text p:last-child{float: left; width: 85%; height: 100px; padding-top: 30px; font-size:14px; border-bottom: 1px solid #cccccc; font-weight: 600;text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.main .ranking ul li .text p:last-child span{font-size: 12px;display: block;font-weight: 400; padding-top: 5px;}
+
+.main .hide{display:none;}
+.main .loadmore{display:block; font-size: 12px; width:100%; height:50px;background:#ffffff; cursor:pointer; box-shadow: none; margin-top: 9px; position: relative; z-index: 2; border-radius: 0 0 20px 20px; border: 0; background: whitesmoke; border-top: 1px solid #cccccc; }
+.main .close{display:none; font-size: 12px; width:100%; height:50px;background:#ffffff; cursor:pointer; box-shadow: none; margin-top: 9px; position: relative; z-index: 2; border-radius: 0 0 20px 20px; border: 0; background: whitesmoke; border-top: 1px solid #cccccc;}
+
+
+
+
+/*노래 리스트*/
+.main .book_list{width: 100%; margin: 0 auto; height: 265px; letter-spacing: -1px; margin-top: 25px;}
+.main .book_list .s_tit{ width:95%; margin: 0 auto; height: 50px; line-height: 50px; font-weight: 600; font-size: 17px; }
+.main .book_list .s_tit span{width: 80px; float: right; font-size: 14px; color: #aaaaaa; text-align: right; cursor: pointer;}
+.main .book_list .swiper-container2{ overflow: visible !important; cursor: pointer; padding-top: 5px;}
+.main .book_list .swiper-slide a{display: block;  width: 95%; height: 100%; margin: 0 auto;}
+.main .book_list .swiper-slide a .book{width: 154px; height: 154px;  margin: 0 auto;overflow: hidden; outline: 1px solid #cccccc;}
+.main .book_list .swiper-slide a .text{padding: 3px;width: 90%; margin: 0 auto; color: #333333;}
+.main .book_list .swiper-slide a .text p{text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 15px; padding-top: 5px;}
+.main .book_list .swiper-slide a .text p:last-child{font-size: 12px; font-weight: 400; padding-top: 3px;}
+
+
+
+
+
+/*DJ*/
+.main #today_best{width: 95%; margin: 0 auto; height: 400px;letter-spacing: -1px; margin-top: 25px;}
+.main #today_best .now_time{width: 100px; height: 35px; background-color: yellow; border-radius: 20px; text-align: center; line-height: 35px;font-size: 17px; font-weight: 600; margin-top: 10px;}
+.main #today_best .s_tit{ width:95%; margin: 0 auto; height: 50px; line-height: 50px; font-weight: 600; font-size: 17px; }
+.main #today_best .s_tit span{width: 80px; float: right; font-size: 14px; color: #aaaaaa; text-align: right; cursor: pointer;}
+
+.main #today_best .swiper-container3{width: 100%; height: 100%; overflow: visible !important; cursor: pointer;}
+.main #today_best .swiper-slide a{display: block;  width: 100%; height: 300px; border-radius: 20px; overflow: hidden; box-shadow: 0 0 5px #cccccc; color: #333333;}
+.main #today_best .swiper-slide a div.img{width: 100%; height: 200px; }
+
+.main #today_best .swiper-slide a div.text{width: 100%; height: 100px; background-color: #ffffff; text-align: center; border: 1px solid #cccccc;  position: relative;z-index: 2; padding: 10px; }
+.main #today_best .swiper-slide a div.text p:nth-child(1){ padding:5px}
+.main #today_best .swiper-slide a div.text p:nth-child(2){font-size: 12px; font-weight: 400; }
+
+/*메인푸터*/
+#main_footer{width: 100%;height: 160px;margin: 0 auto;position: relative;overflow: hidden;background-color: whitesmoke;border-top: 1px solid #dddddd;}
+#main_footer ul{width: 110px;margin: 0 auto;padding-top: 30px;padding-bottom: 10px;}
+#main_footer ul li{ float: left;}
+#main_footer .copyright{font-size: 11px;text-align: center;text-shadow: none;color: #777777;line-height: 18px;}
+
+#main1 #footer a.home{color: #ff1027;}
+
+
+
+
+
+
+
+/*search페이지*/
+
+#search{background-color: #ffffff;}
+
+#search #search_content #search_box{float: left;width: 100%;height: 50px;position: relative;margin: 0 auto;display: block;box-shadow: none;text-shadow: none;}
+#search #search_content #search_box input{width: 100%;margin: 0 auto;height: 50px;border-bottom: 2px solid #292929;border-radius: 0 ;box-shadow: none;text-shadow: none;padding-left: 10px;}
+#search #search_content #search_box a{position: absolute;right: 15px;top:10px;}
+
+
+#search #search_content .list{width: 100%; height: 230px; }
+#search #search_content .list p{font-weight: bold; padding: 30px 0 10px 0;}
+#search #search_content .list1 ul li{margin-left: 8px; }
+#search #search_content .list1 ul li a{font-size: 0.9em; line-height: 170%; color: #777777;}
+
+#search #search_content .list3 ul li.w50{width: 48%; height: 210px; margin-left: 5px; margin-bottom: 5px; float: left; background-color: #d1d1d1; }
+#search #search_content .list3 ul li{width: 31.5%; height: 140px; margin-left: 5px; margin-bottom: 5px; float: left; background-color: #d1d1d1; }
+
+#search #search_content .list3 ul li a{display: block;width:100%; height: 100%; background-color: #d1d1d1;font-size: 1.2em; font-weight: bold; color: #ffffff; text-shadow: 0 0 3px #666666; position: relative;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+1,000000+99&0+0,0.65+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 1%, rgba(0,0,0,0.64) 99%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.64) 99%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.64) 99%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+#search #search_content .list3 ul li a p{position: absolute; bottom: 5px; text-align: center;  width: 100%;}
+
+
+#search .list3 ul li:nth-child(1){background-image: url(../img/album4.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(2){background-image: url(../img/album1.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(3){background-image: url(../img/l_album2.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(4){background-image: url(../img/album11.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(5){background-image: url(../img/album12.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(6){background-image: url(../img/album13.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(7){background-image: url(../img/album7.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(8){background-image: url(../img/album1.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(9){background-image: url(../img/album14.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(10){background-image: url(../img/album15.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(11){background-image: url(../img/album16.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(12){background-image: url(../img/album17.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(13){background-image: url(../img/album10.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(14){background-image: url(../img/album18.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(15){background-image: url(../img/album19.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(16){background-image: url(../img/album20.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(17){background-image: url(../img/album21.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(18){background-image: url(../img/album22.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(19){background-image: url(../img/album23.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(20){background-image: url(../img/album24.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(21){background-image: url(../img/album25.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(22){background-image: url(../img/album26.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(23){background-image: url(../img/album27.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(24){background-image: url(../img/album28.jpg); background-size: cover;}
+#search .list3 ul li:nth-child(25){background-image: url(../img/album29.jpg); background-size: cover;}
+
+#search #footer a.search{color: #ff1027;}
+
+
+
+/*내서재*/
+#mybook #mybook_content #mybook_bg{width: 100%; height: 100%; background: url(../img/content3_bg.jpg) fixed; background-size: cover; position: relative; position: fixed; top: 0; left: 0px;}
+#mybook #mybook_content #mybook_bg .user_box1{width: 90%; margin: 0 auto; height: 240px; margin-top: 30px; text-align: center; color: #ffffff;  position: relative; padding-top: 50px;}
+#mybook #mybook_content #mybook_bg .user_box1 .icon{position: absolute; top: 60; right: 0; width: 25px; height: 25px;}
+#mybook #mybook_content #mybook_bg .user_box1 .icon a{display: block; width: 100%; height: 100%; background: url(../img/icon_menu.png)no-repeat center; background-size: 100%;}
+#mybook #mybook_content #mybook_bg .user_box1 img{border-radius: 50%; margin-bottom: 10px; box-shadow: 0 0 5px #999999;}
+#mybook #mybook_content #mybook_bg .user_box1 p{font-weight: 600; padding-bottom: 10px; text-shadow: 0 0 4px #666666;}
+#mybook #mybook_content #mybook_bg .user_box1 span{border-radius: 15px; background-color: #ffffff30; display: inline-block; width: 80px; height: 30px; line-height: 30px; text-align: center;  text-shadow: 0 0 3px #333333; font-weight: 600;}
+#mybook #mybook_content #mybook_bg .user_box1 span:last-child{margin-left: 10px;}
+#mybook #mybook_content #mybook_bg .user_box2{width: 90%; margin: 0 auto; height: 65px;background-color: #ffffff30;  border-radius: 40px;}
+
+#mybook #mybook_content #mybook_bg .user_box2 ul{width: 100%; height: 100%; margin: 0 auto;  padding-top: 10px;}
+#mybook #mybook_content #mybook_bg .user_box2 ul li{float: left;width: 33.33%; text-align: center;}
+#mybook #mybook_content #mybook_bg .user_box2 ul li:last-child{margin-right: 0px;}
+#mybook #mybook_content #mybook_bg .user_box2 ul li a{display: block; width: 100%; height: 100%; color: #ffffff; text-shadow: 0 0 4px #666666;}
+#mybook #mybook_content #mybook_bg .user_box2 ul li p{width: 100%; height: 20px; font-size: 20px;}
+#mybook .blank{width: 100%; height: 300px;}
+
+/*탭메뉴*/
+#mybook #mybook_contents{width: 100%; height: 500px; background-color: #ffffff; 
+    border-radius: 10px 10px 0 0; overflow: hidden; margin-bottom: -20px;}
+#mybook #tab{width: 100%; height: 500px;overflow: hidden; background-color: #ffffff;}
+#mybook #tab #title{width: 90%; height: 50px; border-bottom: 1px solid #999999; margin: 0 auto;overflow: hidden;}
+#mybook #tab #title>ul{width: 300px; height: 50px; margin: 0 auto; }
+#mybook #tab #title>ul>li{width: 100px; height: 49px; float: left;}
+#mybook #tab #title>ul>li>a{width: 100%; height: 100%; display: block; font-size: 1em;letter-spacing: 1px; color: #000000; font-weight: bold; background-color: #ffffff; border: none;}
+
+#mybook #tab #title .ui-btn-active{font-size: 1em;letter-spacing: -1px; color: #000000; font-weight: bold; border-bottom: 3px solid #000000;}
+#mybook #tab .tabs_contents{width: 300px; height: 100%; margin: 0px auto; padding-top: 20px; }
+#mybook #tab .cont{width: 100%; height: 100%;}
+#mybook #tab .cont .cont_tit{width: 100%; height: 30px; }
+#mybook #tab .cont .cont_tit p{width: 50%; float: left; font-size: 1.1em;font-weight: 600; letter-spacing: -1px; color: #888888;}
+
+#mybook #tab .cont .cont_tit .icon_box{float: right; width: 30%; height: 30px;}
+#mybook #tab .cont .cont_tit .icon_box a{display: block; float: right; width: 30px; height: 30px; margin-left: 3px; background:url(../img/icon_set.png)no-repeat center; background-size: 60%;}
+
+#mybook #tab .cont .cont_contents{width: 100%; height: 300px; padding-top: 100px; letter-spacing: -1px; font-size: 14px; text-align: center;}
+#mybook #tab .cont .cont_contents .icon{width: 30px; height: 30px; margin: 0 auto; background: url(../img/icon_mark.png) no-repeat center; background-size: 100%; margin-bottom: 10px;}
+
+#mybook .mybook{color: #ff1027;}
+
+
+
+
+
+
+/*셋팅*/
+#setting{background-color: #ffffff;}
+#setting #setting_content .box1{margin-bottom: 10px;}
+
+#setting #user-id{width: 50%; height: 80px; padding: 00px 10px 30px 20px; float: left;}
+#setting #user-id p{margin-bottom: 5px;}
+#setting #logout{width: 50%; height: 80px; float: right; padding:5px 0 0 30px;}
+#setting #logout .logout_btn{width: 80%; height: 40px;  border: 1px solid #cccccc; border-radius: 20px; box-shadow: none; text-shadow: none; font-size: 14px;}
+#setting p:nth-child(1){height: 50px; font-size: 25px;font-weight: bold; text-align: center;padding-top: 7px;}
+#setting p:nth-child(2){height: 30px; font-size: 14px; text-align: center; margin-top: -15px;} 
+
+#setting .content_box{width: 100%;height: 300px;  margin: 0 auto; text-align: center; box-shadow: 0 0 5px #999999; border-radius: 10px; padding: 10px;}
+#setting .content_box ul:first-child{ border-bottom: 1px solid #efefef; margin-bottom: 10px;}
+#setting .content_box ul li{width: 33.333%; height: 108px; float: left; }
+#setting .content_box ul li>div{width: 60px; height: 60px;  background-color: #efefef; margin: 0 auto; border-radius: 50%; display: block;}
+#setting .content_box ul li p{font-weight: 600; width: 100%; height: 40px; line-height: 130%; padding-top: 20px;}
+#setting .content_box ul li p span{font-weight: 400; display: block;}
+#setting .content_box .ridi_cash{width: 100%; height: 45px; box-shadow: 0; border: 0; background-color: #ff1027; border-radius: 20px; text-shadow: 0; color: #ffffff; font-size: 15px; text-shadow: none;}
+
+#setting .icon1{background: url(../img/icon_cash.png) no-repeat center; background-size: 70%;}
+#setting .icon2{background: url(../img/icon_point.png) no-repeat center; background-size: 70%;}
+#setting .icon3{background: url(../img/icon_coupon.png) no-repeat center; background-size: 70%;}
+#setting .icon4{background: url(../img/icon_book.png) no-repeat center; background-size: 70%;}
+#setting .icon5{background: url(../img/icon_cart.png) no-repeat center; background-size: 70%;}
+#setting .icon6{background: url(../img/icon_wish.png) no-repeat center; background-size: 70%;}
+
+.setting_list{padding-top: 10px;}
+#setting .li1{margin-top: 15px;}
+
+#setting .Setting{color: #ff1027;}

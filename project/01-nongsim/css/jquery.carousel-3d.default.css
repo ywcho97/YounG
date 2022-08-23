@@ -1,0 +1,117 @@
+[data-carousel-3d] [data-prev-button] {
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  top: 0px;
+  left: 0px;
+}
+
+[data-carousel-3d] [data-next-button] {
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  top: 0px;
+  right: 0px;
+}
+
+[data-carousel-3d] {
+  position: relative;
+  overflow: hidden;
+}
+/* 각도조절부분! : 수치 작을수록 각도 커짐 (사진 갯수 많을수록 수치는 작게) */
+[data-carousel-3d] > [data-children-wrapper] {
+  perspective: 480px;
+  -ms-perspective: 480px;
+  -moz-perspective: 480px;
+  -webkit-perspective: 480px;
+}
+
+[data-carousel-3d] > [data-children-wrapper] > [data-child] {
+  transition: 1s;
+  -ms-transition: 1s;
+  -moz-transition: 1s;
+  -webkit-transition: 1s;
+}
+
+[data-carousel-3d] {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+[data-carousel-3d] > [data-children-wrapper] > [data-child] {
+  position: absolute;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+[data-carousel-3d] > [data-children-wrapper] > [data-child] > [data-child-frame] > [data-content-wrapper] {
+  box-sizing: border-box;
+  transform-origin: 0px 0px;
+  -ms-transform-origin: 0px 0px;
+  -moz-transform-origin: 0px 0px;
+  -webkit-transform-origin: 0px 0px;
+}
+
+[data-carousel-3d]:before {
+  padding-top: 40%;
+  display: block;
+  content: '';
+}
+
+[data-carousel-3d] [data-children-wrapper] {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 26%;
+  left: 26%;
+}
+
+
+/*[data-carousel-3d] {
+  background: linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  background: -ms-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  background: -moz-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  background: -webkit-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+}*/
+
+
+/*[data-carousel-3d] {
+  border: 3px solid #e0e0e0;
+}*/
+
+
+[data-carousel-3d] [data-prev-button]:before {
+  content: url("../img/prev.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -150px;
+  right: 0;
+  width: 43px;
+  height: 49px;
+  margin: auto;
+  cursor: pointer;
+}
+
+[data-carousel-3d] [data-next-button]:before {
+  content: url("../img/next.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -150px;
+  width: 43px; 
+  height: 49px;
+  margin: auto;
+  cursor: pointer;
+}
+
+[data-child-frame] {
+  border: 5px solid rgba(255,255,255,.8);
+}
+

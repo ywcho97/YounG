@@ -1,0 +1,164 @@
+
+#all{height: auto; background-color: white; border-radius: 30px;}
+section{width: 62.5%; background-color: white; margin: 0 auto; margin-top: 80px;}
+#notice{width: 900px; margin: 0 auto;  padding-bottom: 20px;}
+
+#notice #big_title{padding-top: 20px; width: 1200px; position: relative; left: -20%; padding-top: 10px;}
+
+/* 체크된 박스가 보여지도록 */
+input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#main_aside input{display: none;}
+input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+/* 탭 모양 구성 */
+section.buttons{overflow: hidden; position: relative; left: 150px; }
+section.buttons>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	background: #023586;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+	background: #023586;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+	background: #023586;
+	color: white;
+}
+
+/* 검색박스 */
+#box1 .btn-search{padding: 9px 20px; border: none; text-align: center; background-color: #023586; color: #ffffff; font-weight: bold; float: right;}
+
+#box1 fieldset .searchBox{display: block; width: 180px; height: 34px; float: right; border: 1px solid #e5e5e5;}
+
+#box1 select{
+    border: 1px solid #e5e5e5; background: url(../img/arrow.png) no-repeat; background-position: right center; background-size: 14px; float: right; width: 70px; height: 36px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* select의 기본 스타일 삭제 */
+}
+
+select::-ms-expand{
+    display: none;
+}
+fieldset{margin-top: 30px;}
+
+/* box1 */
+#box1{width: 800px; margin: 0 auto; background-color: white; position: relative; left: 90px;}
+#box1 .objectTitle{border-bottom: 1px dashed #000000; text-align: center; padding: 20px 0px; padding-bottom: 30px;}
+
+#box1 .noT{width: 50px;}
+#box1 .titleT{width: 450px; margin: 0 10px;}
+#box1 .dateT{width: 110px;}
+#box1 .visitT{width: 110px;}
+#box1 .fileT{width: 50px;}
+
+#box1 .td{text-align: center; padding: 20px 0px;}
+#box1 .no{width: 50px;}
+#box1 .title{width: 450px; margin: 0 10px; text-align: left; cursor: pointer; font-weight: bold;}
+#box1 .date{width: 110px;}
+#box1 .visit{width: 110px;}
+#box1 .file{width: 50px;}
+
+.title:hover{font-weight: bold; color: #023586;}
+
+#box1 .content_wrap{line-height: 20px; height: auto; width: 760px; text-align: left; display: block; padding: 20px; background: #ffffff; text-align: justify; overflow: hidden;}
+
+#box1 .content_wrap img{width: 50%}
+
+#box1 .boardContent input{display: none;} /* 게시판 체크박스 감추기 */
+
+#box1 input[type=checkbox]:checked ~ div.content_wrap{display: none;} /* checked 되어 있는 뒤에 오는 div.content_wrap을 처음에는 안보이게 다시 클릭하면 보이게 */
+
+#box1 .content{height: auto; font-size: 13px; line-height: auto;}
+
+/* box2 */
+#box2{width: 800px; margin: 30px auto; position: relative; left: 90px;}
+
+#box2 .td{text-align: center; padding: 20px 0px;}
+#box2 .no{width: 50px;}
+#box2 .title{width: 710px; margin: 0 10px; text-align: left; cursor: pointer; font-weight: bold; background: url(../img/arrow.png) no-repeat; background-size: 14px; background-position: right center;}
+
+#box2 .content_wrap{line-height: 20px; height: auto; width: 760px; text-align: left; display: block; padding: 20px; background: #ffffff; text-align: justify; overflow: hidden;}
+
+#box2 .boardContent input{display: none;}
+#box2 input[type=checkbox]:checked ~ div.content_wrap{display: none;} 
+
+#box2 .content p{position: relative; left: -250px;}
+#box2 .content ul{float: left; margin-left: 50px;}
+#box2 .content ul li{text-align: center;}
+
+#number{clear: both;}
+#number ul li{display: inline-block; margin-left: 10px; margin-top: 20px; font-weight: bold; margin-bottom: 20px;}
+#number ul li:hover{color: #023586; cursor: pointer; }
+
+/* box3 */
+#box3{width: 100%; height: 700px; margin-top: 50px; position: relative; left: 100px;}
+#box3 h2{margin-top: 20px; margin-bottom: 20px; position: relative; left: -30px;}
+#box3 .step{text-align: center; margin: 0 auto; width: 62.5%; clear: both; position: relative; left: 50px; height: 220px;}
+#box3 .step .square{margin-left: 30px; margin-bottom: 30px;}
+#box3 .step .square:first-child{margin-left: 0;}
+#box3 .step .square ul{background-color: #9bb8e4; border: 5px solid #023586; background-size: contain; width: 170px; height: 80px; border-radius: 20px;}
+#box3 .step .square ul li{line-height: auto; margin-top: 5px; font-size: 14px; }
+#box3 .step .square:nth-child(4) ul{margin-left: 60px;}
+
+#box3 .receipt{width: 62.5%; margin: 0 auto;}
+#box3 .receipt h2{text-align: left; margin-left: 30px;}
+#box3 .receipt ul{text-align: center; margin: 0 auto; margin-bottom: 20px;}
+#box3 .receipt ul li{
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#box3 .way{width: 100%;}
+#box3 .way h3{font-size: 1.5em;}
+#box3 .way .left{width: 50%; margin-top: 20px;}
+#box3 .way .left h3, h4, p{text-align: left; margin-left: 40%; margin-bottom: 10px;}
+
+#box3 .way .right{width: 27%; position: relative; left: -130px; margin-top: 10px;}
+#box3 .way .right ul{margin-top: 10px;}
+#box3 .way .right li{margin-bottom: 10px;}
+#box3 .way .right li p{text-align: left;}
+#box3 .way .right li:nth-child(2) p{font-size: 18px; font-weight: bold; color: #555555;}
+#box3 .way .right li:nth-child(3) p{background-color: #023586; color: white; width: 100px; text-align: center; padding: 25px; border-radius: 10px; cursor: pointer; margin-top: 30px; font-weight: bold;}
+
+/* 체크된 박스가 보여지도록 */
+#notice input:nth-child(1):checked~#box1{
+	display: block;
+}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#notice input:nth-of-type(2){
+	display: none;
+}
+#notice input:nth-of-type(2)~#box1{
+	display: none;
+}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#notice input:nth-of-type(2):checked~#box2{
+	display: block;
+}
+
+#notice input:nth-of-type(3):checked~#box3{
+	display: block;
+}

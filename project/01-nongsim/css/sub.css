@@ -1,0 +1,733 @@
+.red{color: #e60012;}
+
+/* sub1 */
+
+#sub1_section #banner{width: 1920px; height: 350px; overflow: hidden; margin-left: -360px; margin-top: -200px; background: url(../img/sub1_banner.jpg); filter: grayscale(10); min-width: 1440px;}
+#sub1_section #banner .gray{width: 1920px; height: 400px; background: #000; opacity: 0.5; position: absolute; z-index: 1; min-width: 1440px;}
+#sub1_section #banner .tit{text-align: center; margin-top: 100px; position: relative; z-index: 2;}
+#sub1_section #banner .tit h2{color: #fff; font-size: 48px; margin-bottom: 50px; font-weight: 900;}
+#sub1_section #banner .tit p{color: #fff; font-size: 14px; font-weight: bold;}
+
+#sub1_section #product{width: 100%; height: 3000px; margin: 0 auto; background: white; padding-top: 20px; border-radius: 30px; margin-top: 80px;}
+#sub1_section #product h2{font-size: 1.5em; margin-top: 30px; width: 90%; height: 30px; margin-left: 55px; text-align: left; border-bottom: 2px solid #e60012; padding-bottom: 20px;}
+#sub1_section #product h2 span{float: right; cursor: pointer; font-size: 16px; border-bottom: 2px solid #000000; height: 25px; line-height: 30px;}
+
+#sub1_section #product ul{margin-top: 30px; width: 100%; height: 600px; margin-left: 40px;} 
+#sub1_section #product ul li{float: left; margin-left: 20px; margin-top: 20px; width: 250px; height: 250px; overflow: hidden;}
+#sub1_section #product ul li img{width: 30%; background: #000000;}
+#sub1_section #product ul li a{display: block; cursor: pointer;}
+#sub1_section #product ul li a img{width: 250px; height: 250px; transform: scale(1); transition: all 0.3s ease-in-out;}
+#sub1_section #product ul li a:hover img{width: 250px; height: 250px; transition: all 0.3s ease-in-out; transform: scale(1.1); overflow: hidden;}
+
+#sub1_section #product ul li span{display: block; font-size: 18px; position: relative; bottom: 230px; opacity: 0; transition: all 1s; color: #fff; font-weight: bold; float: left; margin-left: 20px; padding: 5px;}
+#sub1_section #product ul li a:hover span{opacity: 1; background: #e60012; transition: all 1s;}
+
+/* sub2 */
+#sub2_section #banner{width: 1920px; height: 350px; overflow: hidden; margin-left: -360px; margin-top: -200px; background: url(../img/sub2_banner.png); filter: grayscale(10);}
+#sub2_section #banner .gray{width: 1920px; height: 400px; background: #000; opacity: 0.5; position: absolute; z-index: 1; min-width: 1440px;}
+#sub2_section #banner .tit{text-align: center; margin-top: 100px; position: relative; z-index: 2;}
+#sub2_section #banner .tit h2{color: #fff; font-size: 48px; margin-bottom: 50px; font-weight: 900;}
+#sub2_section #banner .tit p{color: #fff; font-size: 14px; font-weight: bold;}
+#sub2_section .name{margin-left: 80px; margin-top: 50px; margin-bottom: 20px;}
+#sub2_section h2.name{font-size: 26px; font-weight: 900;}
+
+#sub2_section #section5{
+	width:100%;
+	height:1600px;
+	min-width: 1068px;
+    margin-left: -135px;
+}
+#sub2_section .tab_content{
+	width: 1200px;
+	height:1600px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub2_section .tab_content ul{margin-left: 300px;}
+
+#sub2_section .tab_content ul li{
+  width: 350px;
+  height: 350px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 50px;
+}
+#sub2_section .tab_content ul li.margin{
+  margin-right: 0px;
+}
+#sub2_section .tab_content ul li a{
+  display: block;
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+  padding-top: 30px;
+}
+#sub2_section .tab_content ul li .hover{
+	position: absolute;
+	bottom: -300px;
+	left: 0;
+  	z-index: 100;
+}
+#sub2_section .tab_content ul li .hover a{
+	display: block;
+	width: 350px;
+	height: 350px;
+}
+#sub2_section .tab_content ul li .hover a h4{
+	text-align: left;
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 5px;
+	letter-spacing: -1px;
+	margin-left: 50px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 240px;
+	line-height: 20px;
+}
+
+#sub2_section .hide{display:none;}
+#sub2_section .loadmore{
+	display:block;
+	width:300px;
+	height:50px;
+	margin:50px auto 50px auto;
+	border:1px solid #e60012;
+	color:#e60012;
+	cursor:pointer;
+	position: relative;
+	top: -150px;
+    margin-bottom: -100px;
+	font-weight: bold;
+	font-size: 18px;
+	background: none;
+}
+#sub2_section #loadmore{height:1600px; margin:0 auto; margin-top: -180px; margin-left: -270px; min-width: 1440px;}
+
+#sub2_section .close{
+display:none;
+width:300px;
+height:50px;
+margin:0px auto 50px auto;
+border:1px solid #e60012;
+color:#e60012;
+cursor:pointer;
+position: relative;
+top: -100px;
+font-weight: bold;
+font-size: 18px;
+background: none;
+}
+
+/* sub3 */
+.fl{float: left;}
+
+#sub3_section #notice{width: 62.5%; margin: 0 auto;  padding-bottom: 40px;}
+
+#sub3_section #notice #big_title{padding-top: 20px; width: 1200px; position: relative; left: -20%; padding-top: 10px;}
+
+/* 체크된 박스가 보여지도록 */
+#sub3_section input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#sub3_section #main_aside input{display: none;}
+#sub3_section input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+#sub3_section input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+#sub3_section input:nth-of-type(4)~div:nth-of-type(4){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#sub3_section input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+#sub3_section input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+#sub3_section input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+#sub3_section input:nth-of-type(4):checked~div:nth-of-type(4){display: block;}
+
+/* 체크된 박스가 보여지도록 */
+#sub3_section #notice input:nth-child(1):checked~#box1{
+	display: block;
+}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#sub3_section #notice input:nth-of-type(2){
+	display: none;
+}
+#sub3_section #notice input:nth-of-type(2)~#box1{
+	display: none;
+}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#sub3_section #notice input:nth-of-type(2):checked~#box2{
+	display: block;
+}
+
+#sub3_section #notice input:nth-of-type(3):checked~#box3{
+	display: block;
+}
+
+#sub3_section #notice input:nth-of-type(4):checked~#box4{
+	display: block;
+}
+
+
+
+/* 탭 모양 구성 */
+#sub3_section section.buttons{overflow: hidden; position: relative; left: 100px; margin-top: 50px;}
+#sub3_section section.buttons>label{
+	float: left;
+	display: block;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #c9c9c9;
+	border-right: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+}
+#sub3_section section.buttons>label:nth-child(3){
+    border-right: 1px solid #c9c9c9;
+}
+
+#sub3_section input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	border-bottom: 0;
+	border-right: 0;
+	color: #e60012;
+    font-weight: bold;
+    border-top: 3px solid #e60012;
+
+}
+
+#sub3_section input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+    border-bottom: 0;
+    border-top: 3px solid #e60012;
+	color: #e60012;
+    font-weight: bold;
+}
+#sub3_section input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+    border-bottom: 0;
+    border-top: 3px solid #e60012;
+    
+	color: #e60012;
+    font-weight: bold;
+}
+
+
+/* box1 */
+#sub3_section #box1{width: 100%;  margin: 0 auto; position: relative; left: -50px; letter-spacing: -1px;}
+#sub3_section #banner{width: 1920px; height: 350px; overflow: hidden; margin-left: -360px; margin-top: -200px; background: url(../img/sub3_banner.jpg); filter: grayscale(10);}
+#sub3_section #banner .gray{width: 1920px; height: 400px; background: #000; opacity: 0.5; position: absolute; z-index: 1; min-width: 1440px;}
+#sub3_section #banner .tit{text-align: center; margin-top: 100px; position: relative; z-index: 2;}
+#sub3_section #banner .tit h2{color: #fff; font-size: 48px; margin-bottom: 50px; font-weight: 900;}
+#sub3_section #banner .tit p{color: #fff; font-size: 14px; font-weight: bold;}
+
+#sub3_section .name{margin-left: 160px; margin-top: 50px; margin-bottom: 20px;}
+#sub3_section h2.name{font-size: 26px; font-weight: 900;}
+
+#sub3_section #section5{
+	width:100%;
+	height:1600px;
+	min-width: 1068px;
+    margin-left: -135px;
+}
+#sub3_section .tab_content{
+	width: 1200px;
+	height:1600px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#sub3_section .tab_content ul{margin-left: 300px;}
+
+#sub3_section .tab_content ul li{
+  width: 1200px;
+  height: 300px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  margin-left: -50px;
+  border-bottom: 3px solid #e60012;
+}
+#sub3_section .tab_content ul li.margin{
+  margin-right: 0px;
+}
+#sub3_section .tab_content ul li a{
+  display: block;
+  cursor: pointer;
+  padding-top: 30px;
+}
+#sub3_section .tab_content ul li a img{
+	margin-left: -800px;
+}
+#sub3_section .tab_content ul li .hover{
+	position: absolute;
+	bottom: -100px;
+	left: 400px;
+  	z-index: 100;
+	width: 1200px;
+}
+#sub3_section .tab_content ul li .hover a{
+	display: block;
+	height: 350px;
+}
+#sub3_section .tab_content ul li .hover a h4{
+	text-align: left;
+	font-size: 14px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 5px;
+	letter-spacing: -1px;
+	margin-left: 30px;
+	margin-right: 50px;
+	line-height: 20px;
+}
+#sub3_section .tab_content ul li .hover a h4:nth-child(1){
+	font-size: 20px;
+	margin-bottom: 30px;
+
+}
+
+#sub3_section .hide{display:none;}
+#sub3_section .loadmore{
+	display:block;
+	width:300px;
+	height:50px;
+	margin:50px auto 50px auto;
+	border:1px solid #e60012;
+	color:#e60012;
+	cursor:pointer;
+	position: relative;
+	top: -300px;
+    margin-bottom: -100px;
+	font-weight: bold;
+	font-size: 18px;
+	background: none;
+}
+#sub3_section #loadmore{height:1600px; margin:0 auto; margin-top: -330px; margin-left: -270px;}
+
+#sub3_section .close{
+display:none;
+width:300px;
+height:50px;
+margin:0px auto 50px auto;
+border:1px solid #e60012;
+color:#e60012;
+cursor:pointer;
+position: relative;
+top: -300px;
+font-weight: bold;
+font-size: 18px;
+background: none;
+}
+
+/* box2 */
+
+#sub3_section #box2{width: 100%; height: 950px; margin: 0 auto; position: relative; left: -100px; letter-spacing: -1px;}
+
+/* NEWS SUB3  */
+#sub3_section #box2 #news{width: 62.5%; background-color: white; margin: 0 auto; height: auto; margin-top: 50px;}
+
+/* 체크된 박스가 보여지도록 */
+#sub3_section #box2 input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#sub3_section #box2 #main_aside input{display: none;}
+#sub3_section #box2 input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+#sub3_section #box2 input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#sub3_section #box2 input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+#sub3_section #box2 input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+#sub3_section #box2 input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+/* 탭 모양 구성 */
+#sub3_section #box2 section.buttons{overflow: hidden; position: relative; left: 150px; }
+#sub3_section #box2 section.buttons>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+#sub3_section #box2 input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	background: #e60012;
+	color: white;
+}
+
+#sub3_section #box2 input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+	background: #e60012;
+	color: white;
+}
+#sub3_section #box2 input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+	background: #e60012;
+	color: white;
+}
+
+/* 검색박스 */
+#sub3_section #box2 #search_wrap .btn-search{padding: 9px 20px; border: none; text-align: center; background-color: #e60012; color: #ffffff; font-weight: bold; float: right;}
+
+#sub3_section #box2 #search_wrap fieldset .searchBox{display: block; width: 180px; height: 34px; float: right; border: 1px solid #e5e5e5;}
+
+#sub3_section #box2 #search_wrap select{
+    border: 1px solid #e5e5e5; background: url(../img/arrow.png) no-repeat; background-position: right center; background-size: 14px; float: right; width: 70px; height: 36px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* select의 기본 스타일 삭제 */
+}
+
+select::-ms-expand{
+    display: none;
+}
+fieldset{margin-top: 30px;}
+
+/* search_wrap */
+#sub3_section #box2 #search_wrap{width: 800px; margin: 0 auto; background-color: white; position: relative; margin-top: 50px;}
+#sub3_section #box2 #search_wrap .objectTitle{border-bottom: 1px dashed #000000; text-align: center; padding: 20px 0px; padding-bottom: 30px;}
+
+#sub3_section #box2 #search_wrap .noT{width: 50px;}
+#sub3_section #box2 #search_wrap .titleT{width: 500px; margin: 0 10px;}
+#sub3_section #box2 #search_wrap .dateT{width: 110px;}
+#sub3_section #box2 #search_wrap .visitT{width: 120px;}
+
+#sub3_section #box2 #search_wrap .td{text-align: center; padding: 20px 0px;}
+#sub3_section #box2 #search_wrap .no{width: 50px;}
+#sub3_section #box2 #search_wrap .title{width: 500px; margin: 0 10px; text-align: left; cursor: pointer; font-weight: bold;}
+#sub3_section #box2 #search_wrap .date{width: 110px;}
+#sub3_section #box2 #search_wrap .visit{width: 120px;}
+
+
+#sub3_section #box2 .title:hover{font-weight: bold; color: #e60012;}
+
+#sub3_section #box2 #search_wrap .content_wrap{line-height: 20px; height: auto; width: 760px; text-align: left; display: block; padding: 20px; background: #eeeeee; text-align: justify; overflow: hidden;}
+
+#sub3_section #box2 #search_wrap .content_wrap img{width: 50%}
+
+#sub3_section #box2 #search_wrap .boardContent input{display: none;} /* 게시판 체크박스 감추기 */
+
+#sub3_section #box2 #search_wrap input[type=checkbox]:checked ~ div.content_wrap{display: none;} /* checked 되어 있는 뒤에 오는 div.content_wrap을 처음에는 안보이게 다시 클릭하면 보이게 */
+
+#sub3_section #box2 #search_wrap .content{font-size: 13px; line-height: auto; height: 200px; overflow: hidden;}
+
+#sub3_section #box2 #search_wrap .news_ment{line-height: 25px;}
+
+#sub3_section #box2 #number{clear: both; width: 100%; text-align: center;}
+#sub3_section #box2 #number ul li{display: inline-block; margin-left: 10px; margin-top: 20px; font-weight: bold; margin-bottom: 50px;}
+#sub3_section #box2 #number ul li:hover{color: #e60012; cursor: pointer; }
+
+/* box3 */
+
+#sub3_section #box3{width: 100%; height: 800px; margin: 0 auto; position: relative; left: -100px; letter-spacing: -1px;}
+
+/* NEWS SUB3  */
+#sub3_section #box3 #news{width: 62.5%; background-color: white; margin: 0 auto; height: auto; margin-top: 50px;}
+
+/* 체크된 박스가 보여지도록 */
+#sub3_section #box3 input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#sub3_section #box3 #main_aside input{display: none;}
+#sub3_section #box3 input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+#sub3_section #box3 input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#sub3_section #box3 input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+#sub3_section #box3 input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+#sub3_section #box3 input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+/* 탭 모양 구성 */
+#sub3_section #box3 section.buttons{overflow: hidden; position: relative; left: 150px; }
+#sub3_section #box3 section.buttons>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+#sub3_section #box3 input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	background: #e60012;
+	color: white;
+}
+
+#sub3_section #box3 input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+	background: #e60012;
+	color: white;
+}
+#sub3_section #box3 input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+	background: #e60012;
+	color: white;
+}
+
+/* 검색박스 */
+#sub3_section #box3 #search_wrap .btn-search{padding: 9px 20px; border: none; text-align: center; background-color: #e60012; color: #ffffff; font-weight: bold; float: right;}
+
+#sub3_section #box3 #search_wrap fieldset .searchBox{display: block; width: 180px; height: 34px; float: right; border: 1px solid #e5e5e5;}
+
+#sub3_section #box3 #search_wrap select{
+    border: 1px solid #e5e5e5; background: url(../img/arrow.png) no-repeat; background-position: right center; background-size: 14px; float: right; width: 70px; height: 36px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* select의 기본 스타일 삭제 */
+}
+
+select::-ms-expand{
+    display: none;
+}
+fieldset{margin-top: 30px;}
+
+/* search_wrap */
+#sub3_section #box3 #search_wrap{width: 800px; margin: 0 auto; background-color: white; position: relative; margin-top: 50px;}
+#sub3_section #box3 #search_wrap .objectTitle{border-bottom: 1px dashed #000000; text-align: center; padding: 20px 0px; padding-bottom: 30px;}
+
+#sub3_section #box3 #search_wrap .noT{width: 50px;}
+#sub3_section #box3 #search_wrap .titleT{width: 500px; margin: 0 10px;}
+#sub3_section #box3 #search_wrap .dateT{width: 110px;}
+#sub3_section #box3 #search_wrap .visitT{width: 120px;}
+
+#sub3_section #box3 #search_wrap .td{text-align: center; padding: 20px 0px;}
+#sub3_section #box3 #search_wrap .no{width: 50px;}
+#sub3_section #box3 #search_wrap .title{width: 500px; margin: 0 10px; text-align: left; cursor: pointer; font-weight: bold;}
+#sub3_section #box3 #search_wrap .date{width: 110px;}
+#sub3_section #box3 #search_wrap .visit{width: 120px;}
+
+
+#sub3_section #box3 .title:hover{font-weight: bold; color: #e60012;}
+
+#sub3_section #box3 #search_wrap .content_wrap{line-height: 20px; height: auto; width: 760px; text-align: left; display: block; padding: 20px; background: #eeeeee; text-align: justify; overflow: hidden;}
+
+#sub3_section #box3 #search_wrap .content_wrap img{width: 50%}
+
+#sub3_section #box3 #search_wrap .boardContent input{display: none;} /* 게시판 체크박스 감추기 */
+
+#sub3_section #box3 #search_wrap input[type=checkbox]:checked ~ div.content_wrap{display: none;} /* checked 되어 있는 뒤에 오는 div.content_wrap을 처음에는 안보이게 다시 클릭하면 보이게 */
+
+#sub3_section #box3 #search_wrap .content{font-size: 13px; line-height: auto; height: 200px; overflow: hidden;}
+
+#sub3_section #box3 #search_wrap .news_ment{line-height: 25px;}
+
+#sub3_section #box3 #number{clear: both; width: 100%; text-align: center;}
+#sub3_section #box3 #number ul li{display: inline-block; margin-left: 10px; margin-top: 20px; font-weight: bold; margin-bottom: 50px;}
+#sub3_section #box3 #number ul li:hover{color: #e60012; cursor: pointer; }
+
+
+
+
+
+
+
+/* sub4 */
+#sub4_section #banner{width: 1920px; height: 400px; overflow: hidden; margin-left: -360px; margin-top: -200px; background: url(../img/sub4_banner.jpg); filter: grayscale(10);}
+#sub4_section #banner .gray{width: 1920px; height: 400px; background: #000; opacity: 0.5; position: absolute; z-index: 1; min-width: 1440px;}
+#sub4_section #banner .tit{text-align: center; margin-top: 100px; position: relative; z-index: 2;}
+#sub4_section #banner .tit h2{color: #fff; font-size: 48px; margin-bottom: 50px; font-weight: 900;}
+#sub4_section #banner .tit p{color: #fff; font-size: 14px; font-weight: bold;}
+
+
+
+
+
+
+
+#sub4_section #notice{width: 62.5%; margin: 0 auto;  padding-bottom: 40px;}
+
+#sub4_section #notice #big_title{padding-top: 20px; width: 1200px; position: relative; left: -20%; padding-top: 10px;}
+
+/* 체크된 박스가 보여지도록 */
+#sub4_section input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#sub4_section #main_aside input{display: none;}
+#sub4_section input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+#sub4_section input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+#sub4_section input:nth-of-type(4)~div:nth-of-type(4){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#sub4_section input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+#sub4_section input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+#sub4_section input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+#sub4_section input:nth-of-type(4):checked~div:nth-of-type(4){display: block;}
+
+/* 체크된 박스가 보여지도록 */
+#sub4_section #notice input:nth-child(1):checked~#box1{
+	display: block;
+}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#sub4_section #notice input:nth-of-type(2){
+	display: none;
+}
+#sub4_section #notice input:nth-of-type(2)~#box1{
+	display: none;
+}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#sub4_section #notice input:nth-of-type(2):checked~#box2{
+	display: block;
+}
+
+#sub4_section #notice input:nth-of-type(3):checked~#box3{
+	display: block;
+}
+
+#sub4_section #notice input:nth-of-type(4):checked~#box4{
+	display: block;
+}
+
+
+
+/* 탭 모양 구성 */
+#sub4_section section.buttons{overflow: hidden; position: relative; left: 150px; margin-top: 50px;}
+#sub4_section section.buttons>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #c9c9c9;
+	border-right: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+}
+#sub4_section section.buttons>label:nth-child(4){
+    border-right: 1px solid #c9c9c9;
+}
+
+#sub4_section input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	border-bottom: 0;
+	border-right: 0;
+	color: #e60012;
+    font-weight: bold;
+    border-top: 3px solid #e60012;
+
+}
+
+#sub4_section input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+    border-bottom: 0;
+    border-top: 3px solid #e60012;
+	color: #e60012;
+    font-weight: bold;
+}
+#sub4_section input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+    border-bottom: 0;
+    border-top: 3px solid #e60012;
+    
+	color: #e60012;
+    font-weight: bold;
+}
+#sub4_section input:nth-of-type(4):checked~section.buttons>label:nth-of-type(4){
+    border-bottom: 0;
+    border-top: 3px solid #e60012;
+
+	color: #e60012;
+    font-weight: bold;
+}
+
+
+/* box1 */
+#sub4_section #box1{width: 100%; height: 1700px; margin: 0 auto; position: relative; left: -100px; letter-spacing: -1px;}
+#sub4_section #box1 .box1_tit{text-align: left; margin-top: 50px; margin-left: 250px; margin-bottom: 30px;}
+#sub4_section #box1 .box1_tit h3{font-size: 26px;}
+#sub4_section #box1 .box1_first{width: 100%;}
+#sub4_section #box1 .box1_first img{float: right; margin-right: 50px;}
+#sub4_section #box1 .box1_first .box1_intro{position: absolute; width: 450px; height: 250px; background: rgba(255, 255, 255, 0.5); box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); text-align: right; margin-left: 150px; margin-top: 50px;}
+#sub4_section #box1 .box1_first .box1_intro h4{margin-top: 50px; margin-right: 30px; font-size: 20px;}
+#sub4_section #box1 .box1_first .box1_intro p{margin-top: 20px; margin-right: 30px; line-height: 30px; font-size: 14px;}
+
+
+#sub4_section #box1 .box1_second{width: 100%; position: relative; margin-top: 500px;}
+#sub4_section #box1 .box1_second img{float: left; margin-right: 50px; }
+#sub4_section #box1 .box1_second .box1_intro{position: absolute; width: 450px; height: 250px; background: rgba(255, 255, 255, 0.5); box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); text-align: left; margin-left: 550px; margin-top: 50px;}
+#sub4_section #box1 .box1_second .box1_intro h4{margin-top: 50px; margin-left: 30px; font-size: 20px;}
+#sub4_section #box1 .box1_second .box1_intro p{margin-top: 20px; margin-left: 30px; line-height: 30px; font-size: 14px;}
+
+
+#sub4_section #box1 .box1_third{width: 100%; position: relative; margin-top: 1000px;}
+#sub4_section #box1 .box1_third img{float: right; margin-right: 50px; }
+#sub4_section #box1 .box1_third .box1_intro{position: absolute; width: 450px; height: 350px; background: rgba(255, 255, 255, 0.5); box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); text-align: right; margin-left: 150px; margin-top: 50px;}
+#sub4_section #box1 .box1_third .box1_intro h4{margin-top: 50px; margin-right: 30px; font-size: 20px; line-height: 25px;}
+#sub4_section #box1 .box1_third .box1_intro p{margin-top: 20px; margin-right: 30px; line-height: 30px; font-size: 14px;}
+
+
+
+
+/* box2 */
+#sub4_section #box2{width: 100%; height: 4550px; margin-top: 50px; position: relative; left: 100px;}
+
+#sub4_section #box2 #year{clear: both;}
+#sub4_section #box2 #year ul li{margin-top: 10px;}
+#sub4_section #box2 #year ul{margin-top: 100px;}
+
+
+/* box3 */
+#sub4_section #box3{width: 100%; height: 2500px; margin-top: 50px; position: relative; left: 100px;}
+#sub4_section #box3 .box3_tit{text-align: left; margin-top: 50px; margin-bottom: 30px; margin-left: 250px;}
+#sub4_section #box3 .box3_tit h3{font-size: 26px; font-weight: 900;}
+#sub4_section #box3 .box3_first{width: 100%; margin-left: -200px; height: 700px;}
+#sub4_section #box3 .box3_first img{float: right; margin-right: 50px;}
+#sub4_section #box3 .box3_first .box3_intro{position: absolute; width: 450px; height: 250px; background: rgba(255, 255, 255, 0.5); box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4); text-align: right; margin-left: 150px; margin-top: 50px;}
+#sub4_section #box3 .box3_first .box3_intro p{margin-top: 50px; margin-right: 30px; line-height: 30px; font-size: 16px; font-weight: bold;}
+
+
+#sub4_section #box3 .box3_second{clear: both; margin-bottom: 200px; margin-left: -80px;}
+#sub4_section #box3 .box3_second .box3_second_tit{text-align: left; margin-top: 50px; margin-bottom: 30px; margin-left: 50px;}
+#sub4_section #box3 .box3_second .box3_second_tit h3{font-size: 26px; font-weight: 900;}
+#sub4_section #box3 .box3_second .ci_1{clear: both; margin-bottom: 100px;}
+#sub4_section #box3 .box3_second .ci_1 img{float: left;}
+#sub4_section #box3 .box3_second .ci_1 .ci_1_ex{margin-left: 600px; width: 500px;}
+#sub4_section #box3 .box3_second .ci_1 .ci_1_ex h4{font-size: 24px; margin-bottom: 20px; }
+#sub4_section #box3 .box3_second .ci_1 .ci_1_ex p{letter-spacing: -1px; line-height: 30px;}
+
+
+
+#sub4_section #box3 .box3_second .ci_2{clear: both; margin-top: 250px; margin-left: -50px;}
+#sub4_section #box3 .box3_second .ci_2 img{float: left;}
+#sub4_section #box3 .box3_second .ci_2 .ci_2_ex{margin-left: 600px; width: 500px;}
+#sub4_section #box3 .box3_second .ci_2 .ci_2_ex h4{font-size: 24px; margin-bottom: 20px; }
+#sub4_section #box3 .box3_second .ci_2 .ci_2_ex p{letter-spacing: -1px; line-height: 30px;}
+
+#sub4_section #box3 .box3_third{margin-left: -80px;}
+#sub4_section #box3 .box3_third .box3_third_tit{text-align: left; margin-top: 50px; margin-bottom: 30px; margin-left: 50px;}
+#sub4_section #box3 .box3_third .box3_third_tit h3{font-size: 26px; font-weight: 900;}
+#sub4_section #box3 .box3_third .box3_sig ul li{float: left; width: 400px; height: 300px;}
+#sub4_section #box3 .box3_third .box3_sig ul li img{background-color: #fff; box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);}
+#sub4_section #box3 .box3_third .box3_sig ul li:nth-child(4){clear: both;}
+/* box4 */
+#sub4_section #box4{width: 1600px; height: 1500px; margin-top: 50px; position: relative; left: 100px; margin-left: -200px;}
+#sub4_section #box4 .box4_tit{text-align: left; margin-top: 50px; margin-bottom: 30px; margin-left: 50px;}
+#sub4_section #box4 .box4_tit h3{font-size: 26px; font-weight: 900;}
+#sub4_section #box4 .box4_fac{width: 100%;}
+#sub4_section #box4 .box4_fac .box4_fac_square{width: 372px; height: 350px; background-color: #f5f5f5; float: left; margin-left: 50px; margin-bottom: 50px;}
+#sub4_section #box4 .box4_fac .box4_fac_square li h4{margin-left: 10px; margin-top: 10px;}
+#sub4_section #box4 .box4_fac .box4_fac_square li p{margin-left: 10px; margin-top: 10px;}
+
+

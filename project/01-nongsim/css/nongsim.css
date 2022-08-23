@@ -1,0 +1,390 @@
+*{margin: 0; border: 0; padding: 0; outline: 0;}
+ol, ul, li{list-style: none;}
+body{font-family: "나눔 고딕", 돋움, sans-serif; font-size: 1em;}
+
+.fl{float: left;}
+.fr{float: right;}
+a{text-decoration: none;}
+#wrap{
+    position: relative;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+
+/* ------------------------------------------------------------------- */
+.container{ /* 메뉴 전체 */
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.header > h1{ /* 로고 */
+    text-align: center;
+}
+.header > h1 > img{ /* 로고 */
+    width: 5%;
+}
+/* ----------로고---------- */
+.fas{
+    position: absolute;
+    right: 400px;
+    color: black;
+}
+#wrap > .fas > a:hover{
+    color: #ed1c24;
+}
+/* ----------장바구니---------- */
+.cf{background-color: #ffffff;}
+nav{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    font-size: 0.875em;
+    background-color: white;
+}
+nav > ul{
+    height: 50px;
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
+}
+nav > ul > li{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+nav > ul > li > a{ 
+    display: block;
+    padding: 0 40px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #666666;
+    background: #ffffff;
+}
+
+nav:hover > ul {
+    height: 220px;
+}
+nav ul ul a{ /*서브메뉴*/
+    display: block;
+    padding: 0 35px 0 40px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #cccccc;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.sub_shadow {
+position: absolute;
+left: 0;
+top: 78px;
+z-index: 10;
+width: 100%;
+height: 0;
+background-color:#ed1c24;
+-webkit-transition: height 0.4s;
+transition: height 0.4s;
+}
+nav > ul > li:hover > a{
+    color: #ed1c24;
+}
+nav:hover+.sub_shadow{
+height: 162px;
+}
+
+nav ul ul a:hover{
+color: #ffffff;
+text-decoration: underline;
+}
+
+
+
+/* 배너 */
+#main_banner{
+    text-align: center;
+    width: 100%;
+}
+
+/* 제품소개 */
+#product_background{background-color: white; width: 100%; height: 760px;}
+#introduce{position: relative;}
+#product h2{margin-top: 100px; margin-bottom: 50px; }
+#product img{
+    position: absolute;
+}
+#product ul{
+    float: left;
+    position: absolute;
+    right: 65%;
+    bottom: -10%;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+#product ul li:nth-child(2){
+    position: relative;
+    left: 85%;
+    top: -45px;
+    color: #ed1c24;
+    font-weight: 900;
+}
+/* #circle{
+    width: 100px; height: 100px;
+    background-color: #ed1c24;
+    border-radius: 50%;
+    position: relative;
+    bottom: -500px;
+    left: 50%;
+} */
+#circle img{
+    position: relative;
+    text-align: center;
+    top: 450px;
+    width: 5%;
+    margin-right: 50px;
+}
+#more{
+    position: relative;
+    bottom: -500px;
+    left: 45%;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ed1c24;
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+#more:hover a{
+    text-decoration: underline;
+}
+#more a{
+    color: white;
+    font-weight: bold;
+}
+/* 이벤트 */
+#event{
+    position: relative;
+    bottom: -800px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+#event h2{
+    display: none;
+}
+/* 농심 소식 */
+#news{
+    position: relative;
+    bottom: -900px;
+    width: 62.5%;
+    margin: 0 auto;
+}
+#news h2{
+    margin-bottom: 62px;
+}
+#news img{
+    width: 355px; height: 250px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    transition: all 0.6s;
+}
+#news > ul > li > img:nth-child(3){
+    margin-right: 0;
+}
+#news img:nth-child(6){
+    margin-right: 0;
+}
+#news ul{
+    float: left;
+}
+#news ul li{
+    width: 355px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#news ul li:nth-child(2){
+    font-weight: bold;
+    font-size: 14px;
+}
+#news ul li:last-child{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#news img:hover{
+    filter: opacity(0.3) drop-shadow(0 0 0 #000000);
+    transition: all 0.6s;
+}
+#news ul li:hover p{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 25%;
+    bottom: -300px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: all 0.6s;
+    width: 100%;
+}
+/* #news .text{
+    position: relative;
+    bottom: 130px;
+    right: 50px;
+    font-size:1.5em;
+    color: black;
+    z-index: 2;
+    text-align: right;
+    font-weight: bold;
+    text-decoration: underline;
+    opacity: 0;
+}
+#news img:hover .text{
+    opacity: 1;
+} */
+
+/* 농심 이야기 */
+
+
+
+/* 신제품 */
+
+/* footer */
+#footer{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 683px;
+    background-color: #ed1c24;
+    margin-top: 1000px;
+    color: #ffffff;
+    padding-top: 10px;
+}
+#footer #width{
+    width: 62.10%;
+    margin: 0 auto;
+}
+#footer #width #footer_up h2{
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+#footer #footer_up{
+    float: left;
+}
+#footer h2{
+    float: left;
+    width: 62.5%;
+    
+}
+#footer .group_background{
+    width: 200%;
+}
+#footer .group_company{
+    clear: both;
+    position: relative;
+    left: 150px;
+    top: -20px;
+    text-align: justify;
+    font-size: 1.2em;
+    height: 195px;
+    width: 50%;
+    
+}
+#footer .group_company li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#footer .brand{
+    clear: both;
+    position: relative;
+    left: 150px;
+    top: -20px;
+    text-align: justify;
+    font-size: 1.2em;
+    height: 195px;
+    width: 100%;
+}
+#footer .brand li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#footer #straight{
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    position: relative;
+    top: -100px;
+}
+#footer #footer_under{
+    margin: 20px auto;
+    
+}
+#footer #footer_under .under_menu{
+    float: left;
+    position: relative;
+    top: -80px;
+    left: -50px;
+}
+#footer #footer_under .under_menu a{
+    color: white;
+    margin-left: 50px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+#footer #footer_under .information{
+    position: absolute;
+    top: 480px;
+    width: 62.5%;
+    height: 30px;
+    line-height: 30px;
+}
+#footer #footer_under .information span{
+    padding: 0px 20px;
+    color: white;
+    border-right: 1px solid #ffffff;
+    float: left;
+    font-size: 0.75em;
+}
+#footer #footer_under .information span:first-child{
+    padding: 0px 20px 0px 0px;
+}
+#footer #footer_under .information span:nth-child(5){
+    padding: 0px 20px 0px 0px;
+}
+#footer #footer_under .information span:last-child{
+    border-right: none;
+}
+#footer .sns{
+    position: relative;
+    float: right;
+    bottom: 120px;
+    right: -200px;
+}
+
+#footer .sns img{
+    width: 10%;
+}
+#footer .Accessibility{
+    position: relative;
+    bottom: -500px;
+    right: -250px;
+}
+#footer .Accessibility img{
+    width: 8%;
+}
+
+
+.copyright{
+    position: absolute;
+    bottom: 15%;
+}

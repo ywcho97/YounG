@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>너의 家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
+
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/bxslider.min.js"></script>
+
+
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>    
+	<script type="text/javascript" src="js/prefixfree.min.js"></script> 
+	<!-- 벤터 프리픽스를 쓰지 않아도 적용되게 해주는 것 -->
+    
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <div data-role="panel" id="panel2" data-display="overlay">
+            <div class="ui-grid-a">
+                <a href="#" data-role="button" data-icon="delete" data-rel="close" data-iconpos="notext" class="close"></a> <!-- 패널종료 -->
+            </div>
+            <button><a href="#">로그인하기</a></button>
+            <ul data-role="listview">
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가구</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침대/매트리스</a></li>
+                            <li><a href="#">소파</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">화장대/거울</a></li>
+                            <li><a href="#">드레스룸</a></li>
+                            <li><a href="#">거실장/서랍장/선반</a></li>
+                            <li><a href="#">식탁/주방수납</a></li>
+                            <li><a href="#">책상/책장</a></li>
+                            <li><a href="#">의자</a></li>
+                            <li><a href="#">유아/아동기구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>페브릭</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침구</a></li>
+                            <li><a href="#">커튼/블라인드</a></li>
+                            <li><a href="#">카페트/러그/매트</a></li>
+                            <li><a href="#">패브릭소품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                    <h3>조명</h3>
+                    <ul data-role="listview">
+                        <li><a href="#">장스탠드</a></li>
+                        <li><a href="#">단스탠드</a></li>
+                        <li><a href="#">데스크스탠드</a></li>
+                        <li><a href="#">천장조명</a></li>
+                        <li><a href="#">인테리어조명</a></li>
+                        <li><a href="#">벽등/센서등</a></li>
+                        <li><a href="#">전구/조명부속품</a></li>
+                    </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>주방</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">수저/커트러리</a></li>
+                            <li><a href="#">컵/진/텀블러</a></li>
+                            <li><a href="#">냄비/프라이팬</a></li>
+                            <li><a href="#">조리도구</a></li>
+                            <li><a href="#">보관/용기</a></li>
+                            <li><a href="#">식기건조대/매트</a></li>
+                            <li><a href="#">주방수납/정리</a></li>
+                            <li><a href="#">주방잡화</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>수납/정리</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">옷걸이/옷정리</a></li>
+                            <li><a href="#">리빙박스/수납함</a></li>
+                            <li><a href="#">정리함</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가전</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소가전</a></li>
+                            <li><a href="#">주방가전</a></li>
+                            <li><a href="#">생활가전</a></li>
+                            <li><a href="#">미용기기</a></li>
+                            <li><a href="#">영샹/음향</a></li>
+                            <li><a href="#">계절가전</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>홈데코</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">시계</a></li>
+                            <li><a href="#">플랜테리어</a></li>
+                            <li><a href="#">홈갤러리/액자</a></li>
+                            <li><a href="#">캔들/디퓨저</a></li>
+                            <li><a href="#">데코/장식</a></li>
+                            <li><a href="#">데스크/디자인문구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>생활용품</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소용품</a></li>
+                            <li><a href="#">세탁용품</a></li>
+                            <li><a href="#">욕실용품/타월</a></li>
+                            <li><a href="#">생필품</a></li>
+                            <li><a href="#">생활잡화</a></li>
+                            <li><a href="#">캠핑</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>셀프인테리어</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">페인트/부자재</a></li>
+                            <li><a href="#">벽지/시트지</a></li>
+                            <li><a href="#">바닥재/바닥타일</a></li>
+                            <li><a href="#">공구</a></li>
+                            <li><a href="#">기타DIV용품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="header">
+            <a href="#panel2" data-role="button" data-inline="true" id="ham"><img src="img/ham_menu.png" width="30" alt=""></a>
+            <h1><a href="#page1"><img src="img/Artboard 1.png" width="100px" alt=""></a></h1>
+        </div>
+        <div data-role="content">
+        <div id="page1_wrap">
+            <div id="banner">
+                
+            </div><!-- <img src="img/메인 배너.png" width="500" alt=""></div> -->
+            <div id="tab">
+                <div class="tab_tit"><h2>너의 집 베스트 3</h2></div>
+                <div data-role="content">
+                    <div data-role="tabs">
+                        <ul class="ui-grid-b" data-role="navbar" >
+                            <li style="background-color: #ff595c;" class="ui-block-a"><a href="#tab1">가구</a></li>
+                            <li class="ui-block-b"><a href="#tab2">페브릭</a></li>
+                            <li class="ui-block-c"><a href="#tab3">조명</a></li>
+                            <li class="ui-block-a"><a href="#tab4">주방</a></li>
+                            <li class="ui-block-b"><a href="#tab5">수납/가구</a></li>
+                            <li class="ui-block-c"><a href="#tab6">가전</a></li>
+                            <li class="ui-block-a"><a href="#tab7">홈데코</a></li>
+                            <li class="ui-block-b"><a href="#tab8">생활용품</a></li>
+                            <li class="ui-block-c"><a href="#tab9">셀프 인테리어</a></li>
+                        </ul>
+
+                        <div id="tab1">
+                            <ul>
+                                <li>
+                                    <img src="img/best1.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>쇼파</h4>
+                                        <p><span>30%</span> 21,500원</p>
+                                        <p><span>★4.9</span> (리뷰194)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best2.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>침대</h4>
+                                        <p><span>30%</span> 62,500원</p>
+                                        <p><span>★4.7</span> (리뷰91)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best3.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>메트리스</h4>
+                                        <p><span>50%</span> 5,500원</p>
+                                        <p><span>★4.5</span> (리뷰573)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab2">
+                            <ul>
+                                <li>
+                                    <img src="img/best4.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>먼지없는 차렵이불 단품 및 세트</h4>
+                                        <p><span>59%</span> 24,570원</p>
+                                        <p><span>★4.8</span> (리뷰94)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best5.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>타일카페트</h4>
+                                        <p><span>22%</span> 3,120원</p>
+                                        <p><span>★4.6</span> (리뷰819)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best6.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>호텔식 고밀도 바이오워싱 차렵이불 13종</h4>
+                                        <p><span>50%</span> 5,500원</p>
+                                        <p><span>★4.4</span> (리뷰573)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab3">
+                            <ul>
+                                <li>
+                                    <img src="img/best7.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>캠핑 인테리어 겸용 블루투스 스피커 LED 랜턴_3colors</h4>
+                                        <p><span>33%</span> 99,500원</p>
+                                        <p><span>★5.0</span> (리뷰54)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best8.png" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>달무드등 벨라루나 BELLA LUNA</h4>
+                                        <p><span>14%</span> 59,000원</p>
+                                        <p><span>★4.9</span> (리뷰16)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best9.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>히든 LED 침대 조명</h4>
+                                        <p><span>35%</span> 12,900원</p>
+                                        <p><span>★4.7</span> (리뷰558)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab4">
+                            <ul>
+                                <li>
+                                    <img src="img/best10.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>플루딕 진공 음식물쓰레기통 3L</h4>
+                                        <p><span>42%</span> 18,900원</p>
+                                        <p><span>★4.8</span> (리뷰205)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best11.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>수저케이스 급식 학생 휴대용 수저통 숟가락 젓가락</h4>
+                                        <p><span>31%</span> 13,900원</p>
+                                        <p><span>★4.9</span> (리뷰21)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best12.png" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>턴블러 전동우유거품기 우유스팀기</h4>
+                                        <p><span>53%</span> 65,000원</p>
+                                        <p><span>★4.8</span> (리뷰100)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab5">
+                            <ul>
+                                <li>
+                                    <img src="img/best13.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>일상공감 압축팩 (소/중/대)</h4>
+                                        <p><span>63%</span> 11,900원</p>
+                                        <p><span>★4.7</span> (리뷰20)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best14.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>드레스룸에 어울리는 슈즈 DIY 신발장</h4>
+                                        <p><span>31%</span> 11,800원</p>
+                                        <p><span>★5</span> (리뷰6)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best15.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>반투명 방수 옷커버 5개 세트</h4>
+                                        <p><span>62%</span> 7,900원</p>
+                                        <p><span>★4.6</span> (리뷰29)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab6">
+                            <ul>
+                                <li>
+                                    <img src="img/best16.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>비블리 무선 미니 고데기</h4>
+                                        <p><span>37%</span> 39,900원</p>
+                                        <p><span>★4.9</span> (리뷰12)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best17.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>웨이브 초음파 세척기</h4>
+                                        <p><span>70%</span> 29,900원</p>
+                                        <p><span>★4.6</span> (리뷰16)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best18.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>듀얼무릎안마기V2 다리 종아리 공기압 온열 마사지기 지압기</h4>
+                                        <p><span>35%</span> 129,000원</p>
+                                        <p><span>★4.8</span> (리뷰40)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab7">
+                            <ul>
+                                <li>
+                                    <img src="img/best19.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>LED 시계 11종</h4>
+                                        <p><span>61%</span> 13,800원</p>
+                                        <p><span>★4.7</span> (리뷰2691)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best20.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>꽃집향기 프리저브드 플라워 디퓨저세트</h4>
+                                        <p><span>51%</span> 9,900원</p>
+                                        <p><span>★4.8</span> (리뷰61)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best21.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>튤립/카라 조화 10P + 커튼병 (화병세트)</h4>
+                                        <p><span>70%</span> 9,900원</p>
+                                        <p><span>★4.9</span> (리뷰29)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab8">
+                            <ul>
+                                <li>
+                                    <img src="img/best22.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>침대 핸드폰 거치대 SS2</h4>
+                                        <p><span>14%</span> 119,000원</p>
+                                        <p><span>★4.7</span> (리뷰9)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best23.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>브리즈 홀직 빨래건조대</h4>
+                                        <p><span>13%</span> 43,500원</p>
+                                        <p><span>★4.6</span> (리뷰101)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best24.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>스누피 피너츠 최고급 40수 코마사 180g 1매</h4>
+                                        <p><span>30%</span> 4,650원</p>
+                                        <p><span>★4.7</span> (리뷰3)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="tab9">
+                            <ul>
+                                <li>
+                                    <img src="img/best25.jpg" width="150" height="150" alt="">
+                                    <div class="introduce">
+                                        <h4>MUPAN 원목조립마루 30x30 아카시아 (10개입)</h4>
+                                        <p><span>44%</span> 28,900원</p>
+                                        <p><span>★4.7</span> (리뷰156)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best26.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>북유럽 패턴 인테리어 코일 매트</h4>
+                                        <p><span>30%</span> 350원</p>
+                                        <p><span>★4.7</span> (리뷰20)</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="img/best27.jpg" width="150" alt="">
+                                    <div class="introduce">
+                                        <h4>셀프 조립식 베란다&현관 바닥재 9/18P SET</h4>
+                                        <p><span>59%</span> 16,700원</p>
+                                        <p><span>★4.6</span> (리뷰197)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="event_banner">
+                
+            </div>
+            <div id="product">
+                <div class="product_tit">
+                    <h2>인기 세일 상품</h2>
+                </div>
+                <div id="product_list" >
+                    <ul>
+                        <li>
+                            <img src="img/sale1.jpg" alt="" width="150">
+                            <div class="introduce">
+                                <p><h4>옷걸이</h4></p>
+                                <p><span>40%</span> 3,000원</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/sale2.jpg" alt="" width="150">
+                            <div class="introduce">
+                                <h4>수납형박스</h4>
+                                <p><span>20%</span> 15,000원</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/sale3.jpg" alt="" width="150">
+                            <div class="introduce">
+                                <h4>의자</h4>
+                                <p><span>60%</span> 32,500원</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/sale4.jpg" alt="" width="150">
+                            <div class="introduce">
+                                <h4>책상</h4>
+                            <p><span>30%</span> 63,000원</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="gray">
+                <div class="ment">
+                    <h4>주식회사 너의 집</h4>
+                    <p>사업자등록번호 : 123-12-11111</p>
+                    <p>개인정보관리책임자 : 조영우</p>
+                    <P><span>안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한 KG 이니서스의 구매안전 서비스를 이용하실 수 있습니다.</span></P>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="footerid1">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page1" style="background-color: #ff595c; color: #fff;" data-icon="home" class="ui-btn-active ui-state-persist">홈</a></li>
+                    <li><a href="#page2" data-icon="search">검색</a></li>
+                    <li><a href="#page3" data-icon="comment" >커뮤니티</a></li>
+                    <li><a href="#page4" data-icon="user">마이 페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="page2">
+        <div data-role="panel" id="panel2" data-display="overlay">
+            <div class="ui-grid-a">
+                <a href="#" data-role="button" data-icon="delete" data-rel="close" data-iconpos="notext" class="close"></a> <!-- 패널종료 -->
+            </div>
+            <button><a href="#">로그인하기</a></button>
+            <ul data-role="listview">
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가구</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침대/매트리스</a></li>
+                            <li><a href="#">소파</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">화장대/거울</a></li>
+                            <li><a href="#">드레스룸</a></li>
+                            <li><a href="#">거실장/서랍장/선반</a></li>
+                            <li><a href="#">식탁/주방수납</a></li>
+                            <li><a href="#">책상/책장</a></li>
+                            <li><a href="#">의자</a></li>
+                            <li><a href="#">유아/아동기구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>페브릭</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침구</a></li>
+                            <li><a href="#">커튼/블라인드</a></li>
+                            <li><a href="#">카페트/러그/매트</a></li>
+                            <li><a href="#">패브릭소품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                    <h3>조명</h3>
+                    <ul data-role="listview">
+                        <li><a href="#">장스탠드</a></li>
+                        <li><a href="#">단스탠드</a></li>
+                        <li><a href="#">데스크스탠드</a></li>
+                        <li><a href="#">천장조명</a></li>
+                        <li><a href="#">인테리어조명</a></li>
+                        <li><a href="#">벽등/센서등</a></li>
+                        <li><a href="#">전구/조명부속품</a></li>
+                    </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>주방</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">수저/커트러리</a></li>
+                            <li><a href="#">컵/진/텀블러</a></li>
+                            <li><a href="#">냄비/프라이팬</a></li>
+                            <li><a href="#">조리도구</a></li>
+                            <li><a href="#">보관/용기</a></li>
+                            <li><a href="#">식기건조대/매트</a></li>
+                            <li><a href="#">주방수납/정리</a></li>
+                            <li><a href="#">주방잡화</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>수납/정리</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">옷걸이/옷정리</a></li>
+                            <li><a href="#">리빙박스/수납함</a></li>
+                            <li><a href="#">정리함</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가전</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소가전</a></li>
+                            <li><a href="#">주방가전</a></li>
+                            <li><a href="#">생활가전</a></li>
+                            <li><a href="#">미용기기</a></li>
+                            <li><a href="#">영샹/음향</a></li>
+                            <li><a href="#">계절가전</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>홈데코</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">시계</a></li>
+                            <li><a href="#">플랜테리어</a></li>
+                            <li><a href="#">홈갤러리/액자</a></li>
+                            <li><a href="#">캔들/디퓨저</a></li>
+                            <li><a href="#">데코/장식</a></li>
+                            <li><a href="#">데스크/디자인문구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>생활용품</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소용품</a></li>
+                            <li><a href="#">세탁용품</a></li>
+                            <li><a href="#">욕실용품/타월</a></li>
+                            <li><a href="#">생필품</a></li>
+                            <li><a href="#">생활잡화</a></li>
+                            <li><a href="#">캠핑</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>셀프인테리어</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">페인트/부자재</a></li>
+                            <li><a href="#">벽지/시트지</a></li>
+                            <li><a href="#">바닥재/바닥타일</a></li>
+                            <li><a href="#">공구</a></li>
+                            <li><a href="#">기타DIV용품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="header">
+            <a href="#panel2" data-role="button" data-inline="true" id="ham"><img src="img/ham_menu.png" width="30" alt=""></a>
+            <h1><a href="#page1"><img src="img/Artboard 1.png" width="100px" alt=""></a></h1>
+        </div>
+        <div data-role="content">
+            <div data-role="fieldcontain" style="width: 450px; margin: 0 auto;">
+                <input type="search" name="input6" id="input6" placeholder="검색어를 입력해주세요.">
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="footerid1">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page1" data-icon="home" >홈</a></li>
+                    <li><a href="#page2" style="background-color: #ff595c; color: #fff;" data-icon="search" class="ui-btn-active ui-state-persist">검색</a></li>
+                    <li><a href="#page3" data-icon="comment" >커뮤니티</a></li>
+                    <li><a href="#page4" data-icon="user">마이 페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="page3">
+        <div data-role="panel" id="panel2" data-display="overlay">
+            <div class="ui-grid-a">
+                <a href="#" data-role="button" data-icon="delete" data-rel="close" data-iconpos="notext" class="close"></a> <!-- 패널종료 -->
+            </div>
+            <button><a href="#">로그인하기</a></button>
+            <ul data-role="listview">
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가구</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침대/매트리스</a></li>
+                            <li><a href="#">소파</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">화장대/거울</a></li>
+                            <li><a href="#">드레스룸</a></li>
+                            <li><a href="#">거실장/서랍장/선반</a></li>
+                            <li><a href="#">식탁/주방수납</a></li>
+                            <li><a href="#">책상/책장</a></li>
+                            <li><a href="#">의자</a></li>
+                            <li><a href="#">유아/아동기구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>페브릭</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침구</a></li>
+                            <li><a href="#">커튼/블라인드</a></li>
+                            <li><a href="#">카페트/러그/매트</a></li>
+                            <li><a href="#">패브릭소품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                    <h3>조명</h3>
+                    <ul data-role="listview">
+                        <li><a href="#">장스탠드</a></li>
+                        <li><a href="#">단스탠드</a></li>
+                        <li><a href="#">데스크스탠드</a></li>
+                        <li><a href="#">천장조명</a></li>
+                        <li><a href="#">인테리어조명</a></li>
+                        <li><a href="#">벽등/센서등</a></li>
+                        <li><a href="#">전구/조명부속품</a></li>
+                    </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>주방</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">수저/커트러리</a></li>
+                            <li><a href="#">컵/진/텀블러</a></li>
+                            <li><a href="#">냄비/프라이팬</a></li>
+                            <li><a href="#">조리도구</a></li>
+                            <li><a href="#">보관/용기</a></li>
+                            <li><a href="#">식기건조대/매트</a></li>
+                            <li><a href="#">주방수납/정리</a></li>
+                            <li><a href="#">주방잡화</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>수납/정리</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">옷걸이/옷정리</a></li>
+                            <li><a href="#">리빙박스/수납함</a></li>
+                            <li><a href="#">정리함</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가전</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소가전</a></li>
+                            <li><a href="#">주방가전</a></li>
+                            <li><a href="#">생활가전</a></li>
+                            <li><a href="#">미용기기</a></li>
+                            <li><a href="#">영샹/음향</a></li>
+                            <li><a href="#">계절가전</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>홈데코</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">시계</a></li>
+                            <li><a href="#">플랜테리어</a></li>
+                            <li><a href="#">홈갤러리/액자</a></li>
+                            <li><a href="#">캔들/디퓨저</a></li>
+                            <li><a href="#">데코/장식</a></li>
+                            <li><a href="#">데스크/디자인문구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>생활용품</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소용품</a></li>
+                            <li><a href="#">세탁용품</a></li>
+                            <li><a href="#">욕실용품/타월</a></li>
+                            <li><a href="#">생필품</a></li>
+                            <li><a href="#">생활잡화</a></li>
+                            <li><a href="#">캠핑</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>셀프인테리어</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">페인트/부자재</a></li>
+                            <li><a href="#">벽지/시트지</a></li>
+                            <li><a href="#">바닥재/바닥타일</a></li>
+                            <li><a href="#">공구</a></li>
+                            <li><a href="#">기타DIV용품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div data-role="header">
+            <a href="#panel2" data-role="button" data-inline="true" id="ham"><img src="img/ham_menu.png" width="30" alt=""></a>
+            <h1><a href="#page1"><img src="img/Artboard 1.png" width="100px" alt=""></a></h1>
+        </div>
+        <div data-role="content">
+            <div id="wrap">
+                <main id="container">
+                
+                    <section class="slide_zone">
+                        <h2 class="sr_only">슬라이드존</h2>
+                        <article class="nomore">
+                            <h3>ywyw_330</h3>
+                            <div class="slider2 swipe">
+                                <div>
+                                    <a href="#" >
+                                        <img src="img/편안.jpg" alt="">
+                                    </a>
+                                </div>
+                            
+                                <div>
+                                    <a href="#">
+                                        <img src="img/편안2.jpg" alt="">
+                                    </a>
+                                </div>
+                            
+                                <div>
+                                    <a href="#" >
+                                        <img src="img/community1.jpg" alt="">
+                                    </a>
+                                </div>
+                            
+                                <div>
+                                    <a href="#" >
+                                        <img src="img/community2.jpg" alt="">
+                                    </a>
+                                </div>
+                            
+                                <div>
+                                    <a href="#" >
+                                        <img src="img/community3.jpg" alt="">
+                                    </a>
+                                </div>
+                            
+                
+                            </div>
+                            <a href="#" class="more"><span class="sr_only">배너존</span><span class="clip">더보기</span></a>
+                        </article>
+                        <article class="nomore">
+                            <h3>어영우다</h3>
+                            <div class="slider4 swipe">
+                
+                                <div>
+                                    <a href="#" >
+                                        <img src="img/community4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/community5.jpg" alt="">
+                                    </a>
+                                </div>
+                
+                            </div>
+                            <a href="#" class="more"><span class="sr_only">알림존</span><span class="clip">더보기</span></a>
+                        </article>
+                        <article>
+                            <h3>ywcho97</h3>
+                            <div class="slider3 swipe">
+                                <div>
+                                    <a href="#">
+                                        <img src="img/community6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <img src="img/community7.jpg" alt="">
+                                    </a>
+                                </div>
+                
+                                <div>
+                                    <a href="#">
+                                        <img src="img/community8.jpg" alt="">	
+                                    </a>
+                                </div>
+                
+                            </div>
+                        <a href="#" class="more"><span class="sr_only">카드뉴스</span><span class="clip">더보기</span></a>
+                        </article>
+                    </section>
+                
+                
+                </main>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="footerid1">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page1"  data-icon="home">홈</a></li>
+                    <li><a href="#page2"  data-icon="search">검색</a></li>
+                    <li><a href="#page3" style="background-color: #ff595c; color: #fff;" data-icon="comment" class="ui-btn-active ui-state-persist" >커뮤니티</a></li>
+                    <li><a href="#page4" data-icon="user">마이 페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="page4">
+        <div data-role="panel" id="panel2" data-display="overlay">
+            <div class="ui-grid-a">
+                <a href="#" data-role="button" data-icon="delete" data-rel="close" data-iconpos="notext" class="close"></a> <!-- 패널종료 -->
+            </div>
+            <button><a href="#">로그인하기</a></button>
+            <ul data-role="listview">
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가구</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침대/매트리스</a></li>
+                            <li><a href="#">소파</a></li>
+                            <li><a href="#">테이블</a></li>
+                            <li><a href="#">화장대/거울</a></li>
+                            <li><a href="#">드레스룸</a></li>
+                            <li><a href="#">거실장/서랍장/선반</a></li>
+                            <li><a href="#">식탁/주방수납</a></li>
+                            <li><a href="#">책상/책장</a></li>
+                            <li><a href="#">의자</a></li>
+                            <li><a href="#">유아/아동기구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>페브릭</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">침구</a></li>
+                            <li><a href="#">커튼/블라인드</a></li>
+                            <li><a href="#">카페트/러그/매트</a></li>
+                            <li><a href="#">패브릭소품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                    <h3>조명</h3>
+                    <ul data-role="listview">
+                        <li><a href="#">장스탠드</a></li>
+                        <li><a href="#">단스탠드</a></li>
+                        <li><a href="#">데스크스탠드</a></li>
+                        <li><a href="#">천장조명</a></li>
+                        <li><a href="#">인테리어조명</a></li>
+                        <li><a href="#">벽등/센서등</a></li>
+                        <li><a href="#">전구/조명부속품</a></li>
+                    </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>주방</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">수저/커트러리</a></li>
+                            <li><a href="#">컵/진/텀블러</a></li>
+                            <li><a href="#">냄비/프라이팬</a></li>
+                            <li><a href="#">조리도구</a></li>
+                            <li><a href="#">보관/용기</a></li>
+                            <li><a href="#">식기건조대/매트</a></li>
+                            <li><a href="#">주방수납/정리</a></li>
+                            <li><a href="#">주방잡화</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>수납/정리</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">옷걸이/옷정리</a></li>
+                            <li><a href="#">리빙박스/수납함</a></li>
+                            <li><a href="#">정리함</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>가전</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소가전</a></li>
+                            <li><a href="#">주방가전</a></li>
+                            <li><a href="#">생활가전</a></li>
+                            <li><a href="#">미용기기</a></li>
+                            <li><a href="#">영샹/음향</a></li>
+                            <li><a href="#">계절가전</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>홈데코</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">시계</a></li>
+                            <li><a href="#">플랜테리어</a></li>
+                            <li><a href="#">홈갤러리/액자</a></li>
+                            <li><a href="#">캔들/디퓨저</a></li>
+                            <li><a href="#">데코/장식</a></li>
+                            <li><a href="#">데스크/디자인문구</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>생활용품</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">청소용품</a></li>
+                            <li><a href="#">세탁용품</a></li>
+                            <li><a href="#">욕실용품/타월</a></li>
+                            <li><a href="#">생필품</a></li>
+                            <li><a href="#">생활잡화</a></li>
+                            <li><a href="#">캠핑</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li>
+                    <div data-role="collapsible">
+                        <h3>셀프인테리어</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">페인트/부자재</a></li>
+                            <li><a href="#">벽지/시트지</a></li>
+                            <li><a href="#">바닥재/바닥타일</a></li>
+                            <li><a href="#">공구</a></li>
+                            <li><a href="#">기타DIV용품</a></li>
+                        </ul>     
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="header">
+            <a href="#panel2" data-role="button" data-inline="true" id="ham"><img src="img/ham_menu.png" width="30" alt=""></a>
+            <h1><a href="#page1"><img src="img/Artboard 1.png" width="100px" alt=""></a></h1>
+        </div>
+        <div data-role="content">
+            <div class="mypage_name">
+                <img src="img/lion.jpg" width="60" alt="">
+                <h4>어영우다</h4>
+                <a href="#" data-iconpos="notext" data-role="button" data-icon="gear">설정</a>
+            </div>
+            <ul data-role="listview" class="list" data-inset="true">
+                <li><a href="#">주문내역, 배송조회</a></li>
+                <li><a href="#">조회, 반품, 환불내역</a></li>
+                <li><a href="#">내 문의 내역</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자주 묻는 질문</a></li>
+                <li><a href="#">최근 본 상품/컨텐츠</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="footerid1">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#page1" data-icon="home" >홈</a></li>
+                    <li><a href="#page2" data-icon="search">검색</a></li>
+                    <li><a href="#page3" data-icon="comment" >커뮤니티</a></li>
+                    <li><a href="#page4" style="background-color: #ff595c; color: #fff;" data-icon="user" class="ui-btn-active ui-state-persist">마이 페이지</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

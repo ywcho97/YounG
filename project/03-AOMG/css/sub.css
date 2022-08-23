@@ -1,0 +1,141 @@
+/* company SUB1 */
+#company{margin: 50px auto; width: 62.5%; position: relative; background-color: white; height: 1150px; margin-top: 150px;}
+h2{text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 50px;}
+
+#company .ment{width: 100%;}
+#company .ment .ment_img{float: left; width: 0%;}
+#company .ment .ment_img img{float: left;}
+#company .ment .ment_introduce{width: 50%; position: relative; left: 50%; top: 50px; line-height: 23px; font-size: 14px; letter-spacing: -1px;}
+
+/* artist SUB2 */
+#artist{margin: 50px auto; width: 62.5%; position: relative; background-color: white; height: 1550px; margin-top: 150px;}
+
+#artist ul{float: left; margin-left: 30px; margin-bottom: 30px;}
+#artist li{overflow: hidden;}
+#artist img{transform: scale(1); transition: all 1s;}
+#artist img:hover{transform: scale(1.1); transition: all 1s;}
+#artist ul li:last-child{margin-top: 5px; font-weight: bold; letter-spacing: -0.5px;}
+#artist line{clear: both;}
+
+/* NEWS SUB3  */
+#news{width: 62.5%; background-color: white; margin: 0 auto; height: auto; margin-top: 150px;}
+
+/* 체크된 박스가 보여지도록 */
+input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#main_aside input{display: none;}
+input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+/* 탭 모양 구성 */
+section.buttons{overflow: hidden; position: relative; left: 150px; }
+section.buttons>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	background: #ffc414;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+	background: #ffc414;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+	background: #ffc414;
+	color: white;
+}
+
+/* 검색박스 */
+#box1 .btn-search{padding: 9px 20px; border: none; text-align: center; background-color: #ffc414; color: #ffffff; font-weight: bold; float: right;}
+
+#box1 fieldset .searchBox{display: block; width: 180px; height: 34px; float: right; border: 1px solid #e5e5e5;}
+
+#box1 select{
+    border: 1px solid #e5e5e5; background: url(../image/arrow.png) no-repeat; background-position: right center; background-size: 14px; float: right; width: 70px; height: 36px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* select의 기본 스타일 삭제 */
+}
+
+select::-ms-expand{
+    display: none;
+}
+fieldset{margin-top: 30px;}
+
+/* box1 */
+#box1{width: 800px; margin: 0 auto; background-color: white; position: relative; margin-top: 50px;}
+#box1 .objectTitle{border-bottom: 1px dashed #000000; text-align: center; padding: 20px 0px; padding-bottom: 30px;}
+
+#box1 .noT{width: 50px;}
+#box1 .titleT{width: 500px; margin: 0 10px;}
+#box1 .dateT{width: 110px;}
+#box1 .visitT{width: 120px;}
+
+#box1 .td{text-align: center; padding: 20px 0px;}
+#box1 .no{width: 50px;}
+#box1 .title{width: 500px; margin: 0 10px; text-align: left; cursor: pointer; font-weight: bold;}
+#box1 .date{width: 110px;}
+#box1 .visit{width: 120px;}
+
+
+.title:hover{font-weight: bold; color: #ffc414;}
+
+#box1 .content_wrap{line-height: 20px; height: auto; width: 760px; text-align: left; display: block; padding: 20px; background: #eeeeee; text-align: justify; overflow: hidden;}
+
+#box1 .content_wrap img{width: 50%}
+
+#box1 .boardContent input{display: none;} /* 게시판 체크박스 감추기 */
+
+#box1 input[type=checkbox]:checked ~ div.content_wrap{display: none;} /* checked 되어 있는 뒤에 오는 div.content_wrap을 처음에는 안보이게 다시 클릭하면 보이게 */
+
+#box1 .content{height: auto; font-size: 13px; line-height: auto;}
+#box1 .news_ment{line-height: 25px;}
+
+#number{clear: both; width: 100%; text-align: center;}
+#number ul li{display: inline-block; margin-left: 10px; margin-top: 20px; font-weight: bold; margin-bottom: 50px;}
+#number ul li:hover{color: #ffc414; cursor: pointer; }
+
+/* contact SUB4 */
+#contact{width: 100%; margin-top: 150px;}
+#contact .contents{width: 62.5%; margin: 0 auto;}
+#contact .contents .image{float: left; margin-bottom: 50px;}
+#contact .contents .email{position: relative; top: 150px; left: 150px;}
+#contact .contents .email p{margin-top: 20px;}
+#contact .contents .email p:first-child{font-weight: bold;}
+#contact .contents .email p:last-child{cursor: pointer;}
+
+/* store sub5 */
+#store{width: 62.5%; background-color: white; margin: 0 auto; height: auto; margin-top: 150px;}
+
+#store h3{font-size: 24px; font-weight: bold; margin-left: 80px;}
+
+#store ul{margin-top: 30px; width: 100%; height: 600px; margin-left: 40px;} 
+#store ul li{float: left; margin-left: 20px; margin-top: 20px; width: 250px; height: 250px; overflow: hidden;}
+#store ul li img{width: 30%; background: #000000;}
+#store ul li a{display: block; cursor: pointer;}
+#store ul li a img{width: 250px; height: 250px; transform: scale(1); transition: all 0.3s ease-in-out;}
+#store ul li a:hover img{width: 250px; height: 250px; transition: all 0.3s ease-in-out; transform: scale(1.1); overflow: hidden;}
+
+#store ul li span{display: block; font-size: 12px; position: relative; bottom: 180px; opacity: 0; transition: all 1s; font-weight: bold; float: left; margin-left: 20px; padding: 5px; background: rgba(0, 0, 0, 0.7); color: #ffffff;}
+#store ul li span:last-child{font-size: 16px;}
+#store ul li a:hover span{opacity: 1;}
+#store ul li:last-child{position: relative; left: 110px; top: 110px;}
+#store ul li:last-child a{font-size: 16px; font-weight: bold;}
+#store ul li:last-child a:hover{text-decoration: underline;}
+

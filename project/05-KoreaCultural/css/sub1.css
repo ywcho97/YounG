@@ -1,0 +1,471 @@
+
+#all{height: auto; background-color: white; border-radius: 30px;}
+
+#notice{width: 900px; margin: 0 auto;  padding-bottom: 20px;}
+
+#notice #big_title{padding-top: 20px; width: 1400px; position: relative; left: -25%; padding-top: 10px;}
+#notice #big_title>h2{font-size: 24px; font-weight: bold; margin-top: 20px; margin-bottom: 20px;}
+
+/* 체크된 박스가 보여지도록 */
+input:nth-child(1):checked~div:nth-of-type(1){display: block;}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#main_aside input{display: none;}
+input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+input:nth-of-type(3)~div:nth-of-type(3){display: none;}
+input:nth-of-type(4)~div:nth-of-type(4){display: none;}
+input:nth-of-type(5)~div:nth-of-type(5){display: none;}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+input:nth-of-type(3):checked~div:nth-of-type(3){display: block;}
+input:nth-of-type(4):checked~div:nth-of-type(4){display: block;}
+input:nth-of-type(5):checked~div:nth-of-type(5){display: block;}
+/* 탭 모양 구성 */
+section.buttons{overflow: hidden; position: relative; left: 200px; text-align: center; }
+section.buttons>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+
+input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons>label:nth-of-type(3){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(4):checked~section.buttons>label:nth-of-type(4){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(5):checked~section.buttons>label:nth-of-type(5){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+section.buttons3{overflow: hidden; position: relative; left: 300px; text-align: center; }
+section.buttons3>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons3>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons3>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons3>label:nth-of-type(3){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(4):checked~section.buttons3>label:nth-of-type(4){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+section.buttons4{overflow: hidden; position: relative; left: 500px; text-align: center; }
+section.buttons4>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons4>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons4>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+input:nth-of-type(3):checked~section.buttons4>label:nth-of-type(3){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+section.buttons8{overflow: hidden; position: relative; left: 500px; text-align: center; }
+section.buttons8>label{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #efefef;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: white;
+	padding: 10px;
+}
+input:nth-of-type(1):checked~section.buttons8>label:nth-of-type(1){
+	background: #bd5c5b;
+	color: white;
+}
+
+input:nth-of-type(2):checked~section.buttons8>label:nth-of-type(2){
+	background: #bd5c5b;
+	color: white;
+}
+
+
+select::-ms-expand{
+    display: none;
+}
+
+section{width: 100%; position: relative; text-align: center; height: auto; margin: 0 auto;}
+
+.swiper-wrapper{clear:both; text-align: left; }
+.swiper-wrapper .swiper-slide{clear:both; height: 450px; overflow: visible;}
+.swiper-wrapper .swiper-slide li{display: inline-block;}
+.swiper-wrapper .swiper-slide img{clear:both;}
+/* .swiper-wrapper .swiper-slide p{text-align: left; width: 265px; line-height: 25px; letter-spacing: -1px; margin-top: 20px; font-weight: bold;} */
+
+
+#box1 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box1 .week li:first-child{margin-left: 0px;}
+#box1 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box1 .week li a{font-weight: bold;}
+#box1 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box1 .calendar{position: relative; top: -100px; left: -50px;}
+#box1 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box1 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box1 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box1 .content .period{clear: both; margin-top: 150px;}
+#box1 .content .period img{float: left; margin-left: 350px;}
+#box1 .content .period li{text-align: left;}
+#box1 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box1 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box1 .content h4{font-size: 18px; clear: both; font-weight: bold; position: relative; top: 140px; text-align: left; margin-left: 350px;}
+
+#box2 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box2 .week li:first-child{margin-left: 0px;}
+#box2 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box2 .week li a{font-weight: bold;}
+#box2 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box2 .calendar{position: relative; top: -100px; left: -50px;}
+#box2 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box2 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box2 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box2 .content .period{clear: both; margin-top: 150px;}
+#box2 .content .period img{float: left; margin-left: 350px;}
+#box2 .content .period li{text-align: left;}
+#box2 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box2 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box3 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box3 .week li:first-child{margin-left: 0px;}
+#box3 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box3 .week li a{font-weight: bold;}
+#box3 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box3 .calendar{position: relative; top: -100px; left: -50px;}
+#box3 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box3 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box3 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box3 .content .period{clear: both; margin-top: 150px;}
+#box3 .content .period img{float: left; margin-left: 350px;}
+#box3 .content .period li{text-align: left;}
+#box3 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box3 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box4 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box4 .week li:first-child{margin-left: 0px;}
+#box4 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box4 .week li a{font-weight: bold;}
+#box4 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box4 .calendar{position: relative; top: -100px; left: -50px;}
+#box4 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box4 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box4 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box4 .content .period{clear: both; margin-top: 150px;}
+#box4 .content .period img{float: left; margin-left: 350px;}
+#box4 .content .period li{text-align: left;}
+#box4 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box4 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box5 .week{background-color: #eeeeee; width: 75.5%; height: 30px; line-height: 30px; margin: 0 auto; text-align: center; padding: 10px 50px;}
+#box5 .week li:first-child{margin-left: 0px;}
+#box5 .week li{float: left; margin-left: 178px; margin-bottom: 150px;}
+#box5 .week li a{font-weight: bold;}
+#box5 .week li a:hover{color: #bd5c5b; font-weight: bold;}
+#box5 .calendar{position: relative; top: -100px; left: -50px;}
+#box5 .calendar .line{border-bottom: 2px solid #000; position: relative; top: 120px; width: 55%; margin: 0 auto;} 
+#box5 .calendar .line:nth-child(4){border-bottom: 2px solid #000; position: relative; top: 130px; width: 55%; margin: 0 auto;} 
+#box5 .calendar .content:nth-child(3){position: relative; top: -10px; } 
+#box5 .content .period{clear: both; margin-top: 150px;}
+#box5 .content .period img{float: left; margin-left: 350px;}
+#box5 .content .period li{text-align: left;}
+#box5 .content .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box5 .content .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#number{position: absolute; bottom: -15%; left: 50%; margin-bottom: 50px; margin-left: -90px;}
+#number li{float: left; margin-left: 30px; cursor: pointer;}
+#number li:hover{color: #bd5c5b;}
+
+
+/* 체크된 박스가 보여지도록 */
+#notice input:nth-child(1):checked~#box1{
+	display: block;
+}
+
+/* 탭메뉴버튼은 1과 2가 모두 보여지지 않는 상태에서 시작해야함(두번째박스) */
+#notice input:nth-of-type(1){
+	display: none;
+}
+#notice input:nth-of-type(2)~#box1{
+	display: none;
+}
+/* 체크된 두번째 버튼과 내용이 보여지도록 함 */
+#notice input:nth-of-type(2):checked~#box2{
+	display: block;
+}
+
+#notice input:nth-of-type(3):checked~#box3{
+	display: block;
+}
+
+#notice input:nth-of-type(4):checked~#box4{
+	display: block;
+}
+
+#notice input:nth-of-type(5):checked~#box5{
+	display: block;
+}
+/* sub1-2 */
+#sub1-2{width: 100%; margin: 0 auto;}
+#sub1-2 .swiper-slide{float: left;}
+#sub1-2 .swiper-slide ul{margin-left: 5px;}
+#sub1-2 .swiper-slide ul li{margin-left: 40px; margin-top: 60px; position: relative;}
+#sub1-2 .swiper-slide ul li p{position: absolute; top: 0; left: 0; width: 300px; height: 300px; background-color: rgba(0, 0, 0, 0.7); color: #ffffff; font-size: 18px; text-align: center; line-height: 300px; opacity: 0; transition: all 1s;}
+#sub1-2 .swiper-slide ul li:hover p{opacity: 1; cursor: pointer; transition: all 1s; text-decoration: underline;}
+#sub1-2 .title h2{margin-bottom: 20px; font-weight: bold; font-size: 30px; padding-top: 50px;}
+#sub1-2 .swiper-pagination{margin-bottom: 30px;}
+
+/* sub1-3 */
+#box1>h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px;}
+.ment p{text-align: left; margin-left: 300px; margin-right: 300px; line-height: 30px; letter-spacing: -1px; font-size: 12px;}
+
+#box1 .content1-3 .period{clear: both; margin-top: 150px;}
+#box1 .content1-3 .period img{float: left; margin-left: 350px;}
+#box1 .content1-3 .period li{text-align: left; float: left;}
+#box1 .content1-3 .period li:nth-child(2){margin-left: -300px;}
+#box1 .content1-3 .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box1 .content1-3 .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box1 .content1-3 h4{font-size: 18px; clear: both; font-weight: bold; position: relative; top: 140px; text-align: left; margin-left: 350px;}
+
+#box2>h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px;}
+
+#box2 .content1-3 .period{clear: both; margin-top: 150px;}
+#box2 .content1-3 .period img{ margin-left: 350px;}
+#box2 .content1-3 .period li{text-align: left; float: left; margin-bottom: 50px;}
+#box2 .content1-3 .period li span{clear: both; position: relative; left: -380px; bottom: -25px;}
+#box2 .content1-3 .period li:nth-child(2){margin-left: -300px;}
+#box2 .content1-3 .period li:nth-child(4){margin-left: -300px;}
+#box2 .content1-3 .period li:nth-child(6){margin-left: -300px;}
+#box2 .content1-3 .period li:nth-child(8){margin-left: -300px;}
+
+#box2 .content1-3 .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box2 .content1-3 .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box2 .content1-3 h4{font-size: 18px; clear: both; font-weight: bold; position: relative; top: 140px; text-align: left; margin-left: 350px;}
+
+
+#box3>h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px;}
+
+#box3 .content1-3 .period{clear: both; margin-top: 150px;}
+#box3 .content1-3 .period img{ margin-left: 350px;}
+#box3 .content1-3 .period li{text-align: left; float: left; margin-bottom: 50px;}
+#box3 .content1-3 .period li span{clear: both; position: relative; left: -380px; bottom: -25px;}
+#box3 .content1-3 .period li:nth-child(2){margin-left: -300px;}
+#box3 .content1-3 .period li:nth-child(4){margin-left: -300px;}
+#box3 .content1-3 .period li:nth-child(6){margin-left: -300px;}
+#box3 .content1-3 .period li:nth-child(8){margin-left: -300px;}
+
+#box3 .content1-3 .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box3 .content1-3 .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box3 .content1-3 h4{font-size: 18px; clear: both; font-weight: bold; position: relative; top: 140px; text-align: left; margin-left: 350px;}
+
+#box4>h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px;}
+
+#box4 .content1-3 .period{clear: both; margin-top: 150px;}
+#box4 .content1-3 .period img{ margin-left: 350px;}
+#box4 .content1-3 .period li{text-align: left; float: left; margin-bottom: 50px;}
+#box4 .content1-3 .period li span{clear: both; position: relative; left: -380px; bottom: -25px;}
+#box4 .content1-3 .period li:nth-child(2){margin-left: -300px;}
+#box4 .content1-3 .period li:nth-child(4){margin-left: -300px;}
+#box4 .content1-3 .period li:nth-child(6){margin-left: -300px;}
+#box4 .content1-3 .period li:nth-child(8){margin-left: -300px;}
+
+#box4 .content1-3 .period p{line-height: 30px; position: relative; left: 50px; top: 50px; color: #666666; font-size: 12px;}
+#box4 .content1-3 .period h2{font-size: 20px; position: relative; left: 50px; top: 30px; font-weight: bold;}
+
+#box4 .content1-3 h4{font-size: 18px; clear: both; font-weight: bold; position: relative; top: 140px; text-align: left; margin-left: 350px;}
+
+/* sub1-4 */
+#box1 h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px;}
+#box2 .content1-4 h4{font-size: 18px; clear: both; font-weight: bold; margin-bottom: 20px;}
+
+.ment p{text-align: left; margin-left: 300px; margin-right: 300px; line-height: 30px; letter-spacing: -1px; font-size: 12px; margin-top: 20px;}
+.content1-4{margin-top: 130px; margin-left: 100px;}
+.content1-4 .period1-4{width: 800px; margin: 0 auto;}
+.content1-4 .period1-4 li{float: left; margin-bottom: 30px; margin-left: 30px; width: 100px;}
+.content1-4 .period1-4 li span{white-space: nowrap; text-overflow: ellipsis; overflow: hidden; width: 80px; display: none;/* block */}
+
+/* sub1-5 */
+#sub1-5{width: 100%; position: relative;}
+#sub1-5 #sub1-5_wrap{width: 100%; margin: 0 auto;}
+#sub1-5 #sub1-5_wrap .title h2{margin-bottom: 20px; font-weight: bold; font-size: 30px; padding-top: 50px;}
+#sub1-5 #sub1-5_wrap .cont1{width: 1200px; height: 300px; margin-left: 100px; margin-top: 50px; border: 1px solid #666666;}
+#sub1-5 #sub1-5_wrap .cont1 .logo{width: 100%; margin-left: 30px; margin-top: 25px;}
+#sub1-5 #sub1-5_wrap .cont1 .logo img{float: left;}
+#sub1-5 #sub1-5_wrap .cont1 .ment{width: 100%; margin-left: 30px; padding-top: 0px;}
+#sub1-5 #sub1-5_wrap .cont1 .ment h3{text-align: left; font-size: 24px; font-weight: bold; padding-left: 300px; margin-bottom: 20px;}
+#sub1-5 #sub1-5_wrap .cont1 .ment p{font-size: 14px; letter-spacing: -2px; margin-top: 0px; color: #666666;}
+
+#sub1-5 #sub1-5_wrap .cont2{width: 1200px; height: 390px; margin-left: 100px; margin-top: 50px; border: 1px solid #666666;}
+#sub1-5 #sub1-5_wrap .cont2 .map{width: 100%; margin-right: 30px; margin-top: 25px;}
+#sub1-5 #sub1-5_wrap .cont2 .map img{float: right; margin-right: 30px;}
+#sub1-5 #sub1-5_wrap .cont2 .ment{width: 100%; margin-right: 30px; padding-top: 0px;}
+#sub1-5 #sub1-5_wrap .cont2 .ment h3{text-align: right; font-size: 24px; font-weight: bold; padding-right: 300px; margin-bottom: 20px;}
+#sub1-5 #sub1-5_wrap .cont2 .ment h3 span{color: #bd5c5b;}
+#sub1-5 #sub1-5_wrap .cont2 .ment p{font-size: 14px; letter-spacing: -2px; margin-top: 0px; text-align: right; color: #666;}
+#sub1-5 #sub1-5_wrap .cont2 .ment p span{font-weight: bold; color: #000;}
+
+#sub1-5 #sub1-5_wrap .cont3{width: 1200px; height: 600px; margin-left: 100px; margin-top: 50px; border: 1px solid #666666;}
+#sub1-5 #sub1-5_wrap .cont3 .book{width: 100%; margin-left: 30px; margin-top: 25px;}
+#sub1-5 #sub1-5_wrap .cont3 .book img{float: left; margin-left: 30px;}
+
+#sub1-5 #sub1-5_wrap .cont3 .book .korea{position: relative;}
+#sub1-5 #sub1-5_wrap .cont3 .book .korea li span{position: absolute; bottom: -290px; left: 85px; text-align: center;}
+
+#sub1-5 #sub1-5_wrap .cont3 .book .foreign{position: relative;}
+#sub1-5 #sub1-5_wrap .cont3 .book .foreign li img{margin-left: 50px;}
+#sub1-5 #sub1-5_wrap .cont3 .book .foreign li span{position: absolute; bottom: -290px; left: 320px; text-align: center;}
+#sub1-5 #sub1-5_wrap .cont3 .book .foreign .last span{position: absolute; left: 550px;}
+
+#sub1-5 #sub1-5_wrap .cont3 .ment h3{text-align: left; font-size: 24px; font-weight: bold; margin-bottom: 20px; margin-top: 20px;}
+#sub1-5 #sub1-5_wrap .cont3 .ment h3 span{color: #bd5c5b;}
+#sub1-5 #sub1-5_wrap .cont3 .ment{width: 100%; margin-left: 30px; padding-top: 0px;}
+#sub1-5 #sub1-5_wrap .cont3 .ment p{font-size: 14px; letter-spacing: -2px; margin-top: 0px; color: #666666; margin-left: 0;}
+
+#sub1-5 #sub1-5_wrap .cont4{width: 100%; margin-bottom: 50px;}
+#sub1-5 #sub1-5_wrap .cont4{width: 1200px; height: 390px; margin-left: 100px; margin-top: 50px; border: 1px solid #666666;}
+#sub1-5 #sub1-5_wrap .cont4 .rect_logo{width: 100%; margin-right: 30px; margin-top: 25px;}
+#sub1-5 #sub1-5_wrap .cont4 .rect_logo img{float: right; margin-right: 30px; margin-top: 120px;}
+#sub1-5 #sub1-5_wrap .cont4 .ment{width: 100%;}
+#sub1-5 #sub1-5_wrap .cont4 .ment h3{text-align: right; font-size: 24px; font-weight: bold; padding-right: 300px; margin-bottom: 20px;}
+#sub1-5 #sub1-5_wrap .cont4 .ment h3 span{color: #bd5c5b;}
+#sub1-5 #sub1-5_wrap .cont4 .ment p{font-size: 14px; letter-spacing: -2px; margin-top: 0px; text-align: right; color: #666;}
+
+/* sub1-6 */
+#sub1-6{width: 100%; position: relative;}
+#sub1-6 #sub1-6_wrap{width: 100%; margin: 0 auto;}
+#sub1-6 #sub1-6_wrap .title h2{margin-bottom: 20px; font-weight: bold; font-size: 30px; padding-top: 50px;}
+#sub1-6 #sub1-6_wrap .cont1{width: 1200px; height: 300px; margin-left: 100px; margin-top: 50px; border: 1px solid #666666;}
+#sub1-6 #sub1-6_wrap .cont1 .logo{width: 100%; margin-left: 30px; margin-top: 25px;}
+#sub1-6 #sub1-6_wrap .cont1 .logo img{float: left;}
+#sub1-6 #sub1-6_wrap .cont1 .ment{width: 100%; margin-left: 30px; padding-top: 0px;}
+#sub1-6 #sub1-6_wrap .cont1 .ment h3{text-align: left; font-size: 24px; font-weight: bold; padding-left: 300px; margin-bottom: 20px;}
+#sub1-6 #sub1-6_wrap .cont1 .ment p{font-size: 14px; letter-spacing: -2px; margin-top: 0px; color: #666666;}
+
+
+#sub1-6 #sub1-6_wrap .cont2{width: 1200px; height: 1700px; margin-left: 100px; margin-top: 50px; border: 1px solid #666666; margin-bottom: 50px;}
+#sub1-6 #sub1-6_wrap .cont2 .book{width: 100%; margin-left: 30px; margin-top: 25px; position: relative;}
+#sub1-6 #sub1-6_wrap .cont2 .book img{float: left; margin-left: 30px; cursor: pointer;}
+#sub1-6 #sub1-6_wrap .cont2 .book ul li img{margin-left: 50px; margin-bottom: 20px;}
+
+#sub1-6 #sub1-6_wrap .cont2 .ment h3{text-align: left; font-size: 24px; font-weight: bold; margin-bottom: 20px; margin-top: 20px;}
+#sub1-6 #sub1-6_wrap .cont2 .ment h3 span{color: #bd5c5b;}
+#sub1-6 #sub1-6_wrap .cont2 .ment{width: 100%; margin-left: 30px; padding-top: 0px;}
+#sub1-6 #sub1-6_wrap .cont2 .ment p{font-size: 14px; letter-spacing: -2px; margin-top: 0px; color: #666666; margin-left: 0;}
+
+/* sub1-7 */
+#sub1-7{width: 100%; position: relative;}
+#sub1-7 #sub1-7_wrap{width: 100%; margin: 0 auto;}
+#sub1-7 #sub1-7_wrap .title h2{margin-bottom: 20px; font-weight: bold; font-size: 30px; padding-top: 50px;}
+
+#sub1-7 #sub1-7_wrap .cont1{width: 1200px; margin: 0 auto;}
+#sub1-7 #sub1-7_wrap .cont1 .representation{margin-left: 50px;}
+#sub1-7 #sub1-7_wrap .cont1 .representation ul li{float: left; margin-left: 50px;}
+#sub1-7 #sub1-7_wrap .cont1 .ment{text-align: left; margin-left: 0; position: relative; bottom: 0; left: -200px;}
+#sub1-7 #sub1-7_wrap .cont1 .ment p{margin-bottom: -20px;}
+
+#sub1-7 #sub1-7_wrap .cont2{margin-bottom: 20px;}
+#sub1-7 #sub1-7_wrap .cont2 .ment h3{text-align: left; font-size: 24px; font-weight: bold; margin-bottom: 20px; margin-top: 40px; margin-left: 210px;}
+#sub1-7 #sub1-7_wrap .cont2 .ment p{text-align: left; font-size: 12px; margin-bottom: 20px; margin-top: 20px; margin-left: 210px; line-height: 20px;}
+#sub1-7 #sub1-7_wrap .cont2 ul{margin-left: 160px;}
+#sub1-7 #sub1-7_wrap .cont2 ul li{width: 100%; margin: 0 auto;}
+#sub1-7 #sub1-7_wrap .cont2 ul li img{float: left; margin-left: 50px; margin-bottom: 20px;}
+
+
+/* sub1-8 */
+#box1 .content1-8 .period img{ margin-left: 350px;}
+#box1 .content1-8 .period li{text-align: left; float: left; margin-bottom: 50px;}
+#box1 .content1-8>h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px; margin-left: 120px;}
+#box1 .content1-8 .period li:nth-child(2){margin-left: -300px;}
+#box1 .content1-8 .period li:nth-child(4){margin-left: -300px;}
+#box1 .content1-8 .period li:nth-child(6){margin-left: -300px;}
+#box1 .content1-8 .period li:nth-child(7){margin-left: 310px; text-align: center;}
+#box1 .content1-8 .period li:nth-child(8){margin-left: 200px; text-align: center;}
+#box1 .content1-8 .ment p{text-align: center; margin-left: 300px; margin-right: 300px; line-height: 30px; letter-spacing: -1px; font-size: 12px; margin-top: 20px;}
+
+#box2 .content1-8 .period img{ margin-left: 350px;}
+#box2 .content1-8 .period li{text-align: left; float: left; margin-bottom: 50px;}
+#box2 .content1-8>h3{margin-top: 20px; margin-bottom: 20px; font-weight: bold; font-size: 20px; margin-left: 120px;}
+#box2 .content1-8 .period li:nth-child(2){margin-left: -300px;}
+#box2 .content1-8 .period li:nth-child(4){margin-left: -300px;}
+#box2 .content1-8 .period li:nth-child(6){margin-left: -300px;}
+#box2 .content1-8 .period li:nth-child(7){margin-left: 330px; text-align: center;}
+#box2 .content1-8 .period li:nth-child(8){margin-left: 200px; text-align: center;}
+#box2 .content1-8 .ment p{text-align: center; margin-left: 300px; margin-right: 300px; line-height: 30px; letter-spacing: -1px; font-size: 12px; margin-top: 20px;}
+#box2 .content1-8 .period li h3{font-size: 20px; font-weight: bold;}
+
+/* sub2-1 */
+.none{width: 100%; margin: 0 auto;}
+#all #notice #big_title #main_aside .none p{text-align: center; font-weight: bold; font-size: 24px;}
+

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빽다방</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.lightbox-0.5.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/jquery.lightbox-0.5.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+</head>
+<body>
+
+<!-- id="home" -->
+<div data-role="page" id="home">
+
+    <div data-role="header" data-position="fixed" id="nav">
+    <a href="#panel1" data-role="none" class="menu"><img src="img/menu_icon.png" width="28" alt="메뉴"></a>
+    <h1 data-role="none"><a href="#home" data-role="none" class="logo"><img src="img/logo.png" width="150" alt="로고"></a></h1>
+    <a href="#search" data-role="none" class="search"><img src="img/search.png" alt="돋보기" width="23"></a>
+    </div>
+
+    <!-- side_panel1 -->
+    <div id="panel1" data-role="panel" data-display="overlay" class="side_panel">
+        <div class="ui-panel-inner cf">
+            <div class="logo"><img src="img/logo.png" width="130" alt="" /></div>
+        </div>
+
+        <div data-role="content" class="menu_list">
+            <ul class="one-depth">
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>Online 스토어</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">New</a></li>
+                        <li><a href="#none">Macarons</a></li>
+                        <li><a href="#none">Chocolates & Treats</a></li>
+                        <li><a href="#none">Teatime</a></li>
+                        <li><a href="#none">Gifts</a></li>
+                        <li><a href="#none">Les Secrets by Ladurée</a></li>
+                    </ul>
+
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>매장 내 컬렉션</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Our Lunch Range</a></li>
+                        <li><a href="#none">Our Pastries</a></li>
+                        <li><a href="#none">Our Macarons</a></li>
+                        <li><a href="#none">Our Gifts</a></li>
+                        <li><a href="#none">Our Ice Creams</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>레스토랑</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée 예약하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>기업 & 이벤트</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée와 함께 축하하세요</a></li>
+                        <li><a href="#none">Ladurée 레스토랑 맞춤형 이벤트</a></li>
+                        <li><a href="#none">기업 선물</a></li>
+                        <li><a href="#none">문의하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>La Maison Ladurée</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">역사</a></li>
+                        <li><a href="#none">전문성</a></li>
+                        <li><a href="#none">Ladurée's World</a></li>
+                        <li><a href="#none">뉴스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="insta">
+            <li>Follow us</li>
+            <li><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank">@maisonladuree</a></li>
+        </ul>
+        <ul class="sns cf">
+            <li>find us on</li>
+            <li class="fl"><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank"><img src="img/footer_sns1.png" alt="인스타그램"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns2.png" alt="페이스북"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns3.png" alt="핀터레스트"></a></li>
+        </ul>
+
+    </div> <!-- side_panel1 -->
+
+    <div data-role="content" id="content">
+
+    <!-- 슬라이드배너 -->
+    <div id="main_img">
+        <div id="slide_img_wrap1">
+            <ul class="cf">
+                <li class="visual_0"><a href="#">
+                    <img src="img/slide1.jpg" alt="배너1">
+                    <!-- <p><span class="v0_txt1">LADURÉE X</span><br><span class="v0_txt2">TOKIDOKI</span></p> -->
+                </a></li>
+                <li class="visual_1"><a href="#"><img src="img/slide2.jpg" alt="배너2">
+                    <!-- <p><span class="v1_txt1">LADURÉE X</span><br><span class="v1_txt2">L</span><span class="v1_txt3">/</span><span class="v1_txt4">UNIFORM</span></p> -->
+                </a></li>
+                <li class="visual_2"><a href="#"><img src="img/slide3.png" alt="배너3">
+                    <!-- <p><span class="v2_txt1">New Pastries</span></p> -->
+                </a></li>
+                <li class="visual_3"><a href="#"><img src="img/slide4.jpg" alt="배너4">
+                    <!-- <p><span class="v3_txt1">이제 온라인 주문 후<br>매장 수령해보세요</span></p> -->
+                </a></li>
+            </ul>
+        </div>
+        <div class="slide_num">
+            <ul>
+                <li class="on"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+            </ul>
+        </div>
+        <div id="btnImg">
+            <img src="img/slide-left.png" alt="이전버튼" width="20" height="30" class="prev">
+            <img src="img/slide-right.png" alt="다음버튼" width="20" height="30" class="next">
+        </div>
+    </div>
+
+
+
+    <!-- 스와이퍼 영역-->
+    <div id="cont2">
+        <div class="title">
+          <h4>대표 상품</h4>
+          <p>다양한 라뒤레와 만나보세요</p>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+  
+            <div class="swiper-slide">
+              <div class="img">
+                <a href="#" class="item1"><img src="img/main1.jpg" alt="아이템1"></a>
+              </div>
+              <div class="tit">
+                <a href="#">앗!메리카노(HOT)</a>
+              </div>
+            </div>
+  
+            <div class="swiper-slide">
+              <div class="img">
+                <a href="#" class="item1"><img src="img/main2.jpg" alt="아이템2"></a>
+              </div>
+              <div class="tit">
+                <a href="#">원조커피(HOT)</a>
+              </div>
+            </div>          
+            
+            <div class="swiper-slide">
+              <div class="img">
+                <a href="#" class="item1"><img src="img/main3.jpg" alt="아이템4"></a>
+              </div>
+              <div class="tit">
+                <a href="#">달달연유라떼(HOT)</a>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- 오늘의 특가 -->
+        <div id="cont1">
+            <div class="title">
+                <h4>오늘의 특가</h4>
+                <p>하루만 특별한 가격으로 제공되는 제품을 지금 주문하세요 </p>
+            </div>
+            <div class="sale cf">
+                <div class="sale_box">
+                    <div class="productImg fl"></div>
+                    <div class="sale_info fl">
+                        <div class="timer"><div id="bb"></div></div>
+                        <p class="productName">남도떡갈비샌드</p>
+                        <div class="price">
+                            <p class="orginPrice">4,500￦</p>
+                            <p class="discount">3,500￦</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+      <div id="cont3">
+        <div class="title">
+            <h4>&lt;퐁당치노&gt;</h4>
+            <p>빽다방 대표 시그니처 메뉴에 아낌없이 퐁당!</p>
+        </div>
+        <figure class="vido">
+            <a href="#none">
+                <img src="img/event2.jpg" width="300" alt="">
+            </a>
+        </figure>
+      </div>
+
+        <div id="cont4">
+            <div class="title">
+                <h4>Our Classic Range of Macarons</h4>
+            </div>
+            <div id="cont4_img">
+                <ul class="cf">
+                    <li class="visual_0"><a href="#"><img src="img/macaroon01.png" alt="배너1"></a></li>
+                    <li class="visual_1"><a href="#"><img src="img/macaroon02.png" alt="배너2"></a></li>
+                    <li class="visual_2"><a href="#"><img src="img/macaroon03.png" alt="배너3"></a></li>
+                    <li class="visual_3"><a href="#"><img src="img/macaroon04.png" alt="배너4"></a></li>
+                    <li class="visual_4"><a href="#"><img src="img/macaroon05.png" alt="배너5"></a></li>
+                    <li class="visual_5"><a href="#"><img src="img/macaroon06.png" alt="배너6"></a></li>
+                    <li class="visual_6"><a href="#"><img src="img/macaroon07.png" alt="배너7"></a></li>
+                    <li class="visual_7"><a href="#"><img src="img/macaroon08.png" alt="배너8"></a></li>
+                    <li class="visual_8"><a href="#"><img src="img/macaroon09.png" alt="배너9"></a></li>
+                    <li class="visual_9"><a href="#"><img src="img/macaroon10.png" alt="배너10"></a></li>
+                    <li class="visual_10"><a href="#"><img src="img/macaroon11.png" alt="배너11"></a></li>
+                    <li class="visual_11"><a href="#"><img src="img/macaroon12.png" alt="배너12"></a></li>
+                </ul>
+            </div>
+            <div class="btn cf">
+                <img src="img/slide-right.png" alt="다음버튼" width="20" class="next fl">
+                <img src="img/slide-left.png" alt="이전버튼" width="20" class="prev fl">
+            </div>
+        </div>
+
+        <div id="cont">
+            <ul class="foot_info cf">
+                <p class="copyright">©Ladurée All Rights Reserved</p>
+                <li class="fl"><a href="#none">법적 고지</a></li>
+                <li class="fl"><a href="#none">이용약관</a></li>
+                <li class="fl"><a href="#none">개인정보처리방침</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div data-role="footer" data-position="fixed" id="footer">
+        <a href="#maps" data-role="none" class="map"><img src="img/location.png" width="28" alt="위치찾기"></a>
+        <a href="#login" data-role="none" class="login"><img src="img/login.png" width="33" alt="로그인"></a>
+        <a href="#baskets" data-role="none" class="basket"><img src="img/basket.png" width="33" alt="장바구니"></a>
+        <a href="#delivery" data-role="none" class="deliver"><img src="img/deliver.png" width="41" alt="배송"></a>
+    </div>
+
+    <div id="search">
+        <div class="search-header">
+                <input type="text" placeholder="Search" name="user_search" class="user_search" data-role="none">
+                <a href="#"><img src="img/input_search.png" alt="검색아이콘" width="20"></a>
+        </div>
+        <a href="#" class="btn-close">×</a>
+    </div>
+</div><!-- id="home" -->
+
+
+
+<!-- 2.매장찾기 -->
+<div data-role="page" id="maps" tabindex="0">
+
+    <div data-role="header" data-position="fixed" id="nav">
+        <a href="#panel2" data-role="none" class="menu"><img src="img/menu_icon.png" width="28" alt="메뉴"></a>
+        <h1 data-role="none"><a href="#home" data-role="none" class="logo"><img src="img/logo1.png" width="150" alt="로고"></a></h1>
+        <a href="#search" data-role="none" class="search"><img src="img/search.png" alt="돋보기" width="23"></a>
+    </div>
+
+    <!-- side_panel2 -->
+    <div id="panel2" data-role="panel" data-display="overlay" class="side_panel">
+        <div class="ui-panel-inner cf">
+            <div class="logo"><img src="img/logo.png" width="130" alt="" /></div>
+        </div>
+
+        <div data-role="content" class="menu_list">
+            <ul class="one-depth">
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>Online 스토어</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">New</a></li>
+                        <li><a href="#none">Macarons</a></li>
+                        <li><a href="#none">Chocolates & Treats</a></li>
+                        <li><a href="#none">Teatime</a></li>
+                        <li><a href="#none">Gifts</a></li>
+                        <li><a href="#none">Les Secrets by Ladurée</a></li>
+                    </ul>
+
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>매장 내 컬렉션</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Our Lunch Range</a></li>
+                        <li><a href="#none">Our Pastries</a></li>
+                        <li><a href="#none">Our Macarons</a></li>
+                        <li><a href="#none">Our Gifts</a></li>
+                        <li><a href="#none">Our Ice Creams</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>레스토랑</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée 예약하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>기업 & 이벤트</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée와 함께 축하하세요</a></li>
+                        <li><a href="#none">Ladurée 레스토랑 맞춤형 이벤트</a></li>
+                        <li><a href="#none">기업 선물</a></li>
+                        <li><a href="#none">문의하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>La Maison Ladurée</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">역사</a></li>
+                        <li><a href="#none">전문성</a></li>
+                        <li><a href="#none">Ladurée's World</a></li>
+                        <li><a href="#none">뉴스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="insta">
+            <li>Follow us</li>
+            <li><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank">@maisonladuree</a></li>
+        </ul>
+        <ul class="sns cf">
+            <li>find us on</li>
+            <li class="fl"><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank"><img src="img/footer_sns1.png" alt="인스타그램"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns2.png" alt="페이스북"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns3.png" alt="핀터레스트"></a></li>
+        </ul>
+
+    </div> <!-- side_panel2 -->
+  
+    <div data-role="content" id="content1">
+        <div class="loca_bg"></div>
+        <div class="over">
+            <div class="bg_over"></div>
+            <p class="lo_bg_uptit">달콤함이 당신을 기다립니다</p>
+            <p class="lo_bg_tit">Ladurée Store</p>
+        </div>
+        <div class="map_wrap">
+            
+            <div class="map">
+                <div id="ggmap">
+                    <div class="container-full-h container-fully-v2">
+                            
+                            <div class="col-12 col-lg-6 order-1 order-lg-2">
+                                <div class="map-block" id="google_map"></div>
+                            </div>
+                    </div>
+                </div>
+                <script>
+                    var map;
+                    function initMap() {
+                        map = new google.maps.Map(
+                            document.getElementById('google_map'),
+                            {center: new google.maps.LatLng(37.551169, 126.988236),zoomControlOptions: {style:google.maps.ZoomControlStyle.SMALL},mapTypeControlOptions: {style:google.maps.MapTypeControlStyle.HORIZONTAL_BAR}, zoom: 11.5});  //좌표값수정
+                        
+                        var iconBase = 'img/';
+                        
+                        var icons = {
+                            cafe: {
+                            icon: iconBase + 'map_marker.png'  //아이콘 수정할 부분
+                            }
+                        };
+
+                        var features = [
+                        {
+                            position: new google.maps.LatLng(37.551169, 126.988236),  //좌표값수정
+                            type: 'cafe'
+                            }
+                        ];
+
+                        // Create markers.
+                        for (var i = 0; i < features.length; i++) {
+                            var marker = new google.maps.Marker({
+                            position: features[i].position,
+                            icon: icons[features[i].type].icon,
+                            map: map
+                            });
+                        };
+
+                        //marker click
+                        google.maps.event.addListener(marker, 'click', function(){
+                            $('#card').css('display','block');
+                        });
+                        
+                        $('#card').click(function(){
+                            $(this).css('display','none');
+                        });
+                    }
+                </script>
+
+            </div>
+            
+            <div class="store">
+                <h3>라뒤레 1호점</h3>
+                <p>서울특별시 용산구 용산동2가 1-3</p>
+                <div class="undLine"></div>
+                <img src="img/store.jpg" width="300" alt="">
+            </div>
+        </div>
+
+        <div id="cont">
+        <ul class="foot_info cf">
+            <p class="copyright">©Ladurée All Rights Reserved</p>
+            <li class="fl"><a href="#none">법적 고지</a></li>
+            <li class="fl"><a href="#none">이용약관</a></li>
+            <li class="fl"><a href="#none">개인정보처리방침</a></li>
+        </ul>
+        </div>
+    </div>
+  
+  
+    <div data-role="footer" data-position="fixed" id="footer">
+        <a href="#maps" data-role="none" class="map"><img src="img/location.png" width="28" alt="위치찾기"></a>
+        <a href="#login" data-role="none" class="login"><img src="img/login.png" width="33" alt="로그인"></a>
+        <a href="#baskets" data-role="none" class="basket"><img src="img/basket.png" width="33" alt="장바구니"></a>
+        <a href="#delivery" data-role="none" class="deliver"><img src="img/deliver.png" width="41" alt="배송"></a>
+    </div>
+
+    <div id="search">
+        <div class="search-header">
+                <input type="text" placeholder="Search" name="user_search" class="user_search" data-role="none">
+                <a href="#"><img src="img/input_search.png" alt="검색아이콘" width="20"></a>
+        </div>
+        <a href="#" class="btn-close">×</a>
+    </div>
+
+</div><!-- id="maps" -->
+
+<!-- 로그인 페이지 -->
+<div data-role="page" id="login">
+
+    <div data-role="header" data-position="fixed" id="nav">
+        <a href="#panel3" data-role="none" class="menu"><img src="img/menu_icon.png" width="28" alt="메뉴"></a>
+        <h1 data-role="none"><a href="#home" data-role="none" class="logo"><img src="img/logo1.png" width="150" alt="로고"></a></h1>
+        <a href="#search" data-role="none" class="search"><img src="img/search.png" alt="돋보기" width="23"></a>
+    </div>
+
+    <!-- side_panel3 -->
+    <div id="panel3" data-role="panel" data-display="overlay" class="side_panel">
+        <div class="ui-panel-inner cf">
+            <div class="logo"><img src="img/logo.png" width="130" alt="" /></div>
+        </div>
+
+        <div data-role="content" class="menu_list">
+            <ul class="one-depth">
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>Online 스토어</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">New</a></li>
+                        <li><a href="#none">Macarons</a></li>
+                        <li><a href="#none">Chocolates & Treats</a></li>
+                        <li><a href="#none">Teatime</a></li>
+                        <li><a href="#none">Gifts</a></li>
+                        <li><a href="#none">Les Secrets by Ladurée</a></li>
+                    </ul>
+
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>매장 내 컬렉션</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Our Lunch Range</a></li>
+                        <li><a href="#none">Our Pastries</a></li>
+                        <li><a href="#none">Our Macarons</a></li>
+                        <li><a href="#none">Our Gifts</a></li>
+                        <li><a href="#none">Our Ice Creams</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>레스토랑</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée 예약하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>기업 & 이벤트</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée와 함께 축하하세요</a></li>
+                        <li><a href="#none">Ladurée 레스토랑 맞춤형 이벤트</a></li>
+                        <li><a href="#none">기업 선물</a></li>
+                        <li><a href="#none">문의하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>La Maison Ladurée</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">역사</a></li>
+                        <li><a href="#none">전문성</a></li>
+                        <li><a href="#none">Ladurée's World</a></li>
+                        <li><a href="#none">뉴스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="insta">
+            <li>Follow us</li>
+            <li><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank">@maisonladuree</a></li>
+        </ul>
+        <ul class="sns cf">
+            <li>find us on</li>
+            <li class="fl"><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank"><img src="img/footer_sns1.png" alt="인스타그램"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns2.png" alt="페이스북"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns3.png" alt="핀터레스트"></a></li>
+        </ul>
+
+    </div> <!-- side_panel3 -->
+
+    <div data-role="content" id="content2">
+        <div class="login_wrap">
+            <h4>로그인</h4>
+            <div class="input_wrap">
+            <input type="email" name="input1" data-role="none" placeholder="이메일">
+            <input type="password" name="input2" data-role="none" placeholder="비밀번호">
+            </div>
+            <div class="login_btn">
+            <a href="#myPage">로그인</a>
+            </div>
+            <div class="text cf">
+            <ul>
+                <li><a href="#">아이디 찾기</a><span> | </span></li>
+                <li><a href="#">회원가입</a><span> | </span></li>
+                <li><a href="#">비밀번호 찾기</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="cont">
+        <ul class="foot_info cf">
+            <p class="copyright">©Ladurée All Rights Reserved</p>
+            <li class="fl"><a href="#none">법적 고지</a></li>
+            <li class="fl"><a href="#none">이용약관</a></li>
+            <li class="fl"><a href="#none">개인정보처리방침</a></li>
+        </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed" id="footer">
+        <a href="#maps" data-role="none" class="map"><img src="img/location.png" width="28" alt="위치찾기"></a>
+        <a href="#login" data-role="none" class="login"><img src="img/login.png" width="33" alt="로그인"></a>
+        <a href="#baskets" data-role="none" class="basket"><img src="img/basket.png" width="33" alt="장바구니"></a>
+        <a href="#delivery" data-role="none" class="deliver"><img src="img/deliver.png" width="41" alt="배송"></a>
+    </div>
+
+    <div id="search">
+        <div class="search-header">
+                <input type="text" placeholder="Search" name="user_search" class="user_search" data-role="none">
+                <a href="#"><img src="img/input_search.png" alt="검색아이콘" width="20"></a>
+        </div>
+        <a href="#" class="btn-close">×</a>
+    </div>  
+  
+</div><!-- id="login" -->
+
+<!-- id="baskets" -->
+<div data-role="page" id="baskets">
+
+    <div data-role="header" data-position="fixed" id="nav">
+        <a href="#panel4" data-role="none" class="menu"><img src="img/menu_icon.png" width="28" alt="메뉴"></a>
+        <h1 data-role="none"><a href="#home" data-role="none" class="logo"><img src="img/logo1.png" width="150" alt="로고"></a></h1>
+        <a href="#search" data-role="none" class="search"><img src="img/search.png" alt="돋보기" width="23"></a>
+    </div>
+  
+    <!-- side_panel4 -->
+    <div id="panel4" data-role="panel" data-display="overlay" class="side_panel">
+        <div class="ui-panel-inner cf">
+            <div class="logo"><img src="img/logo.png" width="130" alt="" /></div>
+        </div>
+
+        <div data-role="content" class="menu_list">
+            <ul class="one-depth">
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>Online 스토어</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">New</a></li>
+                        <li><a href="#none">Macarons</a></li>
+                        <li><a href="#none">Chocolates & Treats</a></li>
+                        <li><a href="#none">Teatime</a></li>
+                        <li><a href="#none">Gifts</a></li>
+                        <li><a href="#none">Les Secrets by Ladurée</a></li>
+                    </ul>
+
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>매장 내 컬렉션</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Our Lunch Range</a></li>
+                        <li><a href="#none">Our Pastries</a></li>
+                        <li><a href="#none">Our Macarons</a></li>
+                        <li><a href="#none">Our Gifts</a></li>
+                        <li><a href="#none">Our Ice Creams</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>레스토랑</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée 예약하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>기업 & 이벤트</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée와 함께 축하하세요</a></li>
+                        <li><a href="#none">Ladurée 레스토랑 맞춤형 이벤트</a></li>
+                        <li><a href="#none">기업 선물</a></li>
+                        <li><a href="#none">문의하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>La Maison Ladurée</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">역사</a></li>
+                        <li><a href="#none">전문성</a></li>
+                        <li><a href="#none">Ladurée's World</a></li>
+                        <li><a href="#none">뉴스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="insta">
+            <li>Follow us</li>
+            <li><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank">@maisonladuree</a></li>
+        </ul>
+        <ul class="sns cf">
+            <li>find us on</li>
+            <li class="fl"><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank"><img src="img/footer_sns1.png" alt="인스타그램"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns2.png" alt="페이스북"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns3.png" alt="핀터레스트"></a></li>
+        </ul>
+
+    </div> <!-- side_panel4 -->
+    
+    <div data-role="content" id="content3">
+        <div class="basket_wrap">
+        <h4>장바구니</h4>
+        <div class="list">
+            <p>장바구니가 비어있습니다</p>
+        </div>
+        <ul class="cf">
+            <li class="li1"><a href="#">선택상품주문</a></li>
+            <li class="li2"><a href="#">전체상품주문</a></li>
+        </ul>
+        </div>
+    </div>
+  
+    <div id="cont">
+        <ul class="foot_info cf">
+            <p class="copyright">©Ladurée All Rights Reserved</p>
+            <li class="fl"><a href="#none">법적 고지</a></li>
+            <li class="fl"><a href="#none">이용약관</a></li>
+            <li class="fl"><a href="#none">개인정보처리방침</a></li>
+        </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed" id="footer">
+        <a href="#maps" data-role="none" class="map"><img src="img/location.png" width="28" alt="위치찾기"></a>
+        <a href="#login" data-role="none" class="login"><img src="img/login.png" width="33" alt="로그인"></a>
+        <a href="#baskets" data-role="none" class="basket"><img src="img/basket.png" width="33" alt="장바구니"></a>
+        <a href="#delivery" data-role="none" class="deliver"><img src="img/deliver.png" width="41" alt="배송"></a>
+    </div>
+
+    <div id="search">
+        <div class="search-header">
+                <input type="text" placeholder="Search" name="user_search" class="user_search" data-role="none">
+                <a href="#"><img src="img/input_search.png" alt="검색아이콘" width="20"></a>
+        </div>
+        <a href="#" class="btn-close">×</a>
+    </div>  
+  
+</div><!-- id="baskets" -->
+
+
+
+<!-- id="delivery" -->
+<div data-role="page" id="delivery">
+
+    <div data-role="header" data-position="fixed" id="nav">
+        <a href="#panel5" data-role="none" class="menu"><img src="img/menu_icon.png" width="28" alt="메뉴"></a>
+        <h1 data-role="none"><a href="#home" data-role="none" class="logo"><img src="img/logo1.png" width="150" alt="로고"></a></h1>
+        <a href="#search" data-role="none" class="search"><img src="img/search.png" alt="돋보기" width="23"></a>
+    </div>
+  
+    <!-- side_panel5 -->
+    <div id="panel5" data-role="panel" data-display="overlay" class="side_panel">
+        <div class="ui-panel-inner cf">
+            <div class="logo"><img src="img/logo.png" width="130" alt="" /></div>
+        </div>
+
+        <div data-role="content" class="menu_list">
+            <ul class="one-depth">
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>Online 스토어</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">New</a></li>
+                        <li><a href="#none">Macarons</a></li>
+                        <li><a href="#none">Chocolates & Treats</a></li>
+                        <li><a href="#none">Teatime</a></li>
+                        <li><a href="#none">Gifts</a></li>
+                        <li><a href="#none">Les Secrets by Ladurée</a></li>
+                    </ul>
+
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>매장 내 컬렉션</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Our Lunch Range</a></li>
+                        <li><a href="#none">Our Pastries</a></li>
+                        <li><a href="#none">Our Macarons</a></li>
+                        <li><a href="#none">Our Gifts</a></li>
+                        <li><a href="#none">Our Ice Creams</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>레스토랑</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée 예약하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>기업 & 이벤트</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">Ladurée와 함께 축하하세요</a></li>
+                        <li><a href="#none">Ladurée 레스토랑 맞춤형 이벤트</a></li>
+                        <li><a href="#none">기업 선물</a></li>
+                        <li><a href="#none">문의하기</a></li>
+                    </ul>
+                </li>
+                <li data-role="collapsible" data-iconpos="right" class="ui-nodisc-icon">
+                    <h3>La Maison Ladurée</h3>
+                    <ul data-role="listview">
+                        <li><a href="#none">역사</a></li>
+                        <li><a href="#none">전문성</a></li>
+                        <li><a href="#none">Ladurée's World</a></li>
+                        <li><a href="#none">뉴스</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="insta">
+            <li>Follow us</li>
+            <li><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank">@maisonladuree</a></li>
+        </ul>
+        <ul class="sns cf">
+            <li>find us on</li>
+            <li class="fl"><a href="https://www.instagram.com/maisonladuree/?hl=fr/maisonladuree" target="_blank"><img src="img/footer_sns1.png" alt="인스타그램"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns2.png" alt="페이스북"></a></li>
+            <li class="fl"><a href="#"><img src="img/footer_sns3.png" alt="핀터레스트"></a></li>
+        </ul>
+
+    </div> <!-- side_panel5 -->
+    
+    <div data-role="content" id="content4">
+        <div class="delivery_wrap">
+            <h4>배송 검색</h4>
+            <ul class="delivery_notice">
+                <li>집 앞 배송은 화요일부터 금요일 사이에만 가능합니다.</li>
+                <li>가능한 효율적으로 신선한 제품을 제공하기 위해 노력하고 있습니다.</li>
+                <li>배송은 대면없이 이루어지며 배송시 더 이상 서명을 요구하지 않습니다.</li>
+            </ul>
+
+            <div class="delivery_info">
+                <ul class="delivery_info_list_box cf">
+                    <li class="delivery_info_list fl"><img src="img/deliver1.png" alt="" width="50"><p>Ladurée</p> <p>상점에서</p></li>
+                    <li class="delivery_info_list fl"><img src="img/deliver2.png" alt="" width="50"><p>18℃로</p> <p>신선하게</p></li>
+                    <li class="delivery_info_list fl"><img src="img/deliver3.png" alt="" width="50"><p>24시간 내에</p> <p>빠르게</p></li>
+                    <li class="delivery_info_list fl"><img src="img/deliver4.png" alt="" width="50"><p>조심스럽고</p> <p>안전하게</></li>
+                </ul>
+            </div>
+
+            <div class="input_wrap">
+                <input type="email" name="input1" data-role="none" placeholder="이메일">
+                <input type="password" name="input2" data-role="none" placeholder="비밀번호">
+            </div>
+            <div class="login_btn">
+                <a href="#myPage">로그인</a>
+            </div>
+            <div class="text cf">
+                <ul>
+                    <li><a href="#">아이디 찾기</a><span> | </span></li>
+                    <li><a href="#">회원가입</a><span> | </span></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    <div id="cont">
+        <ul class="foot_info cf">
+            <p class="copyright">©Ladurée All Rights Reserved</p>
+            <li class="fl"><a href="#none">법적 고지</a></li>
+            <li class="fl"><a href="#none">이용약관</a></li>
+            <li class="fl"><a href="#none">개인정보처리방침</a></li>
+        </ul>
+    </div>
+
+    <div data-role="footer" data-position="fixed" id="footer">
+        <a href="#maps" data-role="none" class="map"><img src="img/location.png" width="28" alt="위치찾기"></a>
+        <a href="#login" data-role="none" class="login"><img src="img/login.png" width="33" alt="로그인"></a>
+        <a href="#baskets" data-role="none" class="basket"><img src="img/basket.png" width="33" alt="장바구니"></a>
+        <a href="#delivery" data-role="none" class="deliver"><img src="img/deliver.png" width="41" alt="배송"></a>
+    </div>
+
+    <div id="search">
+        <div class="search-header">
+                <input type="text" placeholder="Search" name="user_search" class="user_search" data-role="none">
+                <a href="#"><img src="img/input_search.png" alt="검색아이콘" width="20"></a>
+        </div>
+        <a href="#" class="btn-close">×</a>
+    </div>  
+  
+</div><!-- id="baskets" -->  
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAtAvz4p1Dnsa3riZtfWn31X5arzGLr7I&callback=initMap"></script>
+    <script>
+        $(function(){
+
+            var div=document.getElementById("bb");
+            
+            setInterval(function(){ 
+            var toDate=new Date();
+            var tomorrow=new Date();
+            tomorrow.setHours(24,0,0,0);
+            var diffMS=tomorrow.getTime()/1000-toDate.getTime()/1000;
+            var diffHr=Math.floor(diffMS/3600);
+            diffMS=diffMS-diffHr*3600;
+            var diffMi=Math.floor(diffMS/60);
+            diffMS=diffMS-diffMi*60;
+            var diffS=Math.floor(diffMS);
+            var result=((diffHr<10)?"0"+diffHr:diffHr);
+            result+=":"+((diffMi<10)?"0"+diffMi:diffMi);
+            result+=":"+((diffS<10)?"0"+diffS:diffS);
+            div.innerHTML=result;
+            
+            },1000);
+
+
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+#all{border: 1px solid #023586; width: 62.5%; margin: 30px auto; height: 600px; border-radius: 30px; margin-top: 80px; background: white; padding-top: 90px;}
+#top img{width: 30%;}
+#top .ment p{font-size: 2em; font-weight: bold; color: #023586; margin-bottom: 10px;}
+
+#section{position: relative;}
+#section .main li:nth-child(1) input{border: 3px solid #023586; padding: 15px; padding-right: 110px; margin-bottom: 5px;}
+#section .main li:nth-child(2) input{border: 3px solid #023586; padding: 15px; padding-right: 110px; margin-bottom: 5px;}
+#section .main li:nth-child(3){position: relative; right: -50%; float: left; margin-left: -145px; font-size: 12px}
+#section .main li:nth-child(3) input{float: left; margin-top: 3px;}
+#section .main li:nth-child(3) p{margin-left: 20px; line-height: 20px;}
+#section .main li:nth-child(4) input{padding: 15px; background-color: #023586; width: 300px; margin: 0 auto; color: white; border-radius: 20px; margin-top: 30px; cursor: pointer;}
+
+#section .menu li{position: relative; margin-top: 20px; font-size: 14px; cursor: pointer;}
+#section .menu li:nth-child(1){float: left; position: absolute; left: 50%; margin-left: -150px;}
+#section .menu li:nth-child(2){position: absolute; left: 50%; margin-left: 90px;}
+
+#easy_login{margin-top: 80px;}
+#easy_login h2{margin-top: 40px;}
+#easy_login .sns{margin-top: 20px;}
+#easy_login .sns li{display: inline-block; margin-left: 10px;}
+#easy_login .sns li:nth-child(1){margin: 0;}
+#easy_login .sns li img{width: 80%; cursor: pointer;}
+
+

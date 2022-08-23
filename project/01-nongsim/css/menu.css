@@ -1,0 +1,27 @@
+#wrap{width: 1200px; margin: 0 auto; box-sizing: border-box;}
+.cf:after{content: ""; display: block; clear: both;}
+
+#header{width: 100%; height: 300px; box-sizing: border-box;}
+.logo{width: 250px; height: 0px; margin: 0 auto; text-align: center; margin-top: 50px;}
+.nav{width: 100%; margin: 50px auto;}
+.nav li{float: left; width: 25%; text-align: center; position: relative;}
+.nav li>a{display: block; padding: 10px; font-size: 18px; color: #000; font-weight: bold;}
+.nav li>a:hover{color: #e60012;}
+.nav li ul.sub{position: absolute; left: 0; top: 50px;  display: none; width: 300px; background: #e60012; z-index: 999; color: #ffffff;}
+.nav li ul.sub li{width: 100%;}
+.nav li ul.sub li a{font-weight: 400; color: #ffffff;}
+
+
+
+
+/* 푸터 */
+#footer{width: 1920px; height: 300px; margin-left: -360px; margin-top: -120px; background-color: #b82424; min-width: 1440px;}
+#footer #footer_wrap{width: 62.5%; height: 300px; margin: 0 auto; }
+#footer #footer_wrap .footer_line{padding-top: 40px;}
+#footer #footer_wrap .footer_line ul li{float: left; margin-left: 20px;}
+#footer #footer_wrap .footer_line ul li p{font-size: 14px; color: #fff; letter-spacing: -1px;}
+#footer #footer_wrap .footer_line:nth-child(3){margin-top: 50px;}
+#footer #footer_wrap .footer_line>p{color: #fff; margin-left: 20px;}
+
+#footer #footer_wrap .footer_sns{float: right; margin-top: -200px;}
+#footer #footer_wrap .footer_sns ul li{float: right;}

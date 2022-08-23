@@ -1,0 +1,154 @@
+#header{width: 75%; margin-top: 20px; margin: 0 auto; min-width: 1068px;}
+#header .sns ul li{float: right; margin-left: 20px; margin-top: 20px;}
+#header .login{ position: relative; top: -100px;}
+#header .login ul{clear: both;}
+#header .login ul li{float: right; margin-left: 20px;}
+
+/* 상단메뉴바 */
+#lnb{position: relative; height: auto; background: #ffffff; width: 75%; margin: 0 auto; min-width: 1068px;}
+#lnb #menu{width: 100%; margin: 0 auto; z-index: 999; background-color: #ffffff; height: 50px;}
+#menu>li{
+    float: left; height: 650px; margin-right: 30px;
+}
+#menu li>a{
+    display: block; text-decoration: none; color: #333333; text-align: center; font-size: 20px; font-weight: 600;
+}
+#menu li a:hover{
+    color: #bd5c5b;
+}
+#lnb #menu li#freesamLogo{float: left; width: 181px; margin: 0; padding: 0;}
+
+
+
+#menu li ul{
+    position: absolute; top: 40px; left: 0; width: 1000px; display: none; background: #f4f4f4; color: #333333; padding: 20px 0; border: 1px solid #cccccc; z-index: 998; background: rgba(244, 244, 244, 1);
+}
+
+#menu li ul .m_width{width: 1200px; margin: 0 auto; transition: all 1s;}
+#menu li ul .m_width .m1_tit{width: 193px;}
+
+#menu li:hover ul{display: block;}
+#menu li ul .m_width .sub .second{padding-left: 204px;}
+
+#menu li ul li{width: 193px;}
+
+#menu li ul#onlinestudy li{
+    height: 328px; margin: 0; padding-right: 5px; padding-left: 5px; border-left: 1px solid #dddddd;
+}
+#menu li ul#onlinestudy li:nth-child(1){
+    border-left: 0;
+}
+#menu li ul#onlinestudy li img{float: left; margin: 300px 0px 0 10px; padding: 0;}
+#menu li:nth-child(2) ul#onlinestudy li img{float: left; margin-top: 50px}
+#menu li:nth-child(3) ul#onlinestudy li img{float: left; margin-top: 50px}
+#menu li:nth-child(5) ul#onlinestudy li img{float: left; margin-top: 50px}
+
+#menu li ul li h2{font-size: 32px; font-weight: 600; text-align: center; color: #000000; padding-top: 2px; margin-bottom: 30px;}
+#menu li ul .m_width .m1_tit span{font-size: 12px; letter-spacing: -0.8px;}
+
+#menu li ul li dl dt a{color: #333333; font-size: 1em; font-weight: 600; line-height: 180%;}
+#menu li ul li dl dd a{color: #777777; font-size: 0.75em; font-weight: 600; line-height: 170%; padding-left: 15px; white-space: nowrap; text-overflow: ellipsis;}
+
+/*  */
+.popup{
+    margin-right: -300px;
+    margin-top: 20px;
+    float: right;
+
+    transform: translate(-50%, -50%);
+    width: 55px; height: 55px; 
+    cursor:pointer;
+  }
+  .popup span {
+    display: block;
+    background: #666666;
+    width: 42px;
+    height: 4px;
+    border-radius: 3px;
+    transition: margin 0.25s 0.25s, transform 0.25s ;
+  }
+  .popup .bar1 {margin-bottom: 6px;}
+  .popup .bar3 {margin-top: 6px;}
+  
+  /* .popup.active span{
+    transition: margin 0.25s,
+  }
+  
+  .popup.active .bar1 {
+    margin-top: 8px;
+    margin-bottom: -4px;
+    transform: rotate(45deg);
+  }
+  .popup.active .bar2 {
+    transform: rotate(45deg);
+    
+  }
+  .popup.active .bar3 {
+    margin-top: -4px;
+    transform: rotate(135deg);
+  }
+   */
+
+
+  
+#nav {width: 100%; background-color: white;}
+#nav h1 {float: left; color: #fff; font-size: 40px; font-family: 'Abel'; padding: 5px 5px 5px 15px;}
+.pop{
+  width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); position: fixed; left: 0; top: 00px; z-index: 99999; display: none;
+}
+.pop ul{width: 550px; height: 600px; position: relative; left: 50%; top: 50%; margin-top: -250px; margin-left: -310px; text-align: center;}
+.pop ul li{margin-top: 50px;}
+.pop ul li:first-child{margin-top: 0px;}
+.pop ul li a{font-size: 30px; text-align: center; color: #ffffff; font-weight: 900;}
+
+.pop button{
+  padding: 10px 20px; background-color: #ffffff; cursor: pointer; position: relative; top: -20%; right: -83%; font-weight: bold;
+}
+
+
+/* icon-wrap */
+/* .popup span {
+  display: block;
+  background: #666;
+  width: 42px;
+  height: 4px;
+  border-radius: 3px;
+  transition: margin 0.25s 0.25s, transform 0.25s ;
+}
+.popup .bar1 {margin-bottom: 8px;}
+
+.popup .bar3 {margin-top: 8px;}
+.popup.active ~ *{
+    opacity: 1;
+}
+.popup.active span {
+  transition: all 0.25s, transform 0.25s 0.25s;
+}
+
+.popup.active .bar1 {
+  margin-top: 8px;
+  margin-bottom: -4px;
+  transform: rotate(45deg);
+}
+.popup.active .bar2 {
+  transform: rotate(45deg);
+  
+}
+.popup.active .bar3 {
+  margin-top: -4px;
+  transform: rotate(135deg);
+} */
+
+
+/* footer */
+footer{width: 100%; background-color: #242424; height: 200px; color: #555555; overflow: hidden; position: relative;}
+#footer{width: 80%; margin: 0 auto; position: relative; top: 80px;}
+#footer img{float: left; margin-top: -90px ;}
+#footer .sub_menu li{float: left; margin-left: 20px; cursor: pointer;}
+#footer .sub_menu li:first-child{margin: 0;}
+#footer .address{clear: both; position: relative; margin-left: 400px; top: -160px;}
+
+#footer .left{float: right; position: relative; top: -160px; margin-right: 100px;}
+#footer .left li{float: right; margin-left: 10px;position: relative; top: -60px;}
+#footer .left li img{margin-left: 30px; cursor: pointer;}
+#footer .left img{margin-top: -30px; float: right;}

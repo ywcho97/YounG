@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0; outline: 0; border: 0;}
+html{overflow-y: scroll; width: 100%; overflow-x: hidden;}
+body{font-family: 'Noto Sans KR' inherit; width: 100%; margin: 0 auto;}
+h1,h2,h3,h4,h5,h6{font-size: 28px; font-weight: normal;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #666666;}
+
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+.cf:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.hidden{position: absolute; overflow: hidden; text-indent: -9999px;}

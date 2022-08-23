@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+*{margin: 0; padding: 0; vertical-align: 0; border: 0; outline: 0;}
+html,body{width: 100%;}
+html{overflow-y: scroll;}
+
+body{font: 14px/1 'Noto Sans KR', 'serif', 'sans-serif'; color:#555555; background-color: #000000; overflow-x: hidden;}
+#wrap{width: 100%; height: auto;}
+h1,h2,h3,h4,h5,h6{font-size: 14px; font-weight: normal;}
+a{color: #555555; text-decoration: none;}
+ul{list-style: none;}
+em,i,address{font-style: normal;}
+.floatclear:after{
+    content: ''; display: block; clear: both;
+}
