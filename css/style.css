@@ -80,7 +80,7 @@
     .popup_wrap .scroll .css_img{ width: 95%; height: auto; position: relative; margin: 0 auto;}
     .popup_wrap .scroll .css_img .main_page{ width: 100%; height: auto; overflow: hidden;}
     .popup_wrap .scroll .css_img .main_page a{ width: 100%; height: 100%; display: block;}
-    .popup_wrap .scroll .css_img .main_page img{width: 100%; height: 500px; object-fit: cover; object-position: top left;}
+    .popup_wrap .scroll .css_img .main_page img{width: 100%; height: 300px; object-fit: cover; object-position: top left;}
     .cifc_img img{height: auto;}
     .pc_img{text-align: center; margin: 0 0 0 -40px;}
     .pc_img img{width: 100%; display: none;}
